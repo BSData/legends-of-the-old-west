@@ -1,0 +1,1442 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="63c11076-b18a-af9a-552b-769c7e24c27b" name="Plains Tribes" revision="14" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules>
+    <rule id="997f36a0-bcaa-0555-2a57-664b6a42b08d" name="Heathen" book="Frontier - Blood on the Plains" page="28" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Native Americans believe in the power of Wakantanka (the Sioux word) or Great Spirit. As such, they are completely unaffected by the ramblings of the Preacher.</description>
+    </rule>
+    <rule id="4aad302f-62cd-384d-b541-56e2b954cc3d" name="Life is Precious" book="Frontier - Blood on the Plains" page="28" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Native American leaders will not risk their warriors&apos; lives unnecessarily - an admirable trait, often mistaken for cowardice by white men. Native American Posses must begin taking Head for the Hills tests when they lose a third of their models (33%) instead of half.</description>
+    </rule>
+    <rule id="d3dc84d8-d309-d6b5-3774-56e6b44a3ee2" name="Counting Coup" book="Frontier - Blood on the Plains" page="30" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Plains Indians count coup either by scalping or using a coup-stick. See page 29 for more details.</description>
+    </rule>
+    <rule id="ce59b8cd-cb06-a0b0-058a-04cb2f7e5a72" name="Cardsharp" book="Frontier - Blood on the Plains" page="29" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Native Americans may never gain the &apos;Cardsharp&apos; skill. If they roll a 5 on the Savvy Skills table, then they gain the &apos;Trick Rider&apos; skills instead, or the &apos;Hit and Run&apos; skill if they are a member of a Desert Tribes Posse. See page 29 for more details.</description>
+    </rule>
+    <rule id="4ae8a692-3295-8cd7-e17d-943c692ad07b" name="Expert Riders" book="Frontier - Blood on the Plains" page="30" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>With the exception of Dog Soldiers, all Plains Indians automatically have the &apos;Born in the Saddle&apos; skill, as described on page 90 of Legends of the Old West.</description>
+    </rule>
+    <rule id="5a0e62d1-3bca-c054-a45e-6bb55e9deab2" name="Allies" book="Frontier - Blood on the Plains" page="30" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>In competitive games, up to a quarter of your $ allowance may be spent on models from the Northern Tribes list.</description>
+    </rule>
+  </rules>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries>
+    <selectionEntry id="ef34c09b-9aa6-5c9f-d775-ac78a5a7eefe" name="Braves" book="Frontier - Blood on the Plains" page="31" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="e8eae177-530f-3554-0ca1-83a514343896" name="Braves" book="Frontier - Blood on the Plains" page="31" hidden="false" profileTypeId="4fd1f252-46d0-258f-b859-6a1369d18a86">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7bab396d-fb6c-b60b-a137-c096f167e0ef" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Shootin&apos;" characteristicTypeId="f1d3895a-2a29-b294-f9c6-27aac74c5d7b" value="5+"/>
+            <characteristic name="Fightin&apos;" characteristicTypeId="c8093fa2-8706-b4bb-71e6-8d6b31f64993" value="3"/>
+            <characteristic name="Strength" characteristicTypeId="c5c6f55c-1659-dfbc-79a8-5f34c5fbdcf0" value="3"/>
+            <characteristic name="Grit" characteristicTypeId="4601238a-b78a-7a59-2db5-824b0ea48276" value="3"/>
+            <characteristic name="Attacks" characteristicTypeId="c34ada50-115d-7b31-7297-83853d169908" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="b56f3e1a-7fd5-bda9-a124-22b4d68f1155" value="1"/>
+            <characteristic name="Pluck" characteristicTypeId="69dbe09e-7401-7be3-500c-e0709f0e5f42" value="3"/>
+          </characteristics>
+        </profile>
+        <profile id="d5129a43-47a4-685a-6248-8eb4c498ff4f" name="Society Warriors" book="Frontier - Blood on the Plains" page="31" hidden="false" profileTypeId="4fd1f252-46d0-258f-b859-6a1369d18a86">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7bab396d-fb6c-b60b-a137-c096f167e0ef" type="lessThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Shootin&apos;" characteristicTypeId="f1d3895a-2a29-b294-f9c6-27aac74c5d7b" value="4+"/>
+            <characteristic name="Fightin&apos;" characteristicTypeId="c8093fa2-8706-b4bb-71e6-8d6b31f64993" value="4"/>
+            <characteristic name="Strength" characteristicTypeId="c5c6f55c-1659-dfbc-79a8-5f34c5fbdcf0" value="3"/>
+            <characteristic name="Grit" characteristicTypeId="4601238a-b78a-7a59-2db5-824b0ea48276" value="3"/>
+            <characteristic name="Attacks" characteristicTypeId="c34ada50-115d-7b31-7297-83853d169908" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="b56f3e1a-7fd5-bda9-a124-22b4d68f1155" value="1"/>
+            <characteristic name="Pluck" characteristicTypeId="69dbe09e-7401-7be3-500c-e0709f0e5f42" value="3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="70cec170-e56d-a874-7faa-43e2670f6644" name="Society Warrior" book="Frontier - Blood on the Plains" page="31" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Most Plains Tribes Braves belonged to one of a myriad of &apos;akicitas&apos; - or warrior societies. Society Warriors are often noted for their skill in battle, and for an extra $2, a Brave may join such a society. Society Warriors may increase their Fightin&apos; characteristic to 4, and increase their Shootin&apos; value to 4+. This upgrade must be chosen during the Posse selection.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="ef34c09b-9aa6-5c9f-d775-ac78a5a7eefe-50528bc6-df85-9543-2cfa-08bf960a74e2" hidden="false" targetId="50528bc6-df85-9543-2cfa-08bf960a74e2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7bab396d-fb6c-b60b-a137-c096f167e0ef" name="Society Warrior" book="Frontier - Blood on the Plains" page="31" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="2.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="4e03280a-d8d1-00f0-fc8a-cc429f657b6a" hidden="false" targetId="1c0793bb-7ab0-3382-4bdb-7d16549e78bf" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="7.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2b6ea5d2-aaf7-1e41-52dc-ccc189359177" name="Hotamitaneo (Dog Soldiers)" book="Frontier - Blood on the Plains" page="31" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="8b9f07ba-1214-b94a-ac71-637bce4b8e7a" name="Hotamitaneo" book="Frontier - Blood on the Plains" page="31" hidden="false" profileTypeId="4fd1f252-46d0-258f-b859-6a1369d18a86">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Shootin&apos;" characteristicTypeId="f1d3895a-2a29-b294-f9c6-27aac74c5d7b" value="6+"/>
+            <characteristic name="Fightin&apos;" characteristicTypeId="c8093fa2-8706-b4bb-71e6-8d6b31f64993" value="4"/>
+            <characteristic name="Strength" characteristicTypeId="c5c6f55c-1659-dfbc-79a8-5f34c5fbdcf0" value="3"/>
+            <characteristic name="Grit" characteristicTypeId="4601238a-b78a-7a59-2db5-824b0ea48276" value="3"/>
+            <characteristic name="Attacks" characteristicTypeId="c34ada50-115d-7b31-7297-83853d169908" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="b56f3e1a-7fd5-bda9-a124-22b4d68f1155" value="1"/>
+            <characteristic name="Pluck" characteristicTypeId="69dbe09e-7401-7be3-500c-e0709f0e5f42" value="6"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="2b304699-d77a-703c-95f9-f1bef2aea0a7" name="To the Death" book="Frontier - Blood on the Plains" page="31" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Once per game, at the start of his own Movin&apos; phase, a Dog Soldier may declare that he is staking himself to the ground by his sash. The Dog Soldier may not move while this rule is in effect, even to back off in a fight - his opponent must back off instead.
+
+While staked in this way, the Dog Soldier ignores to Dive for Cover tests. All shootin&apos; attacks that target him must re-roll successful wounds, to represent the enhanced toughness and reserves of his frenzied state.
+
+In addition, all enemy models within 3&quot; of the Dog Soldier at the start of the Fightin&apos; phase are attacked by the frenzied warrior, even if he is already engaged. The Dog Soldier makes a single attack against each enemy within range. If he is not in base contact with a given target, then all the usual rules for backing of and being trapped are ignored. An opponent attacked while not in base contact with the Dog Soldier may defend himself as normal, but may not roll to wound. If, at the start of any subsequent Movin&apos; phase, there are no enemy models within 6&quot; of the Dog Soldier, then he may move from his position and reverts back to the normal rules for the rest of the game.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2b6ea5d2-aaf7-1e41-52dc-ccc189359177-50528bc6-df85-9543-2cfa-08bf960a74e2" hidden="false" targetId="50528bc6-df85-9543-2cfa-08bf960a74e2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="5f536a14-8a10-a0e6-a023-4a59f202a13c" hidden="false" targetId="1c0793bb-7ab0-3382-4bdb-7d16549e78bf" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e6f6a60a-2fd7-e7d4-442c-1da496dc7e3d" name="Wicasa (Shirt-Wearer)" book="Frontier - Blood on the Plains" page="30" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="7c6ef4dd-f9ed-4c35-6b5b-48e90eed592e" name="Wicasa" book="Frontier - Blood on the Plains" page="30" hidden="false" profileTypeId="26560ded-284d-ff6c-f97e-0caee6d11d0b">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Shootin&apos;" characteristicTypeId="34000175-fc20-3119-ba49-d9359dd221f7" value="4+"/>
+            <characteristic name="Fightin&apos;" characteristicTypeId="f663c57a-de34-3c05-bc13-2adf5e4c1e89" value="4"/>
+            <characteristic name="Strength" characteristicTypeId="da422735-4e54-c44d-52ec-d2b7c09f66f2" value="3"/>
+            <characteristic name="Grit" characteristicTypeId="5224b0eb-2612-2135-c3f9-ff08c694c198" value="4"/>
+            <characteristic name="Attacks" characteristicTypeId="d840aef3-2b26-3431-da97-e73cba904790" value="2"/>
+            <characteristic name="Wounds" characteristicTypeId="841dd19f-3cc0-5603-53b7-5b02944f89a2" value="2"/>
+            <characteristic name="Pluck" characteristicTypeId="88e648e8-c0d7-06ed-1470-b1cf27fe46e8" value="4"/>
+            <characteristic name="Fame" characteristicTypeId="317776fe-3661-4ef7-60ba-d7afa4d441f8" value="1"/>
+            <characteristic name="Fortune" characteristicTypeId="2f1196a1-1189-fb46-8769-746f282301b0" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="c33c3916-496e-fdd2-4c2b-f02187f34866" name="Leader" book="Frontier - Blood on the Plains" page="30" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If any friendly model withing 6&quot; requires to take a Pluck test, the leader&apos;s Pluck value may be used instead of his own. If a Head for the Hills test is called for, the leader&apos;s Pluck must be tested even if his Pluck value is not the highest in the Posse.</description>
+        </rule>
+        <rule id="5d154f6d-0fe4-8f38-2a99-49c5f25e8647" name="Starting Experience" book="Frontier - Blood on the Plains" page="30" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The Shirt-Wearer begins with 8 Experience points.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e6f6a60a-2fd7-e7d4-442c-1da496dc7e3d-a99ce2af-4b23-caf3-113b-8864881eeb09" hidden="false" targetId="a99ce2af-4b23-caf3-113b-8864881eeb09" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="5b98131c-93df-13ae-3007-9d81457e695c" hidden="false" targetId="f4137187-b815-472d-c070-c23e433f714b" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="26.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f9a28bdc-6258-8c12-10b5-3fdb70d0498e" name="Youngbloods" book="Frontier - Blood on the Plains" page="30" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="1f673f63-e280-9bc5-2948-64a6b8a106af" name="Youngbloods" book="Frontier - Blood on the Plains" page="30" hidden="false" profileTypeId="26560ded-284d-ff6c-f97e-0caee6d11d0b">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Shootin&apos;" characteristicTypeId="34000175-fc20-3119-ba49-d9359dd221f7" value="5+"/>
+            <characteristic name="Fightin&apos;" characteristicTypeId="f663c57a-de34-3c05-bc13-2adf5e4c1e89" value="3"/>
+            <characteristic name="Strength" characteristicTypeId="da422735-4e54-c44d-52ec-d2b7c09f66f2" value="3"/>
+            <characteristic name="Grit" characteristicTypeId="5224b0eb-2612-2135-c3f9-ff08c694c198" value="3"/>
+            <characteristic name="Attacks" characteristicTypeId="d840aef3-2b26-3431-da97-e73cba904790" value="1"/>
+            <characteristic name="Wounds" characteristicTypeId="841dd19f-3cc0-5603-53b7-5b02944f89a2" value="1"/>
+            <characteristic name="Pluck" characteristicTypeId="88e648e8-c0d7-06ed-1470-b1cf27fe46e8" value="2"/>
+            <characteristic name="Fame" characteristicTypeId="317776fe-3661-4ef7-60ba-d7afa4d441f8" value="0"/>
+            <characteristic name="Fortune" characteristicTypeId="2f1196a1-1189-fb46-8769-746f282301b0" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="f9a28bdc-6258-8c12-10b5-3fdb70d0498e-a99ce2af-4b23-caf3-113b-8864881eeb09" hidden="false" targetId="a99ce2af-4b23-caf3-113b-8864881eeb09" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="270cb917-bab0-6df5-2b11-4e2aa1018932" hidden="false" targetId="f4137187-b815-472d-c070-c23e433f714b" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="13.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks/>
+  <sharedSelectionEntries>
+    <selectionEntry id="d4b78e9a-bd40-3119-927f-1d51f154900e" name="Appaloosa" book="Frontier - Blood on the Plains" page="59" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="1fa69d42-9690-9091-f9b7-01dc8ad8c7d2" hidden="false" targetId="fa9eab3a-8a2e-b1f8-806d-7486189a7360" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="8d126d29-6a77-5302-5663-0c9dc8e7bc94" value="12&quot;">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0acf58a6-89cb-1508-eb7e-e6612fbcd27a" name="Bow-Lance" book="Frontier - Blood on the Plains" page="20" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="df8d1170-0304-4133-180d-9e0160f59ad3" name="Bow-Lance" book="Frontier - Blood on the Plains" page="20" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Carried by several noted Native American &apos;societies&apos; the bow-lance combined all the attributes of the lance with the Indian longbow.
+
+The bow-lance may not be thrown, as the addition of a bow-string and the curve of the shaft make it too unblalanced.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="d2a30aed-6048-1509-f48f-314ab70049a1" hidden="false" targetId="cfecb8af-1afe-aaa5-e1d0-5119310ed8a0" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a5d77771-9f77-d1a5-3aa2-5ef21e26df89" hidden="false" targetId="2aec6d53-a204-5215-4eef-e3ae69472396" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="14a9f292-d7d9-17ef-3f4a-27821ebbac8d" name="Hand Weapon" book="Legends of the Old West" page="44" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="ad0c0c31-1c1a-2a98-c943-1ca9d57b8341" name="Hand Weapon" book="Legends of the Old West" page="45" hidden="false" profileTypeId="754f1218-a3c3-72ea-7b62-76e0014ec58a">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Winnin&apos; the fight" characteristicTypeId="092c290b-2e10-2264-c2ba-9d68cf7d8781" value="-"/>
+            <characteristic name="Rolling to Wound" characteristicTypeId="56ecb49b-ec74-63ee-775e-724bbbbeb620" value="-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a57a22ef-57bd-dae8-fc17-46a31916fec6" name="Heavy Pistol" book="Legends of the Old West" page="38" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="087f7a17-a1b1-b9bf-7be6-35dd7c30a5e9" name="Heavy Pistol" book="Legends of the Old West" page="42" hidden="false" profileTypeId="93363f24-9d3c-518a-2d0b-1af2534acae6">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="387abf9d-6fa7-440c-cc68-61b68740b381" value="12&quot;"/>
+            <characteristic name="Strength" characteristicTypeId="1fc59acd-4346-6dd6-f204-1b7381412633" value="4"/>
+            <characteristic name="Move Penalty" characteristicTypeId="b27fc0a7-1925-d847-7a04-afa3218503b7" value="Half"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="ea436424-ccf4-1da4-b334-6e3dd49ca5c8" hidden="false" targetId="babd871c-510d-f89b-88ac-1614ca603829" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="32b76978-26f4-f609-ffe7-584b988c3a88" name="Horse" book="Legends of the Old West" page="94" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="a95fb5b1-63ab-e767-d3c0-4a66d24fcb69" hidden="false" targetId="fa9eab3a-8a2e-b1f8-806d-7486189a7360" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9d5f2b50-45fd-8da6-66de-db8600f1db92" name="Indian Lance" book="Frontier - Blood on the Plains" page="20" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="a08660c5-4f27-3a75-8703-3f73ea59d173" name="Indian Lance" book="Frontier - Blood on the Plains" page="20" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Lances may be thrown in the same way as a Thrown weapon, but otherwise count as hand weapons. Additionally, if the bearer of the lance is mounted, then the lance lends such impetus to his attack that it adds 1 point to his Strength in any turn that he charges into a fight.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="5adbd7d2-fbef-fe04-42bf-e189239c0102" hidden="false" targetId="2aec6d53-a204-5215-4eef-e3ae69472396" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="54a0d678-b98e-e111-a87b-f2ea7af84d20" name="Lasso" book="Legends of the Old West" page="41" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="588991d3-29c1-ded6-5d0a-81622038966d" name="Lasso" book="Legends of the Old West" page="41" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description> A lasso may be used at any point in the Movin’ phase. However, once used, the thrower may not move any further that turn. It is used exactly like a thrown weapon with a range of 6”, but does not inflict any damage. A model hit by a lasso attack automatically becomes entangled. An entangled model may not perform any actions for the remainder of the turn and their Fightin’ value count as 1. A model with a lasso may not target friendly fighters.
+
+In addition, once a model has become entangled, the fighter with the lasso may attempt to drag the victim towards him. Roll a dice. On the score of a 4 or more, the unfortunate victim may be moved up to 3” towards the fighter with the lasso, as well as suffering all the other penalties for being entangled. If the thrower is mounted, he adds 1 to this dice roll. The victim may be dragged into combat with the thrower if he is within 3”. Mounted fighters who are dragged do not move, but are instead placed lying down on the ground next to their horse or mule.
+</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="84cd38c6-7b39-bf29-e17f-3f8248c1a7e0" name="Le Mat Revolver" book="Legends of the Old West" page="38" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="ec0479b3-0ce6-2146-a7a5-72aedb44a4b3" name="Le Mat Revolver" book="Legends of the Old West" page="42" hidden="false" profileTypeId="93363f24-9d3c-518a-2d0b-1af2534acae6">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="387abf9d-6fa7-440c-cc68-61b68740b381" value="12&quot;"/>
+            <characteristic name="Strength" characteristicTypeId="1fc59acd-4346-6dd6-f204-1b7381412633" value="3"/>
+            <characteristic name="Move Penalty" characteristicTypeId="b27fc0a7-1925-d847-7a04-afa3218503b7" value="Half"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="3fd794cd-0405-548e-7163-016657e0bbc9" name="Scattergun Setting" book="Legends of the Old West" page="38" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Once per game, the Le Mat Revolver may switch barrels and fire as if it were a Sawed-off Shotgun with a single barrel and a spread template (see Shotguns, Legends of the Old West page 40). Once used in this way, the weapon may only be fired with its regular revolver setting thereafter.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="8a227f7f-fa47-d7b2-afde-bf2d51907fe1" hidden="false" targetId="babd871c-510d-f89b-88ac-1614ca603829" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="826c770f-6277-fadd-e288-8f1e240bb282" name="Longbow" book="Legends of the Old West" page="41" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="18cc7d42-b922-2116-707c-aebc39276922" hidden="false" targetId="4bb9308b-d55a-a65f-cfac-1f2635b0da91" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="346a16c7-e4c1-bf1f-6a03-f48ef836c1fa" hidden="false" targetId="cfecb8af-1afe-aaa5-e1d0-5119310ed8a0" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ce171f53-aad7-ed0b-c250-25f848b5bf86" name="Medicine Shield" book="Frontier - Blood on the Plains" page="0" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="461a5451-eba7-c84f-e8f1-89e37c52dab4" name="Medicine Shield" book="Frontier - Blood on the Plains" page="60" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Models equipped with shields add 1 point to their Grit value.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6fb0c3cd-8ee7-943c-c7fa-e164ebc498f6" name="Musket" book="Legends of the Old West" page="39" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="40d1925c-6bf0-8af3-5cd2-073fd7334a96" name="Musket" book="Legends of the Old West" page="42" hidden="false" profileTypeId="93363f24-9d3c-518a-2d0b-1af2534acae6">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="387abf9d-6fa7-440c-cc68-61b68740b381" value="18&quot;"/>
+            <characteristic name="Strength" characteristicTypeId="1fc59acd-4346-6dd6-f204-1b7381412633" value="3"/>
+            <characteristic name="Move Penalty" characteristicTypeId="b27fc0a7-1925-d847-7a04-afa3218503b7" value="Full"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="9e591323-2017-ff1e-f75e-3c6919077193" hidden="false" targetId="23e2345a-2485-5158-8b80-22f72baf3221" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ed05bf48-122b-a7d0-1d68-2fd2f5a4dd18" hidden="false" targetId="babd871c-510d-f89b-88ac-1614ca603829" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fe36c8f2-b9fa-90e3-46ea-fd0deb10dfe8" hidden="false" targetId="d1867680-3a86-d2fd-f61e-a8d067a04186" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3b44754e-8d0f-0f0b-4a41-319daef4bec6" name="Repeating Rifle" book="Legends of the Old West" page="39" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="3e7f36f5-ae69-0ff7-4261-9421d3ef12b1" name="Repeating Rifle" book="Legends of the Old West" page="42" hidden="false" profileTypeId="93363f24-9d3c-518a-2d0b-1af2534acae6">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="387abf9d-6fa7-440c-cc68-61b68740b381" value="18&quot;"/>
+            <characteristic name="Strength" characteristicTypeId="1fc59acd-4346-6dd6-f204-1b7381412633" value="4&quot;"/>
+            <characteristic name="Move Penalty" characteristicTypeId="b27fc0a7-1925-d847-7a04-afa3218503b7" value="Half"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="e90a27d5-9204-f7c9-b11f-8678cac3c00a" hidden="false" targetId="23e2345a-2485-5158-8b80-22f72baf3221" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="243f8828-31b9-1082-9504-6686c5b38bfe" hidden="false" targetId="babd871c-510d-f89b-88ac-1614ca603829" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="325d505d-dc43-cea2-865f-7935b79fe996" name="Rifle" book="Legends of the Old West" page="38" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="0f60f4a9-651a-2402-09af-712dbacb6a71" name="Rifle" book="Legends of the Old West" page="42" hidden="false" profileTypeId="93363f24-9d3c-518a-2d0b-1af2534acae6">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="387abf9d-6fa7-440c-cc68-61b68740b381" value="24&quot;"/>
+            <characteristic name="Strength" characteristicTypeId="1fc59acd-4346-6dd6-f204-1b7381412633" value="4"/>
+            <characteristic name="Move Penalty" characteristicTypeId="b27fc0a7-1925-d847-7a04-afa3218503b7" value="full"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="2e94403c-48fc-d7f1-934f-d00def142803" hidden="false" targetId="babd871c-510d-f89b-88ac-1614ca603829" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c8a16739-bc7f-a0fc-cb20-bbe16341611c" hidden="false" targetId="d1867680-3a86-d2fd-f61e-a8d067a04186" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9342122b-a5df-92a7-2654-2c3c15c6ef61" hidden="false" targetId="23e2345a-2485-5158-8b80-22f72baf3221" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ae0036d2-d50e-3845-762b-403bebd5823f" name="Saturday-night Special" book="Legends of the Old West" page="38" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="3fb6fbd6-2613-6b6a-39e2-f547e23be886" name="Saturday-night Special" book="Legends of the Old West" page="42" hidden="false" profileTypeId="93363f24-9d3c-518a-2d0b-1af2534acae6">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="387abf9d-6fa7-440c-cc68-61b68740b381" value="6&quot;"/>
+            <characteristic name="Strength" characteristicTypeId="1fc59acd-4346-6dd6-f204-1b7381412633" value="3"/>
+            <characteristic name="Move Penalty" characteristicTypeId="b27fc0a7-1925-d847-7a04-afa3218503b7" value="None"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="3595090f-778e-52fe-8823-7a724ef8d7bf" name="Concealed" book="Legends of the Old West" page="38" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If a scenario ever calls for models to be unarmed, then the rule does not apply to these weapons.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="89f293c6-5968-f8b3-3ec1-56855a7c3f67" hidden="false" targetId="d1867680-3a86-d2fd-f61e-a8d067a04186" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6d4f9ec9-37bf-a55e-3f28-22a8b305516a" name="Sawed-off Shotgun" book="Legends of the Old West" page="40" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="522355d2-a7de-6e74-849b-f77ece5ffa19" name="Sawed-off Shotgun" book="Legends of the Old West" page="42" hidden="false" profileTypeId="93363f24-9d3c-518a-2d0b-1af2534acae6">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="387abf9d-6fa7-440c-cc68-61b68740b381" value="Template"/>
+            <characteristic name="Strength" characteristicTypeId="1fc59acd-4346-6dd6-f204-1b7381412633" value="3"/>
+            <characteristic name="Move Penalty" characteristicTypeId="b27fc0a7-1925-d847-7a04-afa3218503b7" value="Half"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0c9d9d87-b36f-999e-1494-d95a28fc637f" name="Spread" book="Legends of the Old West" page="40" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When firing a sawed-off shotgun do not roll to hit. Instead, place the spread template with the narrow end touching your model&apos;s base and the wide end towards the target(s). You can position the template between models if you wish to maximise the number of targets in the spread. Ignore any terrain that is in the way, as the spread makes it highly unlikely that the entire shot will be blocked by intervening terrain. If the object in the way is another model, friend or foe, then it too is hit! Remember that many fighters will be unable to take the shot if they risk hitting a friend. If successful, any model wholly or partially under the template will be hit by the spread of pellets on the roll of a 4 or more on a D6, regardless of the firer&apos;s Shootin&apos; value. Once all victims of the shot have been determined, roll to wound each model separately.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="a5b8c08c-9ad4-64f2-be8a-29ee1e81b454" hidden="false" targetId="d1867680-3a86-d2fd-f61e-a8d067a04186" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4e367717-2e60-0ee4-0fa1-d7560581bfec" hidden="false" targetId="27ba721e-a9a1-53d0-72d8-aac9a451c058" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b7626278-56d0-2da0-62b4-9d2aac3c9447" hidden="false" targetId="babd871c-510d-f89b-88ac-1614ca603829" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a5bafd27-8579-3a5c-92d8-2f9e251978b2" name="Shotgun" book="Legends of the Old West" page="40" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="8acbfd83-1a06-8cf9-f3bf-1021d9a680e0" name="Shotgun" book="Legends of the Old West" page="42" hidden="false" profileTypeId="93363f24-9d3c-518a-2d0b-1af2534acae6">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="387abf9d-6fa7-440c-cc68-61b68740b381" value="12&quot;"/>
+            <characteristic name="Strength" characteristicTypeId="1fc59acd-4346-6dd6-f204-1b7381412633" value="3/5*"/>
+            <characteristic name="Move Penalty" characteristicTypeId="b27fc0a7-1925-d847-7a04-afa3218503b7" value="Half"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="2e267e8d-2b8e-b178-b3a7-2891be6f5fa4" name="Forceful" book="Legends of the Old West" page="40" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Such is the power of this weapon (and the fact that it has a very slight spread at longer ranges) that cover is far less effective against it. A shotgun reduces the In The Way value of any terrain that is in the way of the shot by 1. i.e. A picket fence can be avoided on the roll of a 2 or more rather than a 3 or more. This does not, however, apply to other fighters, creatures and innocent bystanders. These things always have an In The Way value of 4+.</description>
+        </rule>
+        <rule id="dea59da7-bf06-8a1a-904f-5205dfded2fc" name="Variable Strength" book="Legends of the Old West" page="40" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This weapon is far more powerful at short range than at long. If a target lies within 6&quot; of the firer, then the weapon has a Strength value of 5. If the garget is further than 6&quot; away, then the weapon has a Strength value of 3. In addition, any model on foot hit by this weapon at short range is knocked to the ground, where it must begin its next move, as described on Legends of the Old West, page 17. This negates the standard Dive for Cover rules. Note that a mounted fighter hit by this weapon at short range is not knocked down, as such, but must instead take a Thrown Rider test. If the mount is hit but not killed, then it is not knocked down.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="3e973f92-b1e2-6889-ac48-5d02e729046f" hidden="false" targetId="d1867680-3a86-d2fd-f61e-a8d067a04186" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3fc29b4d-c3c3-de18-1162-0b52e5e6af1a" hidden="false" targetId="27ba721e-a9a1-53d0-72d8-aac9a451c058" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b2cad65c-0b8d-7ac8-1fbd-d492ab36a769" hidden="false" targetId="babd871c-510d-f89b-88ac-1614ca603829" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="760d600b-f6cd-e25a-56aa-a5aea350ba20" name="Sixgun" book="Legends of the Old West" page="37" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="0e9a9a9c-b87b-c852-a009-670515f5fbe7" name="Sixgun" book="Legends of the Old West" page="42" hidden="false" profileTypeId="93363f24-9d3c-518a-2d0b-1af2534acae6">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="387abf9d-6fa7-440c-cc68-61b68740b381" value="10&quot;"/>
+            <characteristic name="Strength" characteristicTypeId="1fc59acd-4346-6dd6-f204-1b7381412633" value="3"/>
+            <characteristic name="Move Penalty" characteristicTypeId="b27fc0a7-1925-d847-7a04-afa3218503b7" value="None"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="bfaa4507-5356-2c76-279a-128e70bae891" name="Fanning" book="Legends of the Old West" page="37" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Fanning reduces the range of the sixgun to 6&quot;; such is the unreliability of the technique. Roll six dice (6D6) - one for each bullet. Any roll of a &apos;6&apos; is a successful hit. The first hit must be allocated on the original target, but any additional hits may be allocated against any model within 3&quot; of the target. Roll for any model or scenery that is in the way, followed by rolls to wound for all models hit. Finally, because fanning the sixgun empties the entire chamber, the model may not use that weapon to shoot in the next turn, instead spending time to reload (see the rules for reloading and clearing jams in the Shootin&apos; phase). In addition, Critical Hits may never be scored when fanning.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="136f413c-548b-9187-81cd-ab0220a3062b" name="Tomahawk" book="Legends of the Old West" page="41" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="34c90b7f-e41f-64c2-6049-81964dcd1009" name="Tomahawk" book="Legends of the Old West" page="42" hidden="false" profileTypeId="93363f24-9d3c-518a-2d0b-1af2534acae6">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="387abf9d-6fa7-440c-cc68-61b68740b381" value="St x 2&quot;"/>
+            <characteristic name="Strength" characteristicTypeId="1fc59acd-4346-6dd6-f204-1b7381412633" value="As user"/>
+            <characteristic name="Move Penalty" characteristicTypeId="b27fc0a7-1925-d847-7a04-afa3218503b7" value="None*"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="86d56e07-afd9-dbf8-becc-7dbcc65c2fce" name="Tomahawk" book="Legends of the Old West" page="41" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>A tomahawk is a Native American throwing axe, and is treated as a throwing weapon in every respect. In addition, a fighter may choose to hurl a tomahawk at an enemy in the Movin&apos; phase as he charges. The player moves the fighter as if it were going to charge, but instead of moving into touch it halts 1&quot; away. It then throws the weapon at an enemy it is about to fight. The throw is worked out exactly as if it had occurred in the Shootin&apos; phase. Once the tomahawk has been thrown, the charger is moved into contact with the same enemy model or, if the enemy has been slain (or has dived for cover), the charger completes its move as the player wishes - including charging a different model.</description>
+        </rule>
+        <rule id="58515dd5-d290-e30b-a828-cb6715ef8b6c" name="Hand Weapon" book="Legends of the Old West" page="41" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>A Tomahawk counts as a hand weapon in hand-to-hand combat.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="1c0793bb-7ab0-3382-4bdb-7d16549e78bf" name="Henchmen Equipment" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
+        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a2eb1f6b-b6a4-60e5-30b4-7190189a592c" name="Weapons" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="5e781b74-7888-85dd-f5c3-518776569e25" name="One Handed Weapons" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="0c36dda5-6c40-f16f-a456-6f1e32e6b2f2" hidden="false" targetId="14a9f292-d7d9-17ef-3f4a-27821ebbac8d" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="1.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="d2660ec9-601f-a5dc-3b61-b607f6f063a7" hidden="false" targetId="136f413c-548b-9187-81cd-ab0220a3062b" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="2.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="bfae8953-712a-3bc7-355f-ad2323d658da" hidden="false" targetId="9d5f2b50-45fd-8da6-66de-db8600f1db92" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="4.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="fb02be66-9898-07a0-d6ff-ae2a7c35a0e4" hidden="false" targetId="0acf58a6-89cb-1508-eb7e-e6612fbcd27a" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ef34c09b-9aa6-5c9f-d775-ac78a5a7eefe" type="instanceOf"/>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7bab396d-fb6c-b60b-a137-c096f167e0ef" type="lessThan"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" field="points" value="7.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="94633197-ef9c-6d57-4733-06f6a332a34b" name="Two Handed Weapons" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="ffc0ba9b-2c2f-2ed1-7e67-1c293a843f78" hidden="false" targetId="826c770f-6277-fadd-e288-8f1e240bb282" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="5.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="7677ce81-dc60-8181-670a-3852448a68b6" hidden="false" targetId="325d505d-dc43-cea2-865f-7935b79fe996" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="15.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="10291f48-5f0e-810f-cee9-34551569c8c8" hidden="false" targetId="6fb0c3cd-8ee7-943c-c7fa-e164ebc498f6" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="6.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="1f13dc26-6f5c-7a2a-65ca-e30f7462a8e6" hidden="false" targetId="d4b78e9a-bd40-3119-927f-1d51f154900e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="13.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f4137187-b815-472d-c070-c23e433f714b" name="Heroes Equipment" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
+        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="3c225177-fb53-df63-a964-85022338bb0a" name="Totemic Staff" book="Frontier - Blood on the Plains" page="8" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="18.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2ffd6f2a-76d0-3dbe-98cd-6603af83255c" name="Weapons" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="fb98e531-dd38-b1b7-6406-4dc16197b6b6" name="One Handed Weapon" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="3dfc96a7-153d-4acc-c6c5-6d19a2b1d842" hidden="false" targetId="14a9f292-d7d9-17ef-3f4a-27821ebbac8d" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="1.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="29fa5322-7206-5855-9015-6384fda53b9d" hidden="false" targetId="136f413c-548b-9187-81cd-ab0220a3062b" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="2.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="fb02976d-08a6-a4af-8da2-0bcae0e399f1" hidden="false" targetId="9d5f2b50-45fd-8da6-66de-db8600f1db92" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="4.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="62880b73-20ad-3b82-cd5c-d296756dba8f" name="Two Handed Weapons" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="8b41bb34-d484-dd35-6a17-179404bf35d9" hidden="false" targetId="826c770f-6277-fadd-e288-8f1e240bb282" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="5.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="ad7bc9b3-506b-3ddd-7612-95527956b89c" hidden="false" targetId="325d505d-dc43-cea2-865f-7935b79fe996" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="14.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="07a7ea75-8c48-3794-e601-5e669ce33635" hidden="false" targetId="3b44754e-8d0f-0f0b-4a41-319daef4bec6" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="points" value="16.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="e9d90a20-2846-8a92-ea56-2e877b47f101" hidden="false" targetId="d4b78e9a-bd40-3119-927f-1d51f154900e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="13.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a8927c73-b803-ccae-b83e-c3e817c1dba5" hidden="false" targetId="ce171f53-aad7-ed0b-c250-25f848b5bf86" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="6.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="27ba721e-a9a1-53d0-72d8-aac9a451c058" name="2 Barrels" book="Legends of the Old West" page="40" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Shotguns have two barrels, which may be fired independently of each other. To represent this, the first time a shotgun is fired (and the first time it is fired after reloading) place one of the special Shotgun counters or other appropriate marker next to the model. The shotgun may fire again in a subsequent turn without having to reload. When its second barrel is fired, place a reload counter next to the model, as shotguns are also slow to reload. A fighter may choose to fire both barrels simultaneously. This is only an option when a shotgun is fully loaded (i.e. has no counters next to it). When firing both barrels, make a single roll to hit but, if the shot hits and fails to wound the target, the wound roll may be re-rolled. The result of the re-roll must be accepted. When both barrels are fired, immediately place a reload counter next to the firing model.</description>
+    </rule>
+    <rule id="babd871c-510d-f89b-88ac-1614ca603829" name="Improvised Weapon" book="Legends of the Old West" page="38" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This weapon is generally of a sturdy construction and, although not designed for close-quarter fighting, may be used in combat. In the Fightin&apos; phase, this weapon count as a hand weapon with a -1 penalty on the roll to see who wins the fight.</description>
+    </rule>
+    <rule id="4bb9308b-d55a-a65f-cfac-1f2635b0da91" name="Primitive Shootin&apos; Weapon" book="Legends of the Old West" page="41" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Primitive Weapons are exempt from jamming checks, as they have no complex mechanism to go wrong!</description>
+    </rule>
+    <rule id="d1867680-3a86-d2fd-f61e-a8d067a04186" name="Slow Reload" book="Legends of the Old West" page="38" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>A model that fires this weapon may not fire it again in the next turn, instead spending time to reload, as stated in the Shootin&apos; phase.</description>
+    </rule>
+    <rule id="23e2345a-2485-5158-8b80-22f72baf3221" name="Two-handed" book="Legends of the Old West" page="38" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This weapon requires two hands to use effectively. Fighters who carry this weapon may not carry a double-handed weapon as well.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="fa9eab3a-8a2e-b1f8-806d-7486189a7360" name="Horse" book="Legends of the Old West" page="94" hidden="false" profileTypeId="3bd53da2-0427-73ac-c089-26b340141d98">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Movement" characteristicTypeId="8d126d29-6a77-5302-5663-0c9dc8e7bc94" value="10&quot;"/>
+        <characteristic name="Strength" characteristicTypeId="b73fbc24-fd58-ac80-354c-d99223cef138" value="3"/>
+        <characteristic name="Grit" characteristicTypeId="88707a22-acc0-7367-56c3-7a54c7b9558e" value="4"/>
+        <characteristic name="Wounds" characteristicTypeId="9b216a38-57ad-0b99-a2de-c67ad73afd14" value="1"/>
+        <characteristic name="Pluck" characteristicTypeId="fbe0b323-1fa3-e7ae-1940-6b1e99751a10" value="3"/>
+      </characteristics>
+    </profile>
+    <profile id="2aec6d53-a204-5215-4eef-e3ae69472396" name="Lance" book="Frontier - Blood on the Plains" page="20" hidden="false" profileTypeId="754f1218-a3c3-72ea-7b62-76e0014ec58a">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Winnin&apos; the fight" characteristicTypeId="092c290b-2e10-2264-c2ba-9d68cf7d8781" value="-"/>
+        <characteristic name="Rolling to Wound" characteristicTypeId="56ecb49b-ec74-63ee-775e-724bbbbeb620" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="cfecb8af-1afe-aaa5-e1d0-5119310ed8a0" name="Longbow" book="Legends of the Old West" page="42" hidden="false" profileTypeId="93363f24-9d3c-518a-2d0b-1af2534acae6">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="387abf9d-6fa7-440c-cc68-61b68740b381" value="18&quot;"/>
+        <characteristic name="Strength" characteristicTypeId="1fc59acd-4346-6dd6-f204-1b7381412633" value="2"/>
+        <characteristic name="Move Penalty" characteristicTypeId="b27fc0a7-1925-d847-7a04-afa3218503b7" value="Half"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
