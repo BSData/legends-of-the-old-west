@@ -111,7 +111,7 @@ In addition, these items always count as Common. However, items not listed on th
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="42.0"/>
+        <cost name="$" costTypeId="dollars" value="42.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2b6ea5d2-aaf7-1e41-52dc-ccc189359177" name="Raw Recruits" book="Frontier - Blood on the Plains" page="23" hidden="false" collective="false" type="model">
@@ -176,7 +176,7 @@ In addition, these items always count as Common. However, items not listed on th
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="16.0"/>
+        <cost name="$" costTypeId="dollars" value="16.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f9a28bdc-6258-8c12-10b5-3fdb70d0498e" name="Sergeants" book="Frontier - Blood on the Plains" page="23" hidden="false" collective="false" type="model">
@@ -243,7 +243,7 @@ In addition, these items always count as Common. However, items not listed on th
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="30.0"/>
+        <cost name="$" costTypeId="dollars" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ef34c09b-9aa6-5c9f-d775-ac78a5a7eefe" name="Troopers" book="Frontier - Blood on the Plains" page="23" hidden="false" collective="false" type="model">
@@ -298,7 +298,7 @@ In addition, these items always count as Common. However, items not listed on th
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="25.0"/>
+        <cost name="$" costTypeId="dollars" value="25.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -354,7 +354,7 @@ In addition, these items always count as Common. However, items not listed on th
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="$" costTypeId="dollars" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d9670659-60c9-d06d-5d31-c720691e5cba" name="Cavalry Sabre" book="Frontier - Blood on the Plains" page="0" hidden="false" collective="false" type="upgrade">
@@ -379,7 +379,7 @@ In addition, these items always count as Common. However, items not listed on th
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="$" costTypeId="dollars" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="14a9f292-d7d9-17ef-3f4a-27821ebbac8d" name="Hand Weapon" book="Legends of the Old West" page="44" hidden="false" collective="false" type="upgrade">
@@ -404,7 +404,7 @@ In addition, these items always count as Common. However, items not listed on th
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="$" costTypeId="dollars" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a57a22ef-57bd-dae8-fc17-46a31916fec6" name="Heavy Pistol" book="Legends of the Old West" page="38" hidden="false" collective="false" type="upgrade">
@@ -437,7 +437,7 @@ In addition, these items always count as Common. However, items not listed on th
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="$" costTypeId="dollars" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="32b76978-26f4-f609-ffe7-584b988c3a88" name="Horse" book="Legends of the Old West" page="94" hidden="false" collective="false" type="upgrade">
@@ -467,7 +467,7 @@ In addition, these items always count as Common. However, items not listed on th
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="$" costTypeId="dollars" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="54a0d678-b98e-e111-a87b-f2ea7af84d20" name="Lasso" book="Legends of the Old West" page="41" hidden="false" collective="false" type="upgrade">
@@ -492,7 +492,7 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="$" costTypeId="dollars" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="84cd38c6-7b39-bf29-e17f-3f8248c1a7e0" name="Le Mat Revolver" book="Legends of the Old West" page="38" hidden="false" collective="false" type="upgrade">
@@ -533,7 +533,7 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="$" costTypeId="dollars" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3b44754e-8d0f-0f0b-4a41-319daef4bec6" name="Repeating Rifle" book="Legends of the Old West" page="39" hidden="false" collective="false" type="upgrade">
@@ -572,7 +572,7 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="$" costTypeId="dollars" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="325d505d-dc43-cea2-865f-7935b79fe996" name="Rifle" book="Legends of the Old West" page="38" hidden="false" collective="false" type="upgrade">
@@ -619,7 +619,7 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="$" costTypeId="dollars" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ae0036d2-d50e-3845-762b-403bebd5823f" name="Saturday-night Special" book="Legends of the Old West" page="38" hidden="false" collective="false" type="upgrade">
@@ -660,7 +660,7 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="$" costTypeId="dollars" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6d4f9ec9-37bf-a55e-3f28-22a8b305516a" name="Sawed-off Shotgun" book="Legends of the Old West" page="40" hidden="false" collective="false" type="upgrade">
@@ -715,7 +715,7 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="$" costTypeId="dollars" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a5bafd27-8579-3a5c-92d8-2f9e251978b2" name="Shotgun" book="Legends of the Old West" page="40" hidden="false" collective="false" type="upgrade">
@@ -777,7 +777,7 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="$" costTypeId="dollars" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="760d600b-f6cd-e25a-56aa-a5aea350ba20" name="Sixgun" book="Legends of the Old West" page="37" hidden="false" collective="false" type="upgrade">
@@ -811,7 +811,7 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="$" costTypeId="dollars" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -824,8 +824,8 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
+        <constraint field="dollars" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
+        <constraint field="dollars" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
         <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
@@ -844,7 +844,7 @@ In addition, once a model has become entangled, the fighter with the lasso may a
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="18.0"/>
+            <cost name="$" costTypeId="dollars" value="18.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0a6527a5-3e05-0f5b-bc42-23785fe8a632" name="Guidon" book="Frontier - Blood on the Plains" page="7" hidden="false" collective="false" type="upgrade">
@@ -860,7 +860,7 @@ In addition, once a model has become entangled, the fighter with the lasso may a
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="15.0"/>
+            <cost name="$" costTypeId="dollars" value="15.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -891,7 +891,7 @@ In addition, once a model has become entangled, the fighter with the lasso may a
                   <rules/>
                   <infoLinks/>
                   <modifiers>
-                    <modifier type="set" field="points" value="2.0">
+                    <modifier type="set" field="dollars" value="2.0">
                       <repeats/>
                       <conditions/>
                       <conditionGroups/>
@@ -905,7 +905,7 @@ In addition, once a model has become entangled, the fighter with the lasso may a
                   <rules/>
                   <infoLinks/>
                   <modifiers>
-                    <modifier type="set" field="points" value="11.0">
+                    <modifier type="set" field="dollars" value="11.0">
                       <repeats/>
                       <conditions/>
                       <conditionGroups/>
@@ -933,7 +933,7 @@ In addition, once a model has become entangled, the fighter with the lasso may a
                   <rules/>
                   <infoLinks/>
                   <modifiers>
-                    <modifier type="set" field="points" value="15.0">
+                    <modifier type="set" field="dollars" value="15.0">
                       <repeats/>
                       <conditions/>
                       <conditionGroups/>
@@ -958,8 +958,8 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
+        <constraint field="dollars" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
+        <constraint field="dollars" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
         <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
@@ -992,7 +992,7 @@ In addition, once a model has become entangled, the fighter with the lasso may a
                   <rules/>
                   <infoLinks/>
                   <modifiers>
-                    <modifier type="set" field="points" value="10.0">
+                    <modifier type="set" field="dollars" value="10.0">
                       <repeats/>
                       <conditions/>
                       <conditionGroups/>
@@ -1006,7 +1006,7 @@ In addition, once a model has become entangled, the fighter with the lasso may a
                   <rules/>
                   <infoLinks/>
                   <modifiers>
-                    <modifier type="set" field="points" value="1.0">
+                    <modifier type="set" field="dollars" value="1.0">
                       <repeats/>
                       <conditions/>
                       <conditionGroups/>
@@ -1034,7 +1034,7 @@ In addition, once a model has become entangled, the fighter with the lasso may a
                   <rules/>
                   <infoLinks/>
                   <modifiers>
-                    <modifier type="set" field="points" value="14.0">
+                    <modifier type="set" field="dollars" value="14.0">
                       <repeats/>
                       <conditions/>
                       <conditionGroups/>
@@ -1059,8 +1059,8 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
+        <constraint field="dollars" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
+        <constraint field="dollars" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
         <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
