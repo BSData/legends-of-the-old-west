@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" name="Legends of the Old West" revision="23" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" name="Legends of the Old West" revision="26" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -76,10 +76,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-        <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="maxSelections" type="max"/>
-      </constraints>
+      <constraints/>
       <forceEntries/>
       <categoryLinks>
         <categoryLink id="eba492a9-aac2-7acd-efa9-cb31c570cbda-50528bc6-df85-9543-2cfa-08bf960a74e2" name="Henchmen" hidden="false" targetId="50528bc6-df85-9543-2cfa-08bf960a74e2" primary="false">
@@ -102,7 +99,7 @@
   <selectionEntries/>
   <entryLinks/>
   <sharedSelectionEntries>
-    <sharedSelectionEntry id="cfc12421-5799-eb90-84fd-a0643714442b" name="Carbine" book="Frontier - Blood on the Plains" page="17" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="cfc12421-5799-eb90-84fd-a0643714442b" name="Carbine" book="Frontier - Blood on the Plains" page="17" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="14567e6b-c3b6-d9a2-e951-b7903bd599b3" name="Carbine" book="Frontier - Blood on the Plains" page="19" hidden="false" profileTypeId="93363f24-9d3c-518a-2d0b-1af2534acae6">
           <profiles/>
@@ -149,13 +146,13 @@
       <constraints/>
       <categoryLinks/>
       <selectionEntries/>
-      <sharedSelectionEntryGroups/>
+      <selectionEntryGroups/>
       <entryLinks/>
       <costs>
         <cost name="$" costTypeId="dollars" value="0.0"/>
       </costs>
-    </sharedSelectionEntry>
-    <sharedSelectionEntry id="d9670659-60c9-d06d-5d31-c720691e5cba" name="Cavalry Sabre" book="Frontier - Blood on the Plains" page="0" hidden="false" collective="false" type="upgrade">
+    </selectionEntry>
+    <selectionEntry id="d9670659-60c9-d06d-5d31-c720691e5cba" name="Cavalry Sabre" book="The Alamo - Victory or Death" page="39" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="59f18a2f-3657-5f23-4e40-8b37c972f499" name="Cavalry Sabre" book="The Alamo - Victory or Death" page="39" hidden="false" profileTypeId="754f1218-a3c3-72ea-7b62-76e0014ec58a">
           <profiles/>
@@ -174,13 +171,13 @@
       <constraints/>
       <categoryLinks/>
       <selectionEntries/>
-      <sharedSelectionEntryGroups/>
+      <selectionEntryGroups/>
       <entryLinks/>
       <costs>
         <cost name="$" costTypeId="dollars" value="0.0"/>
       </costs>
-    </sharedSelectionEntry>
-    <sharedSelectionEntry id="14a9f292-d7d9-17ef-3f4a-27821ebbac8d" name="Hand Weapon" book="Legends of the Old West" page="44" hidden="false" collective="false" type="upgrade">
+    </selectionEntry>
+    <selectionEntry id="14a9f292-d7d9-17ef-3f4a-27821ebbac8d" name="Hand Weapon" book="Legends of the Old West" page="44" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="0e065a5f-904e-503a-c306-34b80860587c" name="Hand Weapon" book="Legends of the Old West" page="45" hidden="false" profileTypeId="754f1218-a3c3-72ea-7b62-76e0014ec58a">
           <profiles/>
@@ -199,13 +196,13 @@
       <constraints/>
       <categoryLinks/>
       <selectionEntries/>
-      <sharedSelectionEntryGroups/>
+      <selectionEntryGroups/>
       <entryLinks/>
       <costs>
         <cost name="$" costTypeId="dollars" value="0.0"/>
       </costs>
-    </sharedSelectionEntry>
-    <sharedSelectionEntry id="a57a22ef-57bd-dae8-fc17-46a31916fec6" name="Heavy Pistol" book="Legends of the Old West" page="38" hidden="false" collective="false" type="upgrade">
+    </selectionEntry>
+    <selectionEntry id="a57a22ef-57bd-dae8-fc17-46a31916fec6" name="Heavy Pistol" book="Legends of the Old West" page="38" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="e0ea29d5-b32c-fb5a-2a62-d0b3a2052fe9" name="Heavy Pistol" book="Legends of the Old West" page="42" hidden="false" profileTypeId="93363f24-9d3c-518a-2d0b-1af2534acae6">
           <profiles/>
@@ -232,13 +229,13 @@
       <constraints/>
       <categoryLinks/>
       <selectionEntries/>
-      <sharedSelectionEntryGroups/>
+      <selectionEntryGroups/>
       <entryLinks/>
       <costs>
         <cost name="$" costTypeId="dollars" value="0.0"/>
       </costs>
-    </sharedSelectionEntry>
-    <sharedSelectionEntry id="32b76978-26f4-f609-ffe7-584b988c3a88" name="Horse" book="Legends of the Old West" page="94" hidden="false" collective="false" type="upgrade">
+    </selectionEntry>
+    <selectionEntry id="32b76978-26f4-f609-ffe7-584b988c3a88" name="Horse" book="Legends of the Old West" page="94" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="af574c2d-e805-4a47-4d51-829d6b3b7136" name="Horse" book="Legends of the Old West" page="94" hidden="false" profileTypeId="3bd53da2-0427-73ac-c089-26b340141d98">
           <profiles/>
@@ -262,13 +259,13 @@
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
-      <sharedSelectionEntryGroups/>
+      <selectionEntryGroups/>
       <entryLinks/>
       <costs>
         <cost name="$" costTypeId="dollars" value="0.0"/>
       </costs>
-    </sharedSelectionEntry>
-    <sharedSelectionEntry id="54a0d678-b98e-e111-a87b-f2ea7af84d20" name="Lasso" book="Legends of the Old West" page="41" hidden="false" collective="false" type="upgrade">
+    </selectionEntry>
+    <selectionEntry id="54a0d678-b98e-e111-a87b-f2ea7af84d20" name="Lasso" book="Legends of the Old West" page="41" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules>
         <rule id="588991d3-29c1-ded6-5d0a-81622038966d" name="Lasso" book="Legends of the Old West" page="41" hidden="false">
@@ -287,13 +284,13 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       <constraints/>
       <categoryLinks/>
       <selectionEntries/>
-      <sharedSelectionEntryGroups/>
+      <selectionEntryGroups/>
       <entryLinks/>
       <costs>
         <cost name="$" costTypeId="dollars" value="0.0"/>
       </costs>
-    </sharedSelectionEntry>
-    <sharedSelectionEntry id="84cd38c6-7b39-bf29-e17f-3f8248c1a7e0" name="Le Mat Revolver" book="Legends of the Old West" page="38" hidden="false" collective="false" type="upgrade">
+    </selectionEntry>
+    <selectionEntry id="84cd38c6-7b39-bf29-e17f-3f8248c1a7e0" name="Le Mat Revolver" book="Legends of the Old West" page="38" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="18555570-44a7-6d4b-8428-04886ac14228" name="Le Mat Revolver" book="Legends of the Old West" page="42" hidden="false" profileTypeId="93363f24-9d3c-518a-2d0b-1af2534acae6">
           <profiles/>
@@ -328,13 +325,13 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       <constraints/>
       <categoryLinks/>
       <selectionEntries/>
-      <sharedSelectionEntryGroups/>
+      <selectionEntryGroups/>
       <entryLinks/>
       <costs>
         <cost name="$" costTypeId="dollars" value="0.0"/>
       </costs>
-    </sharedSelectionEntry>
-    <sharedSelectionEntry id="3b44754e-8d0f-0f0b-4a41-319daef4bec6" name="Repeating Rifle" book="Legends of the Old West" page="39" hidden="false" collective="false" type="upgrade">
+    </selectionEntry>
+    <selectionEntry id="3b44754e-8d0f-0f0b-4a41-319daef4bec6" name="Repeating Rifle" book="Legends of the Old West" page="39" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="3d89c434-14e2-521d-0875-a00b0f782f26" name="Repeating Rifle" book="Legends of the Old West" page="42" hidden="false" profileTypeId="93363f24-9d3c-518a-2d0b-1af2534acae6">
           <profiles/>
@@ -367,13 +364,13 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       <constraints/>
       <categoryLinks/>
       <selectionEntries/>
-      <sharedSelectionEntryGroups/>
+      <selectionEntryGroups/>
       <entryLinks/>
       <costs>
         <cost name="$" costTypeId="dollars" value="0.0"/>
       </costs>
-    </sharedSelectionEntry>
-    <sharedSelectionEntry id="325d505d-dc43-cea2-865f-7935b79fe996" name="Rifle" book="Legends of the Old West" page="38" hidden="false" collective="false" type="upgrade">
+    </selectionEntry>
+    <selectionEntry id="325d505d-dc43-cea2-865f-7935b79fe996" name="Rifle" book="Legends of the Old West" page="38" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="1a598a3b-d65c-b140-4156-632aab54e13e" name="Rifle" book="Legends of the Old West" page="42" hidden="false" profileTypeId="93363f24-9d3c-518a-2d0b-1af2534acae6">
           <profiles/>
@@ -414,13 +411,13 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
-      <sharedSelectionEntryGroups/>
+      <selectionEntryGroups/>
       <entryLinks/>
       <costs>
         <cost name="$" costTypeId="dollars" value="0.0"/>
       </costs>
-    </sharedSelectionEntry>
-    <sharedSelectionEntry id="ae0036d2-d50e-3845-762b-403bebd5823f" name="Saturday-night Special" book="Legends of the Old West" page="38" hidden="false" collective="false" type="upgrade">
+    </selectionEntry>
+    <selectionEntry id="ae0036d2-d50e-3845-762b-403bebd5823f" name="Saturday-night Special" book="Legends of the Old West" page="38" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="134f9aec-6525-4814-15fe-6c775d53f96e" name="Saturday-night Special" book="Legends of the Old West" page="42" hidden="false" profileTypeId="93363f24-9d3c-518a-2d0b-1af2534acae6">
           <profiles/>
@@ -455,13 +452,13 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       <constraints/>
       <categoryLinks/>
       <selectionEntries/>
-      <sharedSelectionEntryGroups/>
+      <selectionEntryGroups/>
       <entryLinks/>
       <costs>
         <cost name="$" costTypeId="dollars" value="0.0"/>
       </costs>
-    </sharedSelectionEntry>
-    <sharedSelectionEntry id="6d4f9ec9-37bf-a55e-3f28-22a8b305516a" name="Sawed-off Shotgun" book="Legends of the Old West" page="40" hidden="false" collective="false" type="upgrade">
+    </selectionEntry>
+    <selectionEntry id="6d4f9ec9-37bf-a55e-3f28-22a8b305516a" name="Sawed-off Shotgun" book="Legends of the Old West" page="40" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="c2c8cc65-60f2-dfdd-fdd1-b77208be553b" name="Sawed-off Shotgun" book="Legends of the Old West" page="42" hidden="false" profileTypeId="93363f24-9d3c-518a-2d0b-1af2534acae6">
           <profiles/>
@@ -510,13 +507,13 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
-      <sharedSelectionEntryGroups/>
+      <selectionEntryGroups/>
       <entryLinks/>
       <costs>
         <cost name="$" costTypeId="dollars" value="0.0"/>
       </costs>
-    </sharedSelectionEntry>
-    <sharedSelectionEntry id="a5bafd27-8579-3a5c-92d8-2f9e251978b2" name="Shotgun" book="Legends of the Old West" page="40" hidden="false" collective="false" type="upgrade">
+    </selectionEntry>
+    <selectionEntry id="a5bafd27-8579-3a5c-92d8-2f9e251978b2" name="Shotgun" book="Legends of the Old West" page="40" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="fa86a28d-8f7f-eaef-92fb-5d4e40784b36" name="Shotgun" book="Legends of the Old West" page="42" hidden="false" profileTypeId="93363f24-9d3c-518a-2d0b-1af2534acae6">
           <profiles/>
@@ -572,13 +569,13 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
-      <sharedSelectionEntryGroups/>
+      <selectionEntryGroups/>
       <entryLinks/>
       <costs>
         <cost name="$" costTypeId="dollars" value="0.0"/>
       </costs>
-    </sharedSelectionEntry>
-    <sharedSelectionEntry id="760d600b-f6cd-e25a-56aa-a5aea350ba20" name="Sixgun" book="Legends of the Old West" page="37" hidden="false" collective="false" type="upgrade">
+    </selectionEntry>
+    <selectionEntry id="760d600b-f6cd-e25a-56aa-a5aea350ba20" name="Sixgun" book="Legends of the Old West" page="37" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="d2b9b8b4-1fc6-83b2-1575-35f0d86eef5e" name="Sixgun" book="Legends of the Old West" page="42" hidden="false" profileTypeId="93363f24-9d3c-518a-2d0b-1af2534acae6">
           <profiles/>
@@ -611,23 +608,114 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       <costs>
         <cost name="$" costTypeId="dollars" value="0.0"/>
       </costs>
-    </sharedSelectionEntry>
-	<sharedSelectionEntry id="0a6527a5-3e05-0f5b-bc42-23785fe8a632" name="Guidon" book="Frontier - Blood on the Plains" page="7" hidden="false" collective="false" type="upgrade">
-	  <profiles/>
-	  <rules/>
-	  <infoLinks/>
-	  <modifiers/>
-	  <constraints>
-		<constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-	  </constraints>
-	  <categoryLinks/>
-	  <selectionEntries/>
-	  <selectionEntryGroups/>
-	  <entryLinks/>
-	  <costs>
-		<cost name="$" costTypeId="dollars" value="15.0"/>
-	  </costs>
-	</sharedSelectionEntry>
+    </selectionEntry>
+    <selectionEntry id="0a6527a5-3e05-0f5b-bc42-23785fe8a632" name="Guidon" book="Frontier - Blood on the Plains" page="7" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="$" costTypeId="dollars" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e2d0e54b-7176-41fb-f84a-b9254924aa07" name="Bugle" book="Frontier - Blood on the Plains" page="9" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="$" costTypeId="dollars" value="18.0"/>
+      </costs>
+    </selectionEntry>	    
+    <selectionEntry id="8d11664e-7fec-a8a2-f328-8c2bde46b0ba" name="Longbow" book="Legends of the Old West" page="41" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="0b7b8932-b46a-143b-7a04-829326711a4d" name="Longbow" book="Legends of the Old West" page="42" hidden="false" profileTypeId="93363f24-9d3c-518a-2d0b-1af2534acae6">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="387abf9d-6fa7-440c-cc68-61b68740b381" value="18&quot;"/>
+            <characteristic name="Strength" characteristicTypeId="1fc59acd-4346-6dd6-f204-1b7381412633" value="2"/>
+            <characteristic name="Move Penalty" characteristicTypeId="b27fc0a7-1925-d847-7a04-afa3218503b7" value="Half"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="060bf642-7aa8-89d6-3d4b-961df9895056" name="Primitive Shootin&apos; Weapon" book="Legends of the Old West" page="41" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Primitive Weapons are exempt from jamming checks, as they have no complex mechanism to go wrong!</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f0094406-b99c-7824-2b0a-d7fff1d21ce2" name="Tomahawk" book="Legends of the Old West" page="41" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="92b053f8-9214-b95c-97d9-ba849130de48" name="Tomahawk" book="Legends of the Old West" page="42" hidden="false" profileTypeId="93363f24-9d3c-518a-2d0b-1af2534acae6">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="387abf9d-6fa7-440c-cc68-61b68740b381" value="St x 2&quot;"/>
+            <characteristic name="Strength" characteristicTypeId="1fc59acd-4346-6dd6-f204-1b7381412633" value="As user"/>
+            <characteristic name="Move Penalty" characteristicTypeId="b27fc0a7-1925-d847-7a04-afa3218503b7" value="None*"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="6913233b-0223-e616-68d0-fd9c23e84541" name="Tomahawk" book="Legends of the Old West" page="41" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>A tomahawk is a Native American throwing axe, and is treated as a throwing weapon in every respect. In addition, a fighter may choose to hurl a tomahawk at an enemy in the Movin&apos; phase as he charges. The player moves the fighter as if it were going to charge, but instead of moving into touch it halts 1&quot; away. It then throws the weapon at an enemy it is about to fight. The throw is worked out exactly as if it had occurred in the Shootin&apos; phase. Once the tomahawk has been thrown, the charger is moved into contact with the same enemy model or, if the enemy has been slain (or has dived for cover), the charger completes its move as the player wishes - including charging a different model.</description>
+        </rule>
+        <rule id="d24e6009-ff56-ec79-ae1b-4593950d6933" name="Hand Weapon" book="Legends of the Old West" page="41" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>A Tomahawk counts as a hand weapon in hand-to-hand combat.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="$" costTypeId="dollars" value="3.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
@@ -659,6 +747,13 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       <modifiers/>
       <description>This weapon requires two hands to use effectively. Fighters who carry this weapon may not carry a double-handed weapon as well.</description>
     </rule>
+    <rule id="6a7509ca-1997-eecb-48d9-8cc68db0ac5b" name="Life is Cheap" book="Legends of the Old West" page="52" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Outlaws are lawless, desperate men. Unlike other fighters, members of an Outlaw Posse (including any Hired Guns who are currently in their employ) may shoot at a target even if there are friendly models in the way. Additionally, they may shoot indiscriminately into combats, as described on page 25.</description>
+    </rule>  
   </sharedRules>
   <sharedProfiles/>
 </gameSystem>

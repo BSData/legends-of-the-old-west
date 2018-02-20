@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d29b9cdb-2ec6-395e-a48a-cc2a81d59d93" name="Buffalo Soldiers" revision="22" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d29b9cdb-2ec6-395e-a48a-cc2a81d59d93" name="Buffalo Soldiers" book="Frontier - Blood on the Plains" page="24" revision="25" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="ee629b35-524b-d19b-398c-992c210622c0" name="Cavalry" book="Frontier - Blood on the Plains" page="24" hidden="false">
@@ -108,7 +108,7 @@ In addition, these items always count as Common. However, items not listed on th
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="a86dbfb8-e5cb-20f1-056b-e50e5c73bd90" hidden="false" targetId="b468d7d5-0f30-ace3-51d9-6d4b72a97511" type="selectionEntryGroup">
+        <entryLink id="a86dbfb8-e5cb-20f1-056b-e50e5c73bd90" name="Horse" hidden="false" targetId="32b76978-26f4-f609-ffe7-584b988c3a88" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -177,8 +177,8 @@ In addition, these items always count as Common. However, items not listed on th
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba63-3a7a-05e7-a4c4" type="min"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries>
@@ -201,7 +201,7 @@ In addition, these items always count as Common. However, items not listed on th
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="ba657f98-4dfa-582b-1815-8afc631495ab" hidden="false" targetId="32b76978-26f4-f609-ffe7-584b988c3a88" type="selectionEntry">
+            <entryLink id="ba657f98-4dfa-582b-1815-8afc631495ab" name="Horse" hidden="false" targetId="32b76978-26f4-f609-ffe7-584b988c3a88" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -280,7 +280,7 @@ In addition, these items always count as Common. However, items not listed on th
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="48436ac2-a011-db89-6c45-75e1b4c5f80d" hidden="false" targetId="b468d7d5-0f30-ace3-51d9-6d4b72a97511" type="selectionEntryGroup">
+        <entryLink id="48436ac2-a011-db89-6c45-75e1b4c5f80d" name="Horse" hidden="false" targetId="32b76978-26f4-f609-ffe7-584b988c3a88" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -335,7 +335,7 @@ In addition, these items always count as Common. However, items not listed on th
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="dc61a3af-021a-f77b-19e5-6c1c5ef16970" hidden="false" targetId="b468d7d5-0f30-ace3-51d9-6d4b72a97511" type="selectionEntryGroup">
+        <entryLink id="dc61a3af-021a-f77b-19e5-6c1c5ef16970" name="Horse" hidden="false" targetId="32b76978-26f4-f609-ffe7-584b988c3a88" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -357,119 +357,91 @@ In addition, these items always count as Common. However, items not listed on th
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="dollars" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="dollars" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-      </constraints>
+      <constraints/>
       <categoryLinks/>
-      <selectionEntries>
-        <selectionEntry id="e2d0e54b-7176-41fb-f84a-b9254924aa07" name="Bugle" book="Frontier - Blood on the Plains" page="9" hidden="false" collective="false" type="upgrade">
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b24f-b032-6eb5-7d3f" name="Shootin&apos; Weapons" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c6c-5057-0722-a86d" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="$" costTypeId="dollars" value="18.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="a2eb1f6b-b6a4-60e5-30b4-7190189a592c" name="Weapons" hidden="false" collective="false">
+          <entryLinks>
+            <entryLink id="b1c0-c6a1-ec3e-8edc" name="Carbine" hidden="false" targetId="cfc12421-5799-eb90-84fd-a0643714442b" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="dollars" value="15.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="06fd-c0e5-c630-0e46" name="Heavy Pistol" hidden="false" targetId="a57a22ef-57bd-dae8-fc17-46a31916fec6" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="dollars" value="11.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="2491-cc14-cad5-5c36" name="Fightin&apos; Weapons" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0677-3918-e8d4-2563" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="5e781b74-7888-85dd-f5c3-518776569e25" name="One Handed Weapons" hidden="false" collective="false">
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="b292-6759-efd4-1bdb" name="Cavalry Sabre" hidden="false" targetId="d9670659-60c9-d06d-5d31-c720691e5cba" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="dollars" value="2.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
               <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="6f341ade-83b3-2108-360d-866042bb289d" name="" hidden="false" targetId="d9670659-60c9-d06d-5d31-c720691e5cba" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers>
-                    <modifier type="set" field="dollars" value="2.0">
-                      <repeats/>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="e223588e-d914-4697-3787-a007fdc5ad39" hidden="false" targetId="a57a22ef-57bd-dae8-fc17-46a31916fec6" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers>
-                    <modifier type="set" field="dollars" value="11.0">
-                      <repeats/>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-            <selectionEntryGroup id="94633197-ef9c-6d57-4733-06f6a332a34b" name="Two Handed Weapons" hidden="false" collective="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="a5211a46-154a-4339-fb2b-3bbc2f7228ed" hidden="false" targetId="cfc12421-5799-eb90-84fd-a0643714442b" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers>
-                    <modifier type="set" field="dollars" value="15.0">
-                      <repeats/>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <entryLinks/>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="4d5b-b9c4-37ca-708b" name="Guidon" hidden="false" targetId="0a6527a5-3e05-0f5b-bc42-23785fe8a632" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="bc83-c678-fa4f-8355" name="Bugle" hidden="false" targetId="e2d0e54b-7176-41fb-f84a-b9254924aa07" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -484,128 +456,82 @@ In addition, these items always count as Common. However, items not listed on th
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="dollars" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="dollars" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-      </constraints>
+      <constraints/>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="2ffd6f2a-76d0-3dbe-98cd-6603af83255c" name="Weapons" hidden="false" collective="false">
+        <selectionEntryGroup id="0bb4-2716-008d-0635" name="Fightin&apos; Weapons" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7293-a188-731a-fc7c" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="fb98e531-dd38-b1b7-6406-4dc16197b6b6" name="One Handed Weapon" hidden="false" collective="false">
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="1e84-7f47-cd24-c88c" name="Cavalry Sabre" hidden="false" targetId="d9670659-60c9-d06d-5d31-c720691e5cba" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="dollars" value="1.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
               <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="31825dda-5e3f-4f7f-5b47-5fe3811ee1f8" hidden="false" targetId="a57a22ef-57bd-dae8-fc17-46a31916fec6" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers>
-                    <modifier type="set" field="dollars" value="10.0">
-                      <repeats/>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="8403c877-b657-9b98-6906-5c6faa0d6005" hidden="false" targetId="d9670659-60c9-d06d-5d31-c720691e5cba" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers>
-                    <modifier type="set" field="dollars" value="1.0">
-                      <repeats/>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-            <selectionEntryGroup id="62880b73-20ad-3b82-cd5c-d296756dba8f" name="Two Handed Weapons" hidden="false" collective="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks>
-                <entryLink id="266f99d9-d5c2-2fc1-565b-2350e6bf95ae" hidden="false" targetId="cfc12421-5799-eb90-84fd-a0643714442b" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers>
-                    <modifier type="set" field="dollars" value="14.0">
-                      <repeats/>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <entryLinks/>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="b468d7d5-0f30-ace3-51d9-6d4b72a97511" name="Horse Soldiers" hidden="false" collective="false" defaultSelectionEntryId="140404a5-5499-2a73-7f0a-8c3710b9816a">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="dollars" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="dollars" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-      </constraints>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="140404a5-5499-2a73-7f0a-8c3710b9816a" hidden="false" targetId="32b76978-26f4-f609-ffe7-584b988c3a88" type="selectionEntry">
+        <selectionEntryGroup id="6f33-85f9-4cb9-f7d6" name="Shootin&apos; Weapons" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f97b-e516-9ee0-c107" type="max"/>
+          </constraints>
           <categoryLinks/>
-        </entryLink>
-      </entryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="f054-b7ae-1c84-d74c" name="Carbine" hidden="false" targetId="cfc12421-5799-eb90-84fd-a0643714442b" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="dollars" value="14">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="c081-171b-3655-41ae" name="Heavy Pistol" hidden="false" targetId="a57a22ef-57bd-dae8-fc17-46a31916fec6" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="dollars" value="10.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules/>
