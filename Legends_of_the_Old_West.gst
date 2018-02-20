@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" name="Legends of the Old West" revision="26" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" name="Legends of the Old West" revision="28" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -640,7 +640,7 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       <costs>
         <cost name="$" costTypeId="dollars" value="18.0"/>
       </costs>
-    </selectionEntry>	    
+    </selectionEntry>
     <selectionEntry id="8d11664e-7fec-a8a2-f328-8c2bde46b0ba" name="Longbow" book="Legends of the Old West" page="41" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="0b7b8932-b46a-143b-7a04-829326711a4d" name="Longbow" book="Legends of the Old West" page="42" hidden="false" profileTypeId="93363f24-9d3c-518a-2d0b-1af2534acae6">
@@ -672,7 +672,7 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="5.0"/>
+        <cost name="$" costTypeId="dollars" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f0094406-b99c-7824-2b0a-d7fff1d21ce2" name="Tomahawk" book="Legends of the Old West" page="41" hidden="false" collective="false" type="upgrade">
@@ -753,7 +753,21 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       <infoLinks/>
       <modifiers/>
       <description>Outlaws are lawless, desperate men. Unlike other fighters, members of an Outlaw Posse (including any Hired Guns who are currently in their employ) may shoot at a target even if there are friendly models in the way. Additionally, they may shoot indiscriminately into combats, as described on page 25.</description>
-    </rule>  
+    </rule>
+    <rule id="c33c3916-496e-fdd2-4c2b-f02187f34866" name="Leader" book="" page="" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If any friendly model withing 6&quot; requires to take a Pluck test, the leader&apos;s Pluck value may be used instead of his own. If a Head for the Hills test is called for, the leader&apos;s Pluck must be tested even if his Pluck value is not the highest in the Posse.</description>
+    </rule>
+    <rule id="5d154f6d-0fe4-8f38-2a99-49c5f25e8647" name="Starting Experience" book="" page="" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This model begins with 8 Experience points.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles/>
 </gameSystem>
