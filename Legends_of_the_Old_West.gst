@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" name="Legends of the Old West" revision="28" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" name="Legends of the Old West" revision="29" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -236,23 +236,16 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="32b76978-26f4-f609-ffe7-584b988c3a88" name="Horse" book="Legends of the Old West" page="94" hidden="false" collective="false" type="upgrade">
-      <profiles>
-        <profile id="af574c2d-e805-4a47-4d51-829d6b3b7136" name="Horse" book="Legends of the Old West" page="94" hidden="false" profileTypeId="3bd53da2-0427-73ac-c089-26b340141d98">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="892b-8101-290e-3ff4" name="Horse" hidden="false" targetId="9819-e4e9-4601-bf0f" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <characteristics>
-            <characteristic name="Movement" characteristicTypeId="8d126d29-6a77-5302-5663-0c9dc8e7bc94" value="10&quot;"/>
-            <characteristic name="Strength" characteristicTypeId="b73fbc24-fd58-ac80-354c-d99223cef138" value="3"/>
-            <characteristic name="Grit" characteristicTypeId="88707a22-acc0-7367-56c3-7a54c7b9558e" value="4"/>
-            <characteristic name="Wounds" characteristicTypeId="9b216a38-57ad-0b99-a2de-c67ad73afd14" value="1"/>
-            <characteristic name="Pluck" characteristicTypeId="fbe0b323-1fa3-e7ae-1940-6b1e99751a10" value="3"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -716,6 +709,168 @@ In addition, once a model has become entangled, the fighter with the lasso may a
         <cost name="$" costTypeId="dollars" value="3.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="d4b78e9a-bd40-3119-927f-1d51f154900e" name="Appaloosa" book="Frontier - Blood on the Plains" page="59" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="1fa69d42-9690-9091-f9b7-01dc8ad8c7d2" name="Horse" hidden="false" targetId="9819-e4e9-4601-bf0f" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="8d126d29-6a77-5302-5663-0c9dc8e7bc94" value="12&quot;">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="$" costTypeId="dollars" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0acf58a6-89cb-1508-eb7e-e6612fbcd27a" name="Bow-Lance" book="Frontier - Blood on the Plains" page="20" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="df8d1170-0304-4133-180d-9e0160f59ad3" name="Bow-Lance" book="Frontier - Blood on the Plains" page="20" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Carried by several noted Native American &apos;societies&apos; the bow-lance combined all the attributes of the lance with the Indian longbow.
+
+The bow-lance may not be thrown, as the addition of a bow-string and the curve of the shaft make it too unblalanced.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="d2a30aed-6048-1509-f48f-314ab70049a1" hidden="false" targetId="cfecb8af-1afe-aaa5-e1d0-5119310ed8a0" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a5d77771-9f77-d1a5-3aa2-5ef21e26df89" hidden="false" targetId="2aec6d53-a204-5215-4eef-e3ae69472396" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="$" costTypeId="dollars" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9d5f2b50-45fd-8da6-66de-db8600f1db92" name="Indian Lance" book="Frontier - Blood on the Plains" page="20" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="a08660c5-4f27-3a75-8703-3f73ea59d173" name="Indian Lance" book="Frontier - Blood on the Plains" page="20" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Lances may be thrown in the same way as a Thrown weapon, but otherwise count as hand weapons. Additionally, if the bearer of the lance is mounted, then the lance lends such impetus to his attack that it adds 1 point to his Strength in any turn that he charges into a fight.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="5adbd7d2-fbef-fe04-42bf-e189239c0102" hidden="false" targetId="2aec6d53-a204-5215-4eef-e3ae69472396" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="$" costTypeId="dollars" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ce171f53-aad7-ed0b-c250-25f848b5bf86" name="Medicine Shield" book="Frontier - Blood on the Plains" page="0" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="461a5451-eba7-c84f-e8f1-89e37c52dab4" name="Medicine Shield" book="Frontier - Blood on the Plains" page="60" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Models equipped with shields add 1 point to their Grit value.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="$" costTypeId="dollars" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6fb0c3cd-8ee7-943c-c7fa-e164ebc498f6" name="Musket" book="Legends of the Old West" page="39" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="40d1925c-6bf0-8af3-5cd2-073fd7334a96" name="Musket" book="Legends of the Old West" page="42" hidden="false" profileTypeId="93363f24-9d3c-518a-2d0b-1af2534acae6">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="387abf9d-6fa7-440c-cc68-61b68740b381" value="18&quot;"/>
+            <characteristic name="Strength" characteristicTypeId="1fc59acd-4346-6dd6-f204-1b7381412633" value="3"/>
+            <characteristic name="Move Penalty" characteristicTypeId="b27fc0a7-1925-d847-7a04-afa3218503b7" value="Full"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="9e591323-2017-ff1e-f75e-3c6919077193" hidden="false" targetId="23e2345a-2485-5158-8b80-22f72baf3221" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ed05bf48-122b-a7d0-1d68-2fd2f5a4dd18" hidden="false" targetId="babd871c-510d-f89b-88ac-1614ca603829" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fe36c8f2-b9fa-90e3-46ea-fd0deb10dfe8" hidden="false" targetId="d1867680-3a86-d2fd-f61e-a8d067a04186" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="$" costTypeId="dollars" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
@@ -768,6 +923,76 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       <modifiers/>
       <description>This model begins with 8 Experience points.</description>
     </rule>
+    <rule id="997f36a0-bcaa-0555-2a57-664b6a42b08d" name="Heathen" book="Frontier - Blood on the Plains" page="28" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Native Americans believe in the power of Wakantanka (the Sioux word) or Great Spirit. As such, they are completely unaffected by the ramblings of the Preacher.</description>
+    </rule>
+    <rule id="4aad302f-62cd-384d-b541-56e2b954cc3d" name="Life is Precious" book="Frontier - Blood on the Plains" page="28" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Native American leaders will not risk their warriors&apos; lives unnecessarily - an admirable trait, often mistaken for cowardice by white men. Native American Posses must begin taking Head for the Hills tests when they lose a third of their models (33%) instead of half.</description>
+    </rule>
+    <rule id="d3dc84d8-d309-d6b5-3774-56e6b44a3ee2" name="Counting Coup" book="Frontier - Blood on the Plains" page="35" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Apache and Navajo can only count coup by raiding. If you have specifically chosen a themed Comanche Posse, then you may count coup by scalping and by using coup-sticks.</description>
+    </rule>
+    <rule id="ce59b8cd-cb06-a0b0-058a-04cb2f7e5a72" name="Cardsharp" book="Frontier - Blood on the Plains" page="29" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Native Americans may never gain the &apos;Cardsharp&apos; skill. If they roll a 5 on the Savvy Skills table, then they gain the &apos;Trick Rider&apos; skills instead, or the &apos;Hit and Run&apos; skill if they are a member of a Desert Tribes Posse. See page 29 for more details.</description>
+    </rule>
+    <rule id="b67f6fae-53f0-a1fb-2704-6be31dd23c2b" name="Guerillas" book="Frontier - Blood on the Plains" page="35" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Desert Tribes do not incorporate Society Warriors in the same way as other tribes, instead utilizing Guerillas (see page 36). In scenarios where the Brave is allowed to deploy on the board (not in those scenarios where they arrive later in the game), then any Guerillas in the Posse may make a full, free move before the game begins. This move follows all the normal Movin&apos; rules, and represents the stealthy tactics of the Desert Tribes.</description>
+    </rule>
   </sharedRules>
-  <sharedProfiles/>
+  <sharedProfiles>
+    <profile id="2aec6d53-a204-5215-4eef-e3ae69472396" name="Lance" book="Frontier - Blood on the Plains" page="20" hidden="false" profileTypeId="754f1218-a3c3-72ea-7b62-76e0014ec58a">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Winnin&apos; the fight" characteristicTypeId="092c290b-2e10-2264-c2ba-9d68cf7d8781" value="-"/>
+        <characteristic name="Rolling to Wound" characteristicTypeId="56ecb49b-ec74-63ee-775e-724bbbbeb620" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="cfecb8af-1afe-aaa5-e1d0-5119310ed8a0" name="Longbow" book="Legends of the Old West" page="42" hidden="false" profileTypeId="93363f24-9d3c-518a-2d0b-1af2534acae6">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="387abf9d-6fa7-440c-cc68-61b68740b381" value="18&quot;"/>
+        <characteristic name="Strength" characteristicTypeId="1fc59acd-4346-6dd6-f204-1b7381412633" value="2"/>
+        <characteristic name="Move Penalty" characteristicTypeId="b27fc0a7-1925-d847-7a04-afa3218503b7" value="Half"/>
+      </characteristics>
+    </profile>
+    <profile id="9819-e4e9-4601-bf0f" name="Horse" book="Legends of the Old West" page="94" hidden="false" profileTypeId="3bd53da2-0427-73ac-c089-26b340141d98">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Movement" characteristicTypeId="8d126d29-6a77-5302-5663-0c9dc8e7bc94" value="10&quot;"/>
+        <characteristic name="Strength" characteristicTypeId="b73fbc24-fd58-ac80-354c-d99223cef138" value="3"/>
+        <characteristic name="Grit" characteristicTypeId="88707a22-acc0-7367-56c3-7a54c7b9558e" value="4"/>
+        <characteristic name="Wounds" characteristicTypeId="9b216a38-57ad-0b99-a2de-c67ad73afd14" value="1"/>
+        <characteristic name="Pluck" characteristicTypeId="fbe0b323-1fa3-e7ae-1940-6b1e99751a10" value="3"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
 </gameSystem>
