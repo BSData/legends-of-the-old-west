@@ -2,6 +2,13 @@
 <catalogue id="872d4f16-4eec-e2a6-88a8-3ddfd46ad0d3" name="Texas Rangers" revision="15" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
+	<rule id="99d0-d3aa-798a-d2fb" name="Preferred Skills" book="Frontier - Blood on the Plains" page="26" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>The skill tables preferred by Texas Rangers are Savvy, Shootin&apos; and Brawlin&apos;.</description>
+    </rule>
     <rule id="ae1e70be-ba36-8bbe-37bc-c7ec5fc02dd5" name="Lone Riders" book="Frontier - Blood on the Plains" page="26" hidden="false">
       <profiles/>
       <rules/>
