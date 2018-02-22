@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c0408823-23d9-6c77-c23a-dc19c905398d" name="Cowboys" book="Legends of the Old West" page="48" revision="16" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c0408823-23d9-6c77-c23a-dc19c905398d" name="Cowboys" book="Legends of the Old West" page="48" revision="18" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
-    <rule id="c26f-0f78-4d68-f496" name="Preferred Skills" hidden="false">
+    <rule id="c26f-0f78-4d68-f496" name="Preferred Skills" book="Legends of the Old West" page="48" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -14,7 +14,35 @@
   <costTypes/>
   <profileTypes/>
   <categoryEntries/>
-  <forceEntries/>
+  <forceEntries>
+    <forceEntry id="2b5e-aa86-1482-ffd9" name="Posse" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="2b5e-aa86-1482-ffd9" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="11eb-34ad-f5a4-6ab0" type="min"/>
+        <constraint field="selections" scope="2b5e-aa86-1482-ffd9" value="15.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="86c5-e845-d669-9933" type="max"/>
+      </constraints>
+      <forceEntries/>
+      <categoryLinks>
+        <categoryLink id="79bb-3bef-5ef6-f3ec" name="Henchmen" hidden="false" targetId="50528bc6-df85-9543-2cfa-08bf960a74e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a5f8-efbb-6139-718f" name="Heroes" hidden="false" targetId="a99ce2af-4b23-caf3-113b-8864881eeb09" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
   <selectionEntries>
     <selectionEntry id="163d551c-32d4-27a9-f3eb-918f356bbf99" name="Buckaroos" book="Legends of the Old West" page="49" hidden="false" collective="false" type="model">
       <profiles>
@@ -329,133 +357,145 @@
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="96a7-f767-23d0-8660" name="Fightin&apos; Weapons" hidden="false" collective="false">
+        <selectionEntryGroup id="0ba5-2d50-255b-ba34" name="Weapons" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7374-7263-621d-3b5f" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a64-1e6b-5b8e-95d3" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="e060-e307-c04b-ac5f" name="Hand Weapon" hidden="false" targetId="14a9f292-d7d9-17ef-3f4a-27821ebbac8d" type="selectionEntry">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="3abc-8ba3-3e34-9f7e" name="One-handed" hidden="false" collective="false">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="dollars" value="2.0">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
+              <modifiers/>
               <constraints/>
               <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="cc30-fd0b-2270-22b9" name="Shootin&apos; Weapons" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="914c-b00e-0051-f346" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="6192-6922-47ac-d166" name="Shotgun" hidden="false" targetId="a5bafd27-8579-3a5c-92d8-2f9e251978b2" type="selectionEntry">
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="5e09-5b8d-e1ec-1fc8" name="Sixgun" hidden="false" targetId="760d600b-f6cd-e25a-56aa-a5aea350ba20" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="dollars" value="5.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="450e-e9ca-0280-5c23" name="Hand Weapon" hidden="false" targetId="14a9f292-d7d9-17ef-3f4a-27821ebbac8d" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="dollars" value="2.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="a449-24a0-e02b-1929" name="Two-handed" hidden="false" collective="false">
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="dollars" value="13.0">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0668-63f5-014a-f409" type="max"/>
+              </constraints>
               <categoryLinks/>
-            </entryLink>
-            <entryLink id="92db-b1bf-76e9-0d95" name="Sawed-off Shotgun" hidden="false" targetId="6d4f9ec9-37bf-a55e-3f28-22a8b305516a" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="dollars" value="16.0">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="22c1-5124-1b6a-7f74" name="Rifle" hidden="false" targetId="325d505d-dc43-cea2-865f-7935b79fe996" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="dollars" value="16.0">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="0068-6f04-4642-791d" name="Repeating Rifle" hidden="false" targetId="3b44754e-8d0f-0f0b-4a41-319daef4bec6" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="dollars" value="12.0">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="e451-b7e4-9760-449b" name="Sixgun" hidden="false" targetId="760d600b-f6cd-e25a-56aa-a5aea350ba20" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="dollars" value="5.0">
-                  <repeats/>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-            <entryLink id="8dea-f505-b79f-4dcb" name="Lasso" hidden="false" targetId="54a0d678-b98e-e111-a87b-f2ea7af84d20" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers>
-                <modifier type="set" field="dollars" value="6.0">
-                  <repeats/>
-                  <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d35513ce-4873-9324-3509-bfc0725d7fa6" type="instanceOf"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints/>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="e467-2a34-b013-0d0f" name="Shotgun" hidden="false" targetId="a5bafd27-8579-3a5c-92d8-2f9e251978b2" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="dollars" value="13.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="ef81-c26d-999d-8371" name="Sawed-off Shotgun" hidden="false" targetId="6d4f9ec9-37bf-a55e-3f28-22a8b305516a" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="dollars" value="16.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="584d-4a85-0a8f-ca40" name="Rifle" hidden="false" targetId="325d505d-dc43-cea2-865f-7935b79fe996" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="dollars" value="16.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="ddbc-a881-0c2b-bcdd" name="Repeating Rifle" hidden="false" targetId="3b44754e-8d0f-0f0b-4a41-319daef4bec6" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="dollars" value="12.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="7333-38a4-1728-5f8b" name="Lasso" hidden="false" targetId="54a0d678-b98e-e111-a87b-f2ea7af84d20" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="dollars" value="6.0">
+                      <repeats/>
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d35513ce-4873-9324-3509-bfc0725d7fa6" type="instanceOf"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -597,6 +637,44 @@
               <categoryLinks/>
             </entryLink>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="7929-e2db-a980-b8ad" name="Weapons" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b22c-e468-82a2-debd" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="2a69-0edd-67d5-85c4" name="One-handed" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="a750-6ddc-202f-7c6a" name="Two-handed" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6104-eb7c-19ec-59a4" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>

@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9578a3ca-6bb1-a762-77ec-1b6342263bc3" name="Desert Tribes" revision="16" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9578a3ca-6bb1-a762-77ec-1b6342263bc3" name="Desert Tribes" revision="18" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
-  <rules/>
+  <rules>
+    <rule id="99d0-d3aa-798a-d2fb" name="Preferred Skills" book="Frontier - Blood on the Plains" page="35" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>The skill tables preferred by Desert Tribes are Shootin&apos;, Movin&apos; and Brawlin&apos;.</description>
+    </rule>
+  </rules>
   <infoLinks>
     <infoLink id="07fe-1f35-b492-42b5" name="Heathen" hidden="false" targetId="997f36a0-bcaa-0555-2a57-664b6a42b08d" type="rule">
       <profiles/>
@@ -37,7 +45,35 @@
   <costTypes/>
   <profileTypes/>
   <categoryEntries/>
-  <forceEntries/>
+  <forceEntries>
+    <forceEntry id="2b5e-aa86-1482-ffd9" name="Posse" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="2b5e-aa86-1482-ffd9" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="11eb-34ad-f5a4-6ab0" type="min"/>
+        <constraint field="selections" scope="2b5e-aa86-1482-ffd9" value="14.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="86c5-e845-d669-9933" type="max"/>
+      </constraints>
+      <forceEntries/>
+      <categoryLinks>
+        <categoryLink id="79bb-3bef-5ef6-f3ec" name="Henchmen" hidden="false" targetId="50528bc6-df85-9543-2cfa-08bf960a74e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a5f8-efbb-6139-718f" name="Heroes" hidden="false" targetId="a99ce2af-4b23-caf3-113b-8864881eeb09" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
   <selectionEntries>
     <selectionEntry id="ef34c09b-9aa6-5c9f-d775-ac78a5a7eefe" name="Braves" book="Frontier - Blood on the Plains" page="31" hidden="false" collective="false" type="model">
       <profiles>
@@ -302,14 +338,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="dollars" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="dollars" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-      </constraints>
+      <constraints/>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>

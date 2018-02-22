@@ -37,7 +37,35 @@ In addition, these items always count as Common. However, items not listed on th
   <costTypes/>
   <profileTypes/>
   <categoryEntries/>
-  <forceEntries/>
+  <forceEntries>
+    <forceEntry id="2b5e-aa86-1482-ffd9" name="Posse" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="2b5e-aa86-1482-ffd9" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="11eb-34ad-f5a4-6ab0" type="min"/>
+        <constraint field="selections" scope="2b5e-aa86-1482-ffd9" value="12.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="86c5-e845-d669-9933" type="max"/>
+      </constraints>
+      <forceEntries/>
+      <categoryLinks>
+        <categoryLink id="79bb-3bef-5ef6-f3ec" name="Henchmen" hidden="false" targetId="50528bc6-df85-9543-2cfa-08bf960a74e2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="a5f8-efbb-6139-718f" name="Heroes" hidden="false" targetId="a99ce2af-4b23-caf3-113b-8864881eeb09" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
   <selectionEntries>
     <selectionEntry id="e6f6a60a-2fd7-e7d4-442c-1da496dc7e3d" name="Lieutenant" book="Frontier - Blood on the Plains" page="22" hidden="false" collective="false" type="model">
       <profiles>

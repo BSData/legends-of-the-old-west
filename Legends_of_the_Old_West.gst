@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" name="Legends of the Old West" revision="29" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" name="Legends of the Old West" revision="30" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -71,29 +71,14 @@
     </categoryEntry>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="eba492a9-aac2-7acd-efa9-cb31c570cbda" name="Posse" hidden="false">
+    <forceEntry id="fe18-206e-a841-7ef3" name="Unlimited" hidden="true">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <forceEntries/>
-      <categoryLinks>
-        <categoryLink id="eba492a9-aac2-7acd-efa9-cb31c570cbda-50528bc6-df85-9543-2cfa-08bf960a74e2" name="Henchmen" hidden="false" targetId="50528bc6-df85-9543-2cfa-08bf960a74e2" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="eba492a9-aac2-7acd-efa9-cb31c570cbda-a99ce2af-4b23-caf3-113b-8864881eeb09" name="Heroes" hidden="false" targetId="a99ce2af-4b23-caf3-113b-8864881eeb09" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
+      <categoryLinks/>
     </forceEntry>
   </forceEntries>
   <selectionEntries/>
@@ -855,6 +840,59 @@ The bow-lance may not be thrown, as the addition of a bow-string and the curve o
           <modifiers/>
         </infoLink>
         <infoLink id="fe36c8f2-b9fa-90e3-46ea-fd0deb10dfe8" hidden="false" targetId="d1867680-3a86-d2fd-f61e-a8d067a04186" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="$" costTypeId="dollars" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7d4863bd-8105-b09d-eaba-36e1199b0670" name="Flintlock Rifle" book="The Alamo - Victory or Death" page="38" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="a1b671b4-8f1c-1077-7546-975a5ab4d9ff" name="Flintlock Rifle" book="The Alamo - Victory or Death" page="39" hidden="false" profileTypeId="93363f24-9d3c-518a-2d0b-1af2534acae6">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="387abf9d-6fa7-440c-cc68-61b68740b381" value="24&quot;"/>
+            <characteristic name="Strength" characteristicTypeId="1fc59acd-4346-6dd6-f204-1b7381412633" value="e"/>
+            <characteristic name="Move Penalty" characteristicTypeId="b27fc0a7-1925-d847-7a04-afa3218503b7" value="Half"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a462d424-b3ee-2fa5-3dfa-ea46c1f5bef4" name="Rifle" book="The Alamo - Victory or Death" page="38" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When used in a Legends of the Old West campaign, this weapon counts as a regular Rifle for the purposes of the Rifleman skill. However, its early design makes the weapon incompatible with rifle scopes.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="e88d58df-5e27-e573-fd25-6fbccce285aa" hidden="false" targetId="babd871c-510d-f89b-88ac-1614ca603829" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ce9dc776-5a5e-5eec-dfd0-20b3d3b7b478" hidden="false" targetId="d1867680-3a86-d2fd-f61e-a8d067a04186" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5ce37e0e-84a0-81d4-14fd-062bf3a24fe5" hidden="false" targetId="23e2345a-2485-5158-8b80-22f72baf3221" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
