@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5e3f9b28-d4ef-3b35-27c1-c6906c6fe04d" name="US Infantry" revision="16" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5e3f9b28-d4ef-3b35-27c1-c6906c6fe04d" name="US Infantry" revision="17" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="ff5f642c-9289-e2e4-22b2-2ef4a92de2ce" name="Foot Soldiers" book="Frontier - Blood on the Plains" page="25" hidden="false">
@@ -299,24 +299,7 @@ In addition, these items always count as Common. However, items not listed on th
       <modifiers/>
       <constraints/>
       <categoryLinks/>
-      <selectionEntries>
-        <selectionEntry id="0a6527a5-3e05-0f5b-bc42-23785fe8a632" name="Guidon" book="Frontier - Blood on the Plains" page="7" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="$" costTypeId="dollars" value="15.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="a2eb1f6b-b6a4-60e5-30b4-7190189a592c" name="Weapons" hidden="false" collective="false">
           <profiles/>
@@ -329,7 +312,7 @@ In addition, these items always count as Common. However, items not listed on th
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
-            <selectionEntryGroup id="94633197-ef9c-6d57-4733-06f6a332a34b" name="Two Handed Weapons" hidden="false" collective="false">
+            <selectionEntryGroup id="94633197-ef9c-6d57-4733-06f6a332a34b" name="Two-handed" hidden="false" collective="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -341,7 +324,7 @@ In addition, these items always count as Common. However, items not listed on th
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="276e0097-5d57-0ad1-87ba-6325a9ed0f36" hidden="false" targetId="325d505d-dc43-cea2-865f-7935b79fe996" type="selectionEntry">
+                <entryLink id="276e0097-5d57-0ad1-87ba-6325a9ed0f36" name="Rifle" hidden="false" targetId="325d505d-dc43-cea2-865f-7935b79fe996" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -417,7 +400,7 @@ In addition, these items always count as Common. However, items not listed on th
                     </rule>
                   </rules>
                   <infoLinks>
-                    <infoLink id="658ec96c-2bbb-8a59-2311-7cb939d79c29" hidden="false" targetId="1131ffd8-44ff-cf5b-419a-41d8463472ca" type="rule">
+                    <infoLink id="658ec96c-2bbb-8a59-2311-7cb939d79c29" hidden="false" targetId="8d68064a-3fe4-090a-3292-7c2c267ae843" type="rule">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
@@ -439,6 +422,32 @@ In addition, these items always count as Common. However, items not listed on th
               </selectionEntries>
               <selectionEntryGroups/>
               <entryLinks/>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="da97-8033-2f0e-4ffd" name="One-handed" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="6ccc-b6f8-1134-a4e3" name="Bayonet" hidden="false" targetId="ba2fab72-4aa1-d133-9a19-386c8b129f1d" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="dollars" value="2">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks/>
@@ -466,7 +475,7 @@ In addition, these items always count as Common. However, items not listed on th
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
-            <selectionEntryGroup id="fb98e531-dd38-b1b7-6406-4dc16197b6b6" name="One Handed Weapon" hidden="false" collective="false">
+            <selectionEntryGroup id="fb98e531-dd38-b1b7-6406-4dc16197b6b6" name="One-handed" hidden="false" collective="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -506,7 +515,7 @@ In addition, these items always count as Common. However, items not listed on th
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="62880b73-20ad-3b82-cd5c-d296756dba8f" name="Two Handed Weapons" hidden="false" collective="false">
+            <selectionEntryGroup id="62880b73-20ad-3b82-cd5c-d296756dba8f" name="Two-handed" hidden="false" collective="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -518,12 +527,12 @@ In addition, these items always count as Common. However, items not listed on th
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="266f99d9-d5c2-2fc1-565b-2350e6bf95ae" hidden="false" targetId="cfc12421-5799-eb90-84fd-a0643714442b" type="selectionEntry">
+                <entryLink id="266f99d9-d5c2-2fc1-565b-2350e6bf95ae" name="Carbine" hidden="false" targetId="cfc12421-5799-eb90-84fd-a0643714442b" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers>
-                    <modifier type="set" field="dollars" value="15.0">
+                    <modifier type="set" field="dollars" value="15">
                       <repeats/>
                       <conditions/>
                       <conditionGroups/>
@@ -531,7 +540,7 @@ In addition, these items always count as Common. However, items not listed on th
                     <modifier type="set" field="hidden" value="true">
                       <repeats/>
                       <conditions>
-                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="32b76978-26f4-f609-ffe7-584b988c3a88" type="lessThan"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2cea49b1-e030-5f5d-b798-7020f383756b" type="atLeast"/>
                       </conditions>
                       <conditionGroups/>
                     </modifier>
@@ -539,7 +548,7 @@ In addition, these items always count as Common. However, items not listed on th
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
-                <entryLink id="695ba599-bf02-c250-6fbe-1a974431f4d0" hidden="false" targetId="325d505d-dc43-cea2-865f-7935b79fe996" type="selectionEntry">
+                <entryLink id="695ba599-bf02-c250-6fbe-1a974431f4d0" name="Rifle" hidden="false" targetId="325d505d-dc43-cea2-865f-7935b79fe996" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -560,7 +569,7 @@ In addition, these items always count as Common. However, items not listed on th
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="2cea49b1-e030-5f5d-b798-7020f383756b" hidden="false" targetId="32b76978-26f4-f609-ffe7-584b988c3a88" type="selectionEntry">
+        <entryLink id="2cea49b1-e030-5f5d-b798-7020f383756b" name="Horse" hidden="false" targetId="32b76978-26f4-f609-ffe7-584b988c3a88" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>

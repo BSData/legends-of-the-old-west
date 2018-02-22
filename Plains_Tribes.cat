@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="63c11076-b18a-af9a-552b-769c7e24c27b" name="Plains Tribes" revision="14" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="63c11076-b18a-af9a-552b-769c7e24c27b" name="Plains Tribes" revision="15" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="d3dc84d8-d309-d6b5-3774-56e6b44a3ee2" name="Counting Coup" book="Frontier - Blood on the Plains" page="30" hidden="false">
@@ -381,7 +381,7 @@ In addition, all enemy models within 3&quot; of the Dog Soldier at the start of 
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
-            <selectionEntryGroup id="5e781b74-7888-85dd-f5c3-518776569e25" name="One Handed Weapons" hidden="false" collective="false">
+            <selectionEntryGroup id="5e781b74-7888-85dd-f5c3-518776569e25" name="One-handed" hidden="false" collective="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -391,7 +391,7 @@ In addition, all enemy models within 3&quot; of the Dog Soldier at the start of 
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="0c36dda5-6c40-f16f-a456-6f1e32e6b2f2" hidden="false" targetId="14a9f292-d7d9-17ef-3f4a-27821ebbac8d" type="selectionEntry">
+                <entryLink id="0c36dda5-6c40-f16f-a456-6f1e32e6b2f2" name="" hidden="false" targetId="14a9f292-d7d9-17ef-3f4a-27821ebbac8d" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -405,7 +405,7 @@ In addition, all enemy models within 3&quot; of the Dog Soldier at the start of 
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
-                <entryLink id="d2660ec9-601f-a5dc-3b61-b607f6f063a7" hidden="false" targetId="136f413c-548b-9187-81cd-ab0220a3062b" type="selectionEntry">
+                <entryLink id="d2660ec9-601f-a5dc-3b61-b607f6f063a7" hidden="false" targetId="f0094406-b99c-7824-2b0a-d7fff1d21ce2" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -433,36 +433,9 @@ In addition, all enemy models within 3&quot; of the Dog Soldier at the start of 
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
-                <entryLink id="fb02be66-9898-07a0-d6ff-ae2a7c35a0e4" hidden="false" targetId="0acf58a6-89cb-1508-eb7e-e6612fbcd27a" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers>
-                    <modifier type="set" field="hidden" value="true">
-                      <repeats/>
-                      <conditions/>
-                      <conditionGroups>
-                        <conditionGroup type="and">
-                          <conditions>
-                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ef34c09b-9aa6-5c9f-d775-ac78a5a7eefe" type="instanceOf"/>
-                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7bab396d-fb6c-b60b-a137-c096f167e0ef" type="lessThan"/>
-                          </conditions>
-                          <conditionGroups/>
-                        </conditionGroup>
-                      </conditionGroups>
-                    </modifier>
-                    <modifier type="set" field="dollars" value="7.0">
-                      <repeats/>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="94633197-ef9c-6d57-4733-06f6a332a34b" name="Two Handed Weapons" hidden="false" collective="false">
+            <selectionEntryGroup id="94633197-ef9c-6d57-4733-06f6a332a34b" name="Two-handed" hidden="false" collective="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -474,7 +447,7 @@ In addition, all enemy models within 3&quot; of the Dog Soldier at the start of 
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="ffc0ba9b-2c2f-2ed1-7e67-1c293a843f78" hidden="false" targetId="826c770f-6277-fadd-e288-8f1e240bb282" type="selectionEntry">
+                <entryLink id="ffc0ba9b-2c2f-2ed1-7e67-1c293a843f78" hidden="false" targetId="8d11664e-7fec-a8a2-f328-8c2bde46b0ba" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -508,6 +481,33 @@ In addition, all enemy models within 3&quot; of the Dog Soldier at the start of 
                   <infoLinks/>
                   <modifiers>
                     <modifier type="set" field="dollars" value="6.0">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="6f77-0415-b125-1b98" name="Bow-Lance" hidden="false" targetId="0acf58a6-89cb-1508-eb7e-e6612fbcd27a" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ef34c09b-9aa6-5c9f-d775-ac78a5a7eefe" type="instanceOf"/>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7bab396d-fb6c-b60b-a137-c096f167e0ef" type="lessThan"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="set" field="dollars" value="7.0">
                       <repeats/>
                       <conditions/>
                       <conditionGroups/>
@@ -552,7 +552,9 @@ In addition, all enemy models within 3&quot; of the Dog Soldier at the start of 
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d89-fef2-9dd8-9fdc" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -567,14 +569,22 @@ In addition, all enemy models within 3&quot; of the Dog Soldier at the start of 
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="0.0">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c225177-fb53-df63-a964-85022338bb0a" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
-            <selectionEntryGroup id="fb98e531-dd38-b1b7-6406-4dc16197b6b6" name="One Handed Weapon" hidden="false" collective="false">
+            <selectionEntryGroup id="fb98e531-dd38-b1b7-6406-4dc16197b6b6" name="One-handed" hidden="false" collective="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -598,7 +608,7 @@ In addition, all enemy models within 3&quot; of the Dog Soldier at the start of 
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
-                <entryLink id="29fa5322-7206-5855-9015-6384fda53b9d" hidden="false" targetId="136f413c-548b-9187-81cd-ab0220a3062b" type="selectionEntry">
+                <entryLink id="29fa5322-7206-5855-9015-6384fda53b9d" hidden="false" targetId="f0094406-b99c-7824-2b0a-d7fff1d21ce2" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -628,7 +638,7 @@ In addition, all enemy models within 3&quot; of the Dog Soldier at the start of 
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="62880b73-20ad-3b82-cd5c-d296756dba8f" name="Two Handed Weapons" hidden="false" collective="false">
+            <selectionEntryGroup id="62880b73-20ad-3b82-cd5c-d296756dba8f" name="Two-handed" hidden="false" collective="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -640,7 +650,7 @@ In addition, all enemy models within 3&quot; of the Dog Soldier at the start of 
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="8b41bb34-d484-dd35-6a17-179404bf35d9" hidden="false" targetId="826c770f-6277-fadd-e288-8f1e240bb282" type="selectionEntry">
+                <entryLink id="8b41bb34-d484-dd35-6a17-179404bf35d9" hidden="false" targetId="8d11664e-7fec-a8a2-f328-8c2bde46b0ba" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -654,7 +664,7 @@ In addition, all enemy models within 3&quot; of the Dog Soldier at the start of 
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
-                <entryLink id="ad7bc9b3-506b-3ddd-7612-95527956b89c" hidden="false" targetId="325d505d-dc43-cea2-865f-7935b79fe996" type="selectionEntry">
+                <entryLink id="ad7bc9b3-506b-3ddd-7612-95527956b89c" name="Rifle" hidden="false" targetId="325d505d-dc43-cea2-865f-7935b79fe996" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>

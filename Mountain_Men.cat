@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4d173408-11b3-5060-47af-3e2d44d1ebc1" name="Mountain Men" revision="17" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4d173408-11b3-5060-47af-3e2d44d1ebc1" name="Mountain Men" revision="18" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="99d0-d3aa-798a-d2fb" name="Preferred Skills" book="The Alamo - Victory or Death" page="74" hidden="false">
@@ -337,7 +337,7 @@
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
-            <selectionEntryGroup id="5e781b74-7888-85dd-f5c3-518776569e25" name="One Handed Weapons" hidden="false" collective="false">
+            <selectionEntryGroup id="5e781b74-7888-85dd-f5c3-518776569e25" name="One-handed" hidden="false" collective="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -385,7 +385,7 @@
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="94633197-ef9c-6d57-4733-06f6a332a34b" name="Two Handed Weapons" hidden="false" collective="false">
+            <selectionEntryGroup id="94633197-ef9c-6d57-4733-06f6a332a34b" name="Two-handed" hidden="false" collective="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -397,7 +397,7 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="0fde9c54-8dd7-ad09-051a-95f1d0c453a1" hidden="false" targetId="44e79c86-67d5-1177-fdfa-a7e5fe9c3961" type="selectionEntry">
+                <entryLink id="0fde9c54-8dd7-ad09-051a-95f1d0c453a1" hidden="false" targetId="8d11664e-7fec-a8a2-f328-8c2bde46b0ba" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -419,7 +419,7 @@
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
-                <entryLink id="a77b623f-cef1-c0e7-e166-c4ad7504a291" hidden="false" targetId="e398f21b-b4d5-ed9b-bdb9-93d12332d40f" type="selectionEntry">
+                <entryLink id="a77b623f-cef1-c0e7-e166-c4ad7504a291" hidden="false" targetId="7d4863bd-8105-b09d-eaba-36e1199b0670" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -433,7 +433,7 @@
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
-                <entryLink id="c5dc7c64-185e-f793-438b-74a676359dbc" hidden="false" targetId="c7e70596-95a7-bf7d-cabf-316c1dbd45be" type="selectionEntry">
+                <entryLink id="c5dc7c64-185e-f793-438b-74a676359dbc" hidden="false" targetId="6fb0c3cd-8ee7-943c-c7fa-e164ebc498f6" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -468,7 +468,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="bd753dc0-ec7a-c1d4-e86d-374396803692" hidden="false" targetId="3eec7ae4-996b-9094-08ca-44acbf709699" type="selectionEntry">
+        <entryLink id="bd753dc0-ec7a-c1d4-e86d-374396803692" name="Mule" hidden="false" targetId="3eec7ae4-996b-9094-08ca-44acbf709699" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -504,7 +504,7 @@
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
-            <selectionEntryGroup id="fb98e531-dd38-b1b7-6406-4dc16197b6b6" name="One Handed Weapon" hidden="false" collective="false">
+            <selectionEntryGroup id="fb98e531-dd38-b1b7-6406-4dc16197b6b6" name="One-handed" hidden="false" collective="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -530,7 +530,7 @@
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="62880b73-20ad-3b82-cd5c-d296756dba8f" name="Two Handed Weapons" hidden="false" collective="false">
+            <selectionEntryGroup id="62880b73-20ad-3b82-cd5c-d296756dba8f" name="Two-handed" hidden="false" collective="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -556,7 +556,7 @@
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
-                <entryLink id="43b725f5-5ea3-114c-9b9c-700968a3db28" hidden="false" targetId="e398f21b-b4d5-ed9b-bdb9-93d12332d40f" type="selectionEntry">
+                <entryLink id="43b725f5-5ea3-114c-9b9c-700968a3db28" hidden="false" targetId="7d4863bd-8105-b09d-eaba-36e1199b0670" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>

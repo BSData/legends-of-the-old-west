@@ -936,6 +936,127 @@ The bow-lance may not be thrown, as the addition of a bow-string and the curve o
         <cost name="$" costTypeId="dollars" value="2.0"/>
       </costs>
     </selectionEntry>
+	<selectionEntry id="a6e0640c-62cd-e8fa-81a3-c67986f7852a" name="Two-handed Weapon" book="Legends of the Old West" page="44" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="1b9bc7f6-5b6b-d6ba-5cda-ecd4e5d0ad37" name="Two-handed Weapon" book="Legends of the Old West" page="45" hidden="false" profileTypeId="754f1218-a3c3-72ea-7b62-76e0014ec58a">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Winnin&apos; the fight" characteristicTypeId="092c290b-2e10-2264-c2ba-9d68cf7d8781" value="-1"/>
+            <characteristic name="Rolling to Wound" characteristicTypeId="56ecb49b-ec74-63ee-775e-724bbbbeb620" value="+1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="bb52aead-0f9f-9e87-f24c-2c963a5e1879" name="Requires two hands" book="Legends of the Old West" page="44" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Models may never have more than a single two-handed weapon. In addition, a fighter armed with a two-handed weapon cannot use it while mounted.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="$" costTypeId="dollars" value="0.0"/>
+      </costs>
+    </selectionEntry>
+	<selectionEntry id="3eec7ae4-996b-9094-08ca-44acbf709699" name="Mule" book="Legends of the Old West" page="94" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="2db84381-06e3-90ae-1084-cd5e4f83d00b" name="Mule" book="Legends of the Old West" page="94" hidden="false" profileTypeId="3bd53da2-0427-73ac-c089-26b340141d98">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Movement" characteristicTypeId="8d126d29-6a77-5302-5663-0c9dc8e7bc94" value="8&quot;"/>
+            <characteristic name="Strength" characteristicTypeId="b73fbc24-fd58-ac80-354c-d99223cef138" value="3"/>
+            <characteristic name="Grit" characteristicTypeId="88707a22-acc0-7367-56c3-7a54c7b9558e" value="5"/>
+            <characteristic name="Wounds" characteristicTypeId="9b216a38-57ad-0b99-a2de-c67ad73afd14" value="1"/>
+            <characteristic name="Pluck" characteristicTypeId="fbe0b323-1fa3-e7ae-1940-6b1e99751a10" value="3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b8bed06c-512b-30f1-e3b7-abee0660cba8" name="Mule" book="Legends of the Old West" page="94" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Mules may never jump obstacles. However, they only halve their move when crossing difficult terrain, rather than reducing it to a quarter.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="$" costTypeId="dollars" value="0.0"/>
+      </costs>
+    </selectionEntry>
+	<selectionEntry id="480a63f8-1336-ea68-309a-9efeb22283ce" name="Buffalo Gun" book="Legends of the Old West" page="39" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="579d9f35-e777-72f7-508b-d9ebcb677fe0" name="Buffalo Gun" book="Legends of the Old West" page="42" hidden="false" profileTypeId="93363f24-9d3c-518a-2d0b-1af2534acae6">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="387abf9d-6fa7-440c-cc68-61b68740b381" value="30&quot;"/>
+            <characteristic name="Strength" characteristicTypeId="1fc59acd-4346-6dd6-f204-1b7381412633" value="4"/>
+            <characteristic name="Move Penalty" characteristicTypeId="b27fc0a7-1925-d847-7a04-afa3218503b7" value="Full"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="ca6705ef-8234-028e-54eb-6ab9fe6ab9c8" name="Two-handed weapon" book="Legends of the Old West" page="39" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Buffalo guns are of an even bulkier construction than regular breech-loading rifles, and count as a double-handed weapon in combat.</description>
+        </rule>
+        <rule id="73105fcf-285f-47bb-24d0-c449dc1548b3" name="Blown Away" book="Legends of the Old West" page="39" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The Buffalo gun is a powerful longarm. Any model on foot that survives a hit from a Buffalo gun is knocked to the ground, where it must begin its next move, as described on page 17. This negates the standard Dive for Cover rules. Note that a mounted fighter hit by a Buffalo gun is not knocked down, as such, but must instead take a Thrown Rider test. If the mount is hit but not killed, then it is not knocked down.
+
+In addition, models hit by a Buffalo gun are always wounded on a 4 or more on the dice, regardless of their grit value, unless the required value would be less than this.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="553606cc-f514-123c-f826-c8b9d8cad33f" hidden="false" targetId="d1867680-3a86-d2fd-f61e-a8d067a04186" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="$" costTypeId="dollars" value="20.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
