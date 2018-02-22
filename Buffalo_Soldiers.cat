@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d29b9cdb-2ec6-395e-a48a-cc2a81d59d93" name="Buffalo Soldiers" book="Frontier - Blood on the Plains" page="24" revision="27" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d29b9cdb-2ec6-395e-a48a-cc2a81d59d93" name="Buffalo Soldiers" book="Frontier - Blood on the Plains" page="24" revision="28" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="ee629b35-524b-d19b-398c-992c210622c0" name="Cavalry" book="Frontier - Blood on the Plains" page="24" hidden="false">
@@ -139,7 +139,9 @@ In addition, these items always count as Common. However, items not listed on th
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd38-bb1b-a6a0-11fb" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -311,7 +313,9 @@ In addition, these items always count as Common. However, items not listed on th
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b61-4847-9f8c-9180" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -366,7 +370,9 @@ In addition, these items always count as Common. However, items not listed on th
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18cb-804c-35b1-501a" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5e3f9b28-d4ef-3b35-27c1-c6906c6fe04d" name="US Infantry" revision="17" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5e3f9b28-d4ef-3b35-27c1-c6906c6fe04d" name="US Infantry" revision="18" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="ff5f642c-9289-e2e4-22b2-2ef4a92de2ce" name="Foot Soldiers" book="Frontier - Blood on the Plains" page="25" hidden="false">
@@ -443,6 +443,13 @@ In addition, these items always count as Common. However, items not listed on th
                       <conditions/>
                       <conditionGroups/>
                     </modifier>
+                    <modifier type="set" field="hidden" value="true">
+                      <repeats/>
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="325d505d-dc43-cea2-865f-7935b79fe996" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
                   </modifiers>
                   <constraints/>
                   <categoryLinks/>
@@ -453,7 +460,22 @@ In addition, these items always count as Common. However, items not listed on th
           <entryLinks/>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="3ffd-b820-bead-ffb7" name="Guidon" hidden="false" targetId="0a6527a5-3e05-0f5b-bc42-23785fe8a632" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="dollars" value="14">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="f4137187-b815-472d-c070-c23e433f714b" name="Heroes Equipment" hidden="false" collective="false">
       <profiles/>
@@ -513,6 +535,33 @@ In addition, these items always count as Common. However, items not listed on th
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
+                <entryLink id="a9af-fff2-7152-ca9b" name="Bayonet" hidden="false" targetId="ba2fab72-4aa1-d133-9a19-386c8b129f1d" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="dollars" value="2">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="hidden" value="true">
+                      <repeats/>
+                      <conditions>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="325d505d-dc43-cea2-865f-7935b79fe996" type="equalTo"/>
+                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cfc12421-5799-eb90-84fd-a0643714442b" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions/>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="62880b73-20ad-3b82-cd5c-d296756dba8f" name="Two-handed" hidden="false" collective="false">
@@ -540,7 +589,7 @@ In addition, these items always count as Common. However, items not listed on th
                     <modifier type="set" field="hidden" value="true">
                       <repeats/>
                       <conditions>
-                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2cea49b1-e030-5f5d-b798-7020f383756b" type="atLeast"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="32b76978-26f4-f609-ffe7-584b988c3a88" type="lessThan"/>
                       </conditions>
                       <conditionGroups/>
                     </modifier>
