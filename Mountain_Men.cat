@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4d173408-11b3-5060-47af-3e2d44d1ebc1" name="Mountain Men" revision="18" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4d173408-11b3-5060-47af-3e2d44d1ebc1" name="Mountain Men" revision="19" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="99d0-d3aa-798a-d2fb" name="Preferred Skills" book="The Alamo - Victory or Death" page="74" hidden="false">
@@ -8,6 +8,13 @@
       <infoLinks/>
       <modifiers/>
       <description>The skill tables preferred by Mountain Men are Shootin&apos;, Movin&apos; and Brawlin&apos;.</description>
+    </rule>
+    <rule id="a928-88fa-411a-7b9d" name="Woodsmen" book="The Alamo - Victory or Death" page="74" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Mountain Men are used to hunting in all kinds of inhospitable terrain. Heroes and Henchmen chosen from the Mountain Men list ignore the penalties for moving through difficult terrain.</description>
     </rule>
   </rules>
   <infoLinks/>
@@ -397,7 +404,7 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="0fde9c54-8dd7-ad09-051a-95f1d0c453a1" hidden="false" targetId="8d11664e-7fec-a8a2-f328-8c2bde46b0ba" type="selectionEntry">
+                <entryLink id="0fde9c54-8dd7-ad09-051a-95f1d0c453a1" name="Longbow" hidden="false" targetId="8d11664e-7fec-a8a2-f328-8c2bde46b0ba" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -414,6 +421,11 @@
                           <conditionGroups/>
                         </conditionGroup>
                       </conditionGroups>
+                    </modifier>
+                    <modifier type="set" field="dollars" value="6">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
                     </modifier>
                   </modifiers>
                   <constraints/>

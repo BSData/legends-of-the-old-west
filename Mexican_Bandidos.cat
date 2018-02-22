@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6626e7ea-95cf-084b-6bc2-67cbf8368ad6" name="Mexican Bandidos" revision="15" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6626e7ea-95cf-084b-6bc2-67cbf8368ad6" name="Mexican Bandidos" revision="16" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
-	<rule id="c26f-0f78-4d68-f496" name="Preferred Skills" book="The Alamo - Victory or Death" page="77" hidden="false">
+    <rule id="c26f-0f78-4d68-f496" name="Preferred Skills" book="The Alamo - Victory or Death" page="77" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -312,7 +312,7 @@
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="$" costTypeId="dollars" value="8.0"/>
+        <cost name="$" costTypeId="dollars" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2b6ea5d2-aaf7-1e41-52dc-ccc189359177" name="Toughs" book="Legends of the Old West" page="53" hidden="false" collective="false" type="model">
@@ -449,7 +449,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="$" costTypeId="dollars" value="7.0"/>
+        <cost name="$" costTypeId="dollars" value="22.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -591,7 +591,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="f4bb16f8-e919-72e1-fb22-7a21b3395709" hidden="false" targetId="32b76978-26f4-f609-ffe7-584b988c3a88" type="selectionEntry">
+        <entryLink id="f4bb16f8-e919-72e1-fb22-7a21b3395709" name="Horse" hidden="false" targetId="32b76978-26f4-f609-ffe7-584b988c3a88" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -601,6 +601,11 @@
               <conditions>
                 <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d50ff934-2b64-9e23-7c7c-cde97dba5c75" type="instanceOf"/>
               </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="dollars" value="15">
+              <repeats/>
+              <conditions/>
               <conditionGroups/>
             </modifier>
           </modifiers>
