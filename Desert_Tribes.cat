@@ -9,6 +9,20 @@
       <modifiers/>
       <description>The skill tables preferred by Desert Tribes are Shootin&apos;, Movin&apos; and Brawlin&apos;.</description>
     </rule>
+    <rule id="b67f6fae-53f0-a1fb-2704-6be31dd23c2b" name="Guerillas" book="Frontier - Blood on the Plains" page="35" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Desert Tribes do not incorporate Society Warriors in the same way as other tribes, instead utilizing Guerillas (see page 36). In scenarios where the Brave is allowed to deploy on the board (not in those scenarios where they arrive later in the game), then any Guerillas in the Posse may make a full, free move before the game begins. This move follows all the normal Movin&apos; rules, and represents the stealthy tactics of the Desert Tribes.</description>
+    </rule>
+    <rule id="d3dc84d8-d309-d6b5-3774-56e6b44a3ee2" name="Counting Coup" book="Frontier - Blood on the Plains" page="35" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Apache and Navajo can only count coup by raiding. If you have specifically chosen a themed Comanche Posse, then you may count coup by scalping and by using coup-sticks.</description>
+    </rule>
   </rules>
   <infoLinks>
     <infoLink id="07fe-1f35-b492-42b5" name="Heathen" hidden="false" targetId="997f36a0-bcaa-0555-2a57-664b6a42b08d" type="rule">
@@ -18,18 +32,6 @@
       <modifiers/>
     </infoLink>
     <infoLink id="eebf-8fc6-ded5-b8a8" name="Life is Precious" hidden="false" targetId="4aad302f-62cd-384d-b541-56e2b954cc3d" type="rule">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-    </infoLink>
-    <infoLink id="3840-a47b-95e0-1b84" name="Counting Coup" hidden="false" targetId="d3dc84d8-d309-d6b5-3774-56e6b44a3ee2" type="rule">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-    </infoLink>
-    <infoLink id="0d6c-5b0f-41b0-2613" name="Guerillas" hidden="false" targetId="b67f6fae-53f0-a1fb-2704-6be31dd23c2b" type="rule">
       <profiles/>
       <rules/>
       <infoLinks/>

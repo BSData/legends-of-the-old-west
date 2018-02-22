@@ -909,6 +909,33 @@ The bow-lance may not be thrown, as the addition of a bow-string and the curve o
         <cost name="$" costTypeId="dollars" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="ba2fab72-4aa1-d133-9a19-386c8b129f1d" name="Bayonet" book="Frontier - Blood on the Plains" page="20" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="4fc31898-88b6-5e4b-7fd0-e0b146c70d5c" name="Bayonet" book="Frontier - Blood on the Plains" page="20" hidden="false" profileTypeId="754f1218-a3c3-72ea-7b62-76e0014ec58a">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Winnin&apos; the fight" characteristicTypeId="092c290b-2e10-2264-c2ba-9d68cf7d8781" value="-"/>
+            <characteristic name="Rolling to Wound" characteristicTypeId="56ecb49b-ec74-63ee-775e-724bbbbeb620" value="-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="$" costTypeId="dollars" value="2.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
@@ -945,7 +972,7 @@ The bow-lance may not be thrown, as the addition of a bow-string and the curve o
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Outlaws are lawless, desperate men. Unlike other fighters, members of an Outlaw Posse (including any Hired Guns who are currently in their employ) may shoot at a target even if there are friendly models in the way. Additionally, they may shoot indiscriminately into combats, as described on page 25.</description>
+      <description>These are lawless, desperate men. Unlike other fighters, members of this Posse (including any Hired Guns who are currently in their employ) may shoot at a target even if there are friendly models in the way. Additionally, they may shoot indiscriminately into combats, as described on page 25 of the core rulebook.</description>
     </rule>
     <rule id="c33c3916-496e-fdd2-4c2b-f02187f34866" name="Leader" book="" page="" hidden="false">
       <profiles/>
@@ -975,26 +1002,12 @@ The bow-lance may not be thrown, as the addition of a bow-string and the curve o
       <modifiers/>
       <description>Native American leaders will not risk their warriors&apos; lives unnecessarily - an admirable trait, often mistaken for cowardice by white men. Native American Posses must begin taking Head for the Hills tests when they lose a third of their models (33%) instead of half.</description>
     </rule>
-    <rule id="d3dc84d8-d309-d6b5-3774-56e6b44a3ee2" name="Counting Coup" book="Frontier - Blood on the Plains" page="35" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Apache and Navajo can only count coup by raiding. If you have specifically chosen a themed Comanche Posse, then you may count coup by scalping and by using coup-sticks.</description>
-    </rule>
     <rule id="ce59b8cd-cb06-a0b0-058a-04cb2f7e5a72" name="Cardsharp" book="Frontier - Blood on the Plains" page="29" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>Native Americans may never gain the &apos;Cardsharp&apos; skill. If they roll a 5 on the Savvy Skills table, then they gain the &apos;Trick Rider&apos; skills instead, or the &apos;Hit and Run&apos; skill if they are a member of a Desert Tribes Posse. See page 29 for more details.</description>
-    </rule>
-    <rule id="b67f6fae-53f0-a1fb-2704-6be31dd23c2b" name="Guerillas" book="Frontier - Blood on the Plains" page="35" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Desert Tribes do not incorporate Society Warriors in the same way as other tribes, instead utilizing Guerillas (see page 36). In scenarios where the Brave is allowed to deploy on the board (not in those scenarios where they arrive later in the game), then any Guerillas in the Posse may make a full, free move before the game begins. This move follows all the normal Movin&apos; rules, and represents the stealthy tactics of the Desert Tribes.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
