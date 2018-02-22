@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="4ba412f3-eea2-26c9-3152-28d5a5d55b69" name="Outlaws" revision="13" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
-  <rules/>
+  <rules>
+	<rule id="99d0-d3aa-798a-d2fb" name="Preferred Skills" book="Legends of the Old West" page="52" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>The skill tables preferred by Outlaws are Savvy, Shootin&apos; and Brawlin&apos;.</description>
+    </rule>
+  </rules>
   <infoLinks>
     <infoLink id="777e-101b-13cb-87b3" name="Life is Cheap" hidden="false" targetId="6a7509ca-1997-eecb-48d9-8cc68db0ac5b" type="rule">
       <profiles/>
@@ -20,8 +28,8 @@
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="2b5e-aa86-1482-ffd9" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="11eb-34ad-f5a4-6ab0" type="min"/>
-        <constraint field="selections" scope="2b5e-aa86-1482-ffd9" value="15.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="86c5-e845-d669-9933" type="max"/>
+        <constraint field="selections" scope="2b5e-aa86-1482-ffd9" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11eb-34ad-f5a4-6ab0" type="min"/>
+        <constraint field="selections" scope="2b5e-aa86-1482-ffd9" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86c5-e845-d669-9933" type="max"/>
       </constraints>
       <forceEntries/>
       <categoryLinks>
@@ -43,7 +51,7 @@
     </forceEntry>
   </forceEntries>
   <selectionEntries>
-    <selectionEntry id="20c29e42-b690-7510-8784-c13c2af600b6" name="Desperado" book="Legends of the Old West" page="5" hidden="false" collective="false" type="model">
+    <selectionEntry id="20c29e42-b690-7510-8784-c13c2af600b6" name="Desperado" book="Legends of the Old West" page="52" hidden="false" collective="false" type="model">
       <profiles>
         <profile id="7c6ef4dd-f9ed-4c35-6b5b-48e90eed592e" name="Desperado" book="Legends of the Old West" page="52" hidden="false" profileTypeId="26560ded-284d-ff6c-f97e-0caee6d11d0b">
           <profiles/>

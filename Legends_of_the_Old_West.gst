@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" name="Legends of the Old West" revision="30" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" name="Legends of the Old West" revision="31" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -802,7 +802,9 @@ The bow-lance may not be thrown, as the addition of a bow-string and the curve o
       </rules>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05bf-f3f8-a21f-17ca" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -936,7 +938,7 @@ The bow-lance may not be thrown, as the addition of a bow-string and the curve o
         <cost name="$" costTypeId="dollars" value="2.0"/>
       </costs>
     </selectionEntry>
-	<selectionEntry id="a6e0640c-62cd-e8fa-81a3-c67986f7852a" name="Two-handed Weapon" book="Legends of the Old West" page="44" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="a6e0640c-62cd-e8fa-81a3-c67986f7852a" name="Two-handed Weapon" book="Legends of the Old West" page="44" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="1b9bc7f6-5b6b-d6ba-5cda-ecd4e5d0ad37" name="Two-handed Weapon" book="Legends of the Old West" page="45" hidden="false" profileTypeId="754f1218-a3c3-72ea-7b62-76e0014ec58a">
           <profiles/>
@@ -969,7 +971,7 @@ The bow-lance may not be thrown, as the addition of a bow-string and the curve o
         <cost name="$" costTypeId="dollars" value="0.0"/>
       </costs>
     </selectionEntry>
-	<selectionEntry id="3eec7ae4-996b-9094-08ca-44acbf709699" name="Mule" book="Legends of the Old West" page="94" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="3eec7ae4-996b-9094-08ca-44acbf709699" name="Mule" book="Legends of the Old West" page="94" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="2db84381-06e3-90ae-1084-cd5e4f83d00b" name="Mule" book="Legends of the Old West" page="94" hidden="false" profileTypeId="3bd53da2-0427-73ac-c089-26b340141d98">
           <profiles/>
@@ -1007,7 +1009,7 @@ The bow-lance may not be thrown, as the addition of a bow-string and the curve o
         <cost name="$" costTypeId="dollars" value="0.0"/>
       </costs>
     </selectionEntry>
-	<selectionEntry id="480a63f8-1336-ea68-309a-9efeb22283ce" name="Buffalo Gun" book="Legends of the Old West" page="39" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="480a63f8-1336-ea68-309a-9efeb22283ce" name="Buffalo Gun" book="Legends of the Old West" page="39" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="579d9f35-e777-72f7-508b-d9ebcb677fe0" name="Buffalo Gun" book="Legends of the Old West" page="42" hidden="false" profileTypeId="93363f24-9d3c-518a-2d0b-1af2534acae6">
           <profiles/>
