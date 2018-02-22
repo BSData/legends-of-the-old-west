@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9578a3ca-6bb1-a762-77ec-1b6342263bc3" name="Desert Tribes" revision="19" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9578a3ca-6bb1-a762-77ec-1b6342263bc3" name="Desert Tribes" revision="21" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="99d0-d3aa-798a-d2fb" name="Preferred Skills" book="Frontier - Blood on the Plains" page="35" hidden="false">
@@ -8,13 +8,6 @@
       <infoLinks/>
       <modifiers/>
       <description>The skill tables preferred by Desert Tribes are Shootin&apos;, Movin&apos; and Brawlin&apos;.</description>
-    </rule>
-    <rule id="b67f6fae-53f0-a1fb-2704-6be31dd23c2b" name="Guerillas" book="Frontier - Blood on the Plains" page="35" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Desert Tribes do not incorporate Society Warriors in the same way as other tribes, instead utilizing Guerillas (see page 36). In scenarios where the Brave is allowed to deploy on the board (not in those scenarios where they arrive later in the game), then any Guerillas in the Posse may make a full, free move before the game begins. This move follows all the normal Movin&apos; rules, and represents the stealthy tactics of the Desert Tribes.</description>
     </rule>
     <rule id="d3dc84d8-d309-d6b5-3774-56e6b44a3ee2" name="Counting Coup" book="Frontier - Blood on the Plains" page="35" hidden="false">
       <profiles/>
@@ -52,10 +45,25 @@
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="86c5-e845-d669-9933" value="15">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4541-d347-77a0-f770" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="11eb-34ad-f5a4-6ab0" value="4">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4541-d347-77a0-f770" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
-        <constraint field="selections" scope="2b5e-aa86-1482-ffd9" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="11eb-34ad-f5a4-6ab0" type="min"/>
-        <constraint field="selections" scope="2b5e-aa86-1482-ffd9" value="14.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="86c5-e845-d669-9933" type="max"/>
+        <constraint field="selections" scope="2b5e-aa86-1482-ffd9" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11eb-34ad-f5a4-6ab0" type="min"/>
+        <constraint field="selections" scope="2b5e-aa86-1482-ffd9" value="14.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86c5-e845-d669-9933" type="max"/>
       </constraints>
       <forceEntries/>
       <categoryLinks>
@@ -109,13 +117,21 @@
         </categoryLink>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="7bab396d-fb6c-b60b-a137-c096f167e0ef" name="Guerilla" book="Frontier - Blood on the Plains" page="31" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="5c62-baa6-1f9b-3dbc" name="Guerilla" book="Frontier - Blood on the Plains" page="31" hidden="false" collective="false" type="upgrade">
           <profiles/>
-          <rules/>
+          <rules>
+            <rule id="1e26-cfb1-b1aa-88eb" name="Guerilla" book="Frontier - Blood on the Plains" page="35" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Desert Tribes do not incorporate Society Warriors in the same way as other tribes, instead utilizing Guerillas (see page 36). In scenarios where the Brave is allowed to deploy on the board (not in those scenarios where they arrive later in the game), then any Guerillas in the Posse may make a full, free move before the game begins. This move follows all the normal Movin&apos; rules, and represents the stealthy tactics of the Desert Tribes.</description>
+            </rule>
+          </rules>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0c47-60ae-8a33-a550" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -128,7 +144,7 @@
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="4e03280a-d8d1-00f0-fc8a-cc429f657b6a" hidden="false" targetId="1c0793bb-7ab0-3382-4bdb-7d16549e78bf" type="selectionEntryGroup">
+        <entryLink id="4e03280a-d8d1-00f0-fc8a-cc429f657b6a" name="Henchmen Equipment" hidden="false" targetId="1c0793bb-7ab0-3382-4bdb-7d16549e78bf" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -247,27 +263,10 @@
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="22115f60-f2d3-e4dc-d76e-0779e74ecba1" name="Comanche Posse" page="0" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="$" costTypeId="dollars" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="5b98131c-93df-13ae-3007-9d81457e695c" hidden="false" targetId="f4137187-b815-472d-c070-c23e433f714b" type="selectionEntryGroup">
+        <entryLink id="5b98131c-93df-13ae-3007-9d81457e695c" name="Heroes Equipment" hidden="false" targetId="f4137187-b815-472d-c070-c23e433f714b" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -329,6 +328,22 @@
       </entryLinks>
       <costs>
         <cost name="$" costTypeId="dollars" value="13.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4541-d347-77a0-f770" name="Comanche Posse" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2715-cd3a-42f5-e3d5" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="$" costTypeId="dollars" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -498,6 +513,20 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="90c2-0114-fc74-a295" name="Medicine Shield" hidden="false" targetId="ce171f53-aad7-ed0b-c250-25f848b5bf86" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="dollars" value="7">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="f4137187-b815-472d-c070-c23e433f714b" name="Heroes Equipment" hidden="false" collective="false">
@@ -515,7 +544,9 @@
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <repeats/>
-              <conditions/>
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4541-d347-77a0-f770" type="lessThan"/>
+              </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
@@ -694,7 +725,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="a8927c73-b803-ccae-b83e-c3e817c1dba5" hidden="false" targetId="ce171f53-aad7-ed0b-c250-25f848b5bf86" type="selectionEntry">
+        <entryLink id="a8927c73-b803-ccae-b83e-c3e817c1dba5" name="Medicine Shield" hidden="false" targetId="ce171f53-aad7-ed0b-c250-25f848b5bf86" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -702,7 +733,7 @@
             <modifier type="set" field="hidden" value="true">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="22115f60-f2d3-e4dc-d76e-0779e74ecba1" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4541-d347-77a0-f770" type="lessThan"/>
               </conditions>
               <conditionGroups/>
             </modifier>
