@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" name="Legends of the Old West" revision="31" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" name="Legends of the Old West" revision="33" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -69,16 +69,45 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
+    <categoryEntry id="7a92-080d-d747-ea58" name="Hired Guns" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="5ca9-6817-4910-c6dd" name="Legends" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="fe18-206e-a841-7ef3" name="Unlimited" hidden="true">
+    <forceEntry id="3ea6-d069-cdef-d16a" name="Unlimited" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <forceEntries/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="099d-94ac-8cd5-22bc" name="Hired Guns" hidden="false" targetId="7a92-080d-d747-ea58" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e0a8-cb6d-e0b0-dd65" name="Legends" hidden="false" targetId="5ca9-6817-4910-c6dd" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
     </forceEntry>
   </forceEntries>
   <selectionEntries/>
@@ -1131,6 +1160,63 @@ In addition, models hit by a Buffalo gun are always wounded on a 4 or more on th
       <infoLinks/>
       <modifiers/>
       <description>Native Americans may never gain the &apos;Cardsharp&apos; skill. If they roll a 5 on the Savvy Skills table, then they gain the &apos;Trick Rider&apos; skills instead, or the &apos;Hit and Run&apos; skill if they are a member of a Desert Tribes Posse. See page 29 for more details.</description>
+    </rule>
+    <rule id="9eb0-1e91-7d0d-92a7" name="Blast Area" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Everyone one under balst template, take D6 auto hits.</description>
+    </rule>
+    <rule id="65df-b972-2a11-20e3" name="Famous" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This Characters reputation precedes them wherever they go. They may expend one free point of Fame per turn. This point may be spent without reducing his Fame store. Any additional points of Fame spent during the turn will reduce his Fame store as normal
+</description>
+    </rule>
+    <rule id="6942-09d0-614a-8b8b" name="Fast Draw" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>The fighter is notoriously quick on the draw. He may call a single Quickdraw at the start of each Shootin&apos; phase without reducing his Fame store, even if he has none remaining, as long as he is using a sixgun. This Quickdraw applies only to the firer - he may never use this ability to shout `Fire!&apos; (see page 35).</description>
+    </rule>
+    <rule id="6ea8-bc80-6757-e133" name="Fearsome Reputation" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>The fighter is infamous and other combatants are loathe to attack him. Anyone wishing to charge or shoot at the fighter with this skill must first pass a Pluck test, as described in the Pluck section. If the test is failed, the fighter may do nothing else in that phase.</description>
+    </rule>
+    <rule id="c57c-5b5f-4b96-842b" name="Jurisdiction" book="Legends of the Old West" page="97" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If, at the end of a game in which the Marshal takes part, an enemy model is taken captive (see the Serious Injurie table, pg 86), then the Marshal will ALWAYS collect the bounty - the Posse does not have the option to trade captives.</description>
+    </rule>
+    <rule id="3079-cc9c-f290-e25e" name="Peace Officer" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Can only be hired by Lawmen Posses</description>
+    </rule>
+    <rule id="685f-1827-b42c-8ab8" name="Pugilist" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>The fighter is especially skilled at brawling and unarmed combat, and does not suffer the usual penalties for fighting in this manner. Even when unarmed, the fighter counts as using a hand weapon.</description>
+    </rule>
+    <rule id="9bfe-5e60-1784-b8e2" name="Tenacious" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This Character is cool under fire and as brave as they come. They automatically passes any Pluck tests he is required to make. This does not, however, apply to Head for the Hills tests.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
