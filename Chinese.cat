@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c0408823-23d9-6c77-c23a-dc19c905398d" name="Cowboys" book="Legends of the Old West" page="48" revision="21" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f0aa-e5fc-c29d-a247" name="Chinese Tong" book="" page="" revision="3" battleScribeVersion="2.01" authorName="" authorContact="" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="c26f-0f78-4d68-f496" name="Preferred Skills" book="Legends of the Old West" page="48" hidden="false">
@@ -9,8 +9,29 @@
       <modifiers/>
       <description>The skill tables preferred by Cowboys are Brawlin&apos;, Shootin&apos; and Movin&apos;.</description>
     </rule>
+    <rule id="6386-4241-1ab7-f672" name="Heathen" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>The Chinese Tong are highly spiritual, but rarely have any time for Christian teaching. As such, they are immune to the ramblings of the Preacher.</description>
+    </rule>
+    <rule id="f237-6d0d-5366-da7c" name="Martial Artist" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>All members od a Tong Posse have, atthe very least, a rudimentary understanding of the martial arts. They may use all the special rules associated with martial arts weapons.</description>
+    </rule>
   </rules>
-  <infoLinks/>
+  <infoLinks>
+    <infoLink id="1bbc-c14a-d71e-d067" name="Life is Cheap" hidden="false" targetId="6a7509ca-1997-eecb-48d9-8cc68db0ac5b" type="rule">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </infoLink>
+  </infoLinks>
   <costTypes/>
   <profileTypes/>
   <categoryEntries/>
@@ -45,15 +66,7 @@
   </forceEntries>
   <selectionEntries/>
   <entryLinks>
-    <entryLink id="f9c0-ea1f-7a24-5570" name="Wranglers" hidden="false" targetId="f9d8-92b2-978f-542e" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-    </entryLink>
-    <entryLink id="2a6b-c76e-e849-d39d" name="Buckaroos" hidden="false" targetId="fc4a-2bdf-9669-3439" type="selectionEntry">
+    <entryLink id="f9c0-ea1f-7a24-5570" name="Coolies" hidden="false" targetId="f9d8-92b2-978f-542e" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -87,45 +100,28 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="f9d8-92b2-978f-542e" name="Wranglers" book="Legends of the Old West" page="49" hidden="false" collective="false" type="model">
+    <selectionEntry id="f9d8-92b2-978f-542e" name="Coolies" book="" page="" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="6af9-87a5-1661-9940" name="Wranglers" book="Legends of the Old West" page="49" hidden="false" profileTypeId="4fd1f252-46d0-258f-b859-6a1369d18a86">
+        <profile id="6af9-87a5-1661-9940" name="Coolies" book="" page="" hidden="false" profileTypeId="4fd1f252-46d0-258f-b859-6a1369d18a86">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Shootin&apos;" characteristicTypeId="f1d3895a-2a29-b294-f9c6-27aac74c5d7b" value="5+"/>
+            <characteristic name="Shootin&apos;" characteristicTypeId="f1d3895a-2a29-b294-f9c6-27aac74c5d7b" value="6+"/>
             <characteristic name="Fightin&apos;" characteristicTypeId="c8093fa2-8706-b4bb-71e6-8d6b31f64993" value="3"/>
             <characteristic name="Strength" characteristicTypeId="c5c6f55c-1659-dfbc-79a8-5f34c5fbdcf0" value="3"/>
             <characteristic name="Grit" characteristicTypeId="4601238a-b78a-7a59-2db5-824b0ea48276" value="3"/>
             <characteristic name="Attacks" characteristicTypeId="c34ada50-115d-7b31-7297-83853d169908" value="1"/>
             <characteristic name="Wounds" characteristicTypeId="b56f3e1a-7fd5-bda9-a124-22b4d68f1155" value="1"/>
-            <characteristic name="Pluck" characteristicTypeId="69dbe09e-7401-7be3-500c-e0709f0e5f42" value="3"/>
+            <characteristic name="Pluck" characteristicTypeId="69dbe09e-7401-7be3-500c-e0709f0e5f42" value="2"/>
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="c043-1cf8-c0c8-a77d" name="Mounted Fighter" book="Legends of the Old West" page="49" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Wranglers always have a horse. This is factored into their starting cost.</description>
-        </rule>
-        <rule id="4d56-e7a5-7c75-d0b9" name="Rope Expert" book="Legends of the Old West" page="49" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>When using a lasso, a Wrangler always hits on the dice score of 3+, regardless of his Shootin&apos; value.</description>
-        </rule>
-      </rules>
+      <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="048c-80c3-0230-331a" type="max"/>
-      </constraints>
+      <constraints/>
       <categoryLinks>
         <categoryLink id="5775-03c1-bd63-4970" hidden="false" targetId="50528bc6-df85-9543-2cfa-08bf960a74e2" primary="true">
           <profiles/>
@@ -147,105 +143,14 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="1.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="587f-fbc5-defd-0736" name="Mounted Fighter" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6f77-4bde-e6b3-20cb" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0a63-da51-9425-da91" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="6ca8-5c92-c590-c4dd" name="Horse" hidden="false" targetId="32b76978-26f4-f609-ffe7-584b988c3a88" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5125-3381-7a61-0d35" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b08-d685-e2e4-17bc" type="max"/>
-              </constraints>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="c23b-8d6d-97ab-864b" hidden="false" targetId="1c0793bb-7ab0-3382-4bdb-7d16549e78bf" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name=" $" costTypeId="dollars" value="22.0"/>
-        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="5.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="fc4a-2bdf-9669-3439" name="Buckaroos" book="Legends of the Old West" page="49" hidden="false" collective="false" type="model">
-      <profiles>
-        <profile id="eb36-8d40-cdfa-5263" name="Buckaroos" book="Legends of the Old West" page="49" hidden="false" profileTypeId="4fd1f252-46d0-258f-b859-6a1369d18a86">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Shootin&apos;" characteristicTypeId="f1d3895a-2a29-b294-f9c6-27aac74c5d7b" value="4+"/>
-            <characteristic name="Fightin&apos;" characteristicTypeId="c8093fa2-8706-b4bb-71e6-8d6b31f64993" value="3"/>
-            <characteristic name="Strength" characteristicTypeId="c5c6f55c-1659-dfbc-79a8-5f34c5fbdcf0" value="3"/>
-            <characteristic name="Grit" characteristicTypeId="4601238a-b78a-7a59-2db5-824b0ea48276" value="3"/>
-            <characteristic name="Attacks" characteristicTypeId="c34ada50-115d-7b31-7297-83853d169908" value="1"/>
-            <characteristic name="Wounds" characteristicTypeId="b56f3e1a-7fd5-bda9-a124-22b4d68f1155" value="1"/>
-            <characteristic name="Pluck" characteristicTypeId="69dbe09e-7401-7be3-500c-e0709f0e5f42" value="3"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f627-39c0-da91-94b7" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="b4ac-89ed-cc0b-1e00" hidden="false" targetId="50528bc6-df85-9543-2cfa-08bf960a74e2" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="d202-d740-fc90-c5ea" name="Experince" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="1.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="1.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="414e-1619-3305-9662" name="Henchmen Equipment" hidden="false" targetId="1c0793bb-7ab0-3382-4bdb-7d16549e78bf" type="selectionEntryGroup">
+        <entryLink id="c23b-8d6d-97ab-864b" name="Henchmen Equipment" hidden="false" targetId="1c0793bb-7ab0-3382-4bdb-7d16549e78bf" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -255,13 +160,13 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" $" costTypeId="dollars" value="11.0"/>
+        <cost name=" $" costTypeId="dollars" value="6.0"/>
         <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6d1c-f2ca-57c2-574c" name="Cowpokes" book="Legends of the Old West" page="49" hidden="false" collective="false" type="model">
+    <selectionEntry id="6d1c-f2ca-57c2-574c" name="Gang Fighter" book="" page="" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="0de6-bce5-cd88-009d" name="Cowpokes" book="Legends of the Old West" page="49" hidden="false" profileTypeId="4fd1f252-46d0-258f-b859-6a1369d18a86">
+        <profile id="0de6-bce5-cd88-009d" name="Gang Fighter" book="" page="" hidden="false" profileTypeId="4fd1f252-46d0-258f-b859-6a1369d18a86">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -280,7 +185,9 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5f59-4ca2-72ca-1a91" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="96ec-4ad7-8876-8231" hidden="false" targetId="50528bc6-df85-9543-2cfa-08bf960a74e2" primary="true">
           <profiles/>
@@ -302,7 +209,8 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="1.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="1.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -318,27 +226,27 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" $" costTypeId="dollars" value="9.0"/>
+        <cost name=" $" costTypeId="dollars" value="8.0"/>
         <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="67e5-3439-2c82-fff7" name="Trail Boss" book="Legends of the Old West" page="48" hidden="false" collective="false" type="model">
+    <selectionEntry id="67e5-3439-2c82-fff7" name="Tong Father" book="" page="" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="6031-1399-f930-a044" name="Trail Boss" book="Legends of the Old West" page="48" hidden="false" profileTypeId="26560ded-284d-ff6c-f97e-0caee6d11d0b">
+        <profile id="6031-1399-f930-a044" name="Tong Father" book="" page="" hidden="false" profileTypeId="26560ded-284d-ff6c-f97e-0caee6d11d0b">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Shootin&apos;" characteristicTypeId="34000175-fc20-3119-ba49-d9359dd221f7" value="4+"/>
-            <characteristic name="Fightin&apos;" characteristicTypeId="f663c57a-de34-3c05-bc13-2adf5e4c1e89" value="4"/>
+            <characteristic name="Shootin&apos;" characteristicTypeId="34000175-fc20-3119-ba49-d9359dd221f7" value="5+"/>
+            <characteristic name="Fightin&apos;" characteristicTypeId="f663c57a-de34-3c05-bc13-2adf5e4c1e89" value="3"/>
             <characteristic name="Strength" characteristicTypeId="da422735-4e54-c44d-52ec-d2b7c09f66f2" value="3"/>
-            <characteristic name="Grit" characteristicTypeId="5224b0eb-2612-2135-c3f9-ff08c694c198" value="4"/>
+            <characteristic name="Grit" characteristicTypeId="5224b0eb-2612-2135-c3f9-ff08c694c198" value="3"/>
             <characteristic name="Attacks" characteristicTypeId="d840aef3-2b26-3431-da97-e73cba904790" value="1"/>
             <characteristic name="Wounds" characteristicTypeId="841dd19f-3cc0-5603-53b7-5b02944f89a2" value="2"/>
             <characteristic name="Pluck" characteristicTypeId="88e648e8-c0d7-06ed-1470-b1cf27fe46e8" value="4"/>
             <characteristic name="Fame" characteristicTypeId="317776fe-3661-4ef7-60ba-d7afa4d441f8" value="1"/>
-            <characteristic name="Fortune" characteristicTypeId="2f1196a1-1189-fb46-8769-746f282301b0" value="1"/>
+            <characteristic name="Fortune" characteristicTypeId="2f1196a1-1189-fb46-8769-746f282301b0" value="2"/>
           </characteristics>
         </profile>
       </profiles>
@@ -436,7 +344,8 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="1.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="1.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -456,16 +365,16 @@
         <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="257f-8d6e-893b-c813" name="Greenhorns" book="Legends of the Old West" page="48" hidden="false" collective="false" type="model">
+    <selectionEntry id="257f-8d6e-893b-c813" name="Hatchetman" book="" page="" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="f47c-1dad-49d9-7f41" name="Greenhorns" book="Legends of the Old West" page="48" hidden="false" profileTypeId="26560ded-284d-ff6c-f97e-0caee6d11d0b">
+        <profile id="f47c-1dad-49d9-7f41" name="Hatchetman" book="" page="" hidden="false" profileTypeId="26560ded-284d-ff6c-f97e-0caee6d11d0b">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Shootin&apos;" characteristicTypeId="34000175-fc20-3119-ba49-d9359dd221f7" value="5+"/>
-            <characteristic name="Fightin&apos;" characteristicTypeId="f663c57a-de34-3c05-bc13-2adf5e4c1e89" value="3"/>
+            <characteristic name="Shootin&apos;" characteristicTypeId="34000175-fc20-3119-ba49-d9359dd221f7" value="4+"/>
+            <characteristic name="Fightin&apos;" characteristicTypeId="f663c57a-de34-3c05-bc13-2adf5e4c1e89" value="4"/>
             <characteristic name="Strength" characteristicTypeId="da422735-4e54-c44d-52ec-d2b7c09f66f2" value="3"/>
             <characteristic name="Grit" characteristicTypeId="5224b0eb-2612-2135-c3f9-ff08c694c198" value="3"/>
             <characteristic name="Attacks" characteristicTypeId="d840aef3-2b26-3431-da97-e73cba904790" value="1"/>
@@ -476,11 +385,19 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules/>
+      <rules>
+        <rule id="7102-83ed-002e-0339" name="Hatchet Fighter" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If a Hatchetman is armed with two hand weapons, he gains 1 extra Attack in the Fightin&apos; phase. Chinese swords and other weapons that &apos;count as&apos; hand weapons can be used to claim this bonus, but the special rules of those weapons cannot be used in the same turn that you claim the extra Attack.</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0376-8050-337f-3d77" type="max"/>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0376-8050-337f-3d77" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="1819-4fbc-1808-27c4" hidden="false" targetId="a99ce2af-4b23-caf3-113b-8864881eeb09" primary="true">
@@ -554,7 +471,8 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="1.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="1.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -570,8 +488,176 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" $" costTypeId="dollars" value="15.0"/>
+        <cost name=" $" costTypeId="dollars" value="16.0"/>
         <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1e8a-07b1-c6ae-b278" name="Chinese Sword" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="3f9f-ef78-dc36-ee81" name="Chinese Sword" hidden="false" profileTypeId="754f1218-a3c3-72ea-7b62-76e0014ec58a" profileTypeName="Fightin&apos; Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Winnin&apos; the fight" characteristicTypeId="092c290b-2e10-2264-c2ba-9d68cf7d8781" value="Special"/>
+            <characteristic name="Rolling to Wound" characteristicTypeId="56ecb49b-ec74-63ee-775e-724bbbbeb620" value="-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="6124-b116-3cb7-2a16" name="Chinese Sword" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>In the hands of a Chinese fighter, a sword counts as a hand weapon. In addition, the model may roll an extra dice when determining who wins a fight, and may discard the lowest score.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="63b3-5d46-bfde-4523" name="Martial Arts Weapons" hidden="false" targetId="a74e-8a75-8f11-241d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3dee-1a72-b8d6-a560" name="Chinese Staff" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="edd2-1954-5081-45aa" name="Chinese Staff" hidden="false" profileTypeId="754f1218-a3c3-72ea-7b62-76e0014ec58a" profileTypeName="Fightin&apos; Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Winnin&apos; the fight" characteristicTypeId="092c290b-2e10-2264-c2ba-9d68cf7d8781" value="-"/>
+            <characteristic name="Rolling to Wound" characteristicTypeId="56ecb49b-ec74-63ee-775e-724bbbbeb620" value="-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="2498-f733-4944-1ef7" name="Chinese Staff" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>In the hands of a Chinese fighter, the staff counts as a hand weapon. In addition, the user may choose to fight defensively.If they do tis, they may double the number of the dice they roll to see who wins a fight. However, they may not strike blows should they win, simply pushing back thei opponents instead.
+
+In a multiple fight where several fighters on one side have Chinese staffs, defensive fighting is only effective if all the staff-armed fighters do it. All the fighters on one side must fight defensively, or else none of them can. Additionally, a fighter with a pole-arm may not support a fighter who is fighting defensively with a staff.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="3abc-2fee-13a9-7fc2" name="Martial Arts Weapons" hidden="false" targetId="a74e-8a75-8f11-241d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6389-4a00-b9de-381b" name="Nunchaku" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="9c4b-c883-b358-d236" name="Nunchaku" hidden="false" profileTypeId="754f1218-a3c3-72ea-7b62-76e0014ec58a" profileTypeName="Fightin&apos; Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Winnin&apos; the fight" characteristicTypeId="092c290b-2e10-2264-c2ba-9d68cf7d8781" value="-"/>
+            <characteristic name="Rolling to Wound" characteristicTypeId="56ecb49b-ec74-63ee-775e-724bbbbeb620" value="-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b164-e5b3-b34b-aba0" name="Nunchaku" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>In the hands of a Chinese fighter, nunchaku count as hand weapons. Additionally, the user may make a &apos;flurry&apos; attack instead of his normal attacks in a fight. Declare that the flurry is being used at the start of the fight. The fighter gains a bonus Attack for the whole Fightin&apos; phase. However, if he scores two or more 1s when rolling to determine who wins the fight, then the weapon entangles him and he may not strike. Fame points may be spent to avoid the occurrence.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="472f-2beb-5878-63f3" name="Martial Arts Weapons" hidden="false" targetId="a74e-8a75-8f11-241d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b5d3-9091-fc88-bd65" name="Chinese Pole-arm" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="9ea5-b15d-eb7a-15e4" name="Chinese Pole-arm" hidden="false" profileTypeId="754f1218-a3c3-72ea-7b62-76e0014ec58a" profileTypeName="Fightin&apos; Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Winnin&apos; the fight" characteristicTypeId="092c290b-2e10-2264-c2ba-9d68cf7d8781" value="-"/>
+            <characteristic name="Rolling to Wound" characteristicTypeId="56ecb49b-ec74-63ee-775e-724bbbbeb620" value="-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="5f40-5afa-313e-da92" name="Chinese Pole-arm" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>In the hands of a Chinese fighter, a pole-arm counts as a hand weapon. Additionally, a fighter on foot armed with a pole-arm can contribute one attack to a fight if he is in base contact with a friend who is touching an enemy. The length of the weapon allows him to &apos;support&apos; his own comrade against the foe. The fighter with the pole-arm may not use this supporting attack if he is himself engaged by an enemy. The friend being supported muat also be on foot.
+
+A fighter with a pole-arm who is supporting a friend is not part of the combat for all intents and purposes (ie, his Strength, Fightin&apos;, Attacks and Fame values are not used at all). A support sttack only ever lends one extra dice to the friend.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="6671-953e-565b-241a" name="Martial Arts Weapons" hidden="false" targetId="a74e-8a75-8f11-241d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -611,7 +697,7 @@
                   <rules/>
                   <infoLinks/>
                   <modifiers>
-                    <modifier type="set" field="dollars" value="5.0">
+                    <modifier type="set" field="dollars" value="6">
                       <repeats/>
                       <conditions/>
                       <conditionGroups/>
@@ -634,6 +720,62 @@
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
+                <entryLink id="d373-746c-b94d-8a3f" name="Chinese Staff" hidden="false" targetId="3dee-1a72-b8d6-a560" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="dollars" value="5">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="6927-86bd-ed08-78cc" name="Chinese Pole-arm" hidden="false" targetId="b5d3-9091-fc88-bd65" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="dollars" value="5">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="1127-e976-084c-2162" name="Nunchaku" hidden="false" targetId="6389-4a00-b9de-381b" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="dollars" value="6">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="4742-0321-2d1b-9743" name="Thrown Weapon" hidden="false" targetId="392e-94ef-0608-a852" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="dollars" value="3">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="a449-24a0-e02b-1929" name="Two-handed" hidden="false" collective="false">
@@ -648,26 +790,12 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="e467-2a34-b013-0d0f" name="Shotgun" hidden="false" targetId="a5bafd27-8579-3a5c-92d8-2f9e251978b2" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers>
-                    <modifier type="set" field="dollars" value="13.0">
-                      <repeats/>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
                 <entryLink id="584d-4a85-0a8f-ca40" name="Rifle" hidden="false" targetId="325d505d-dc43-cea2-865f-7935b79fe996" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers>
-                    <modifier type="set" field="dollars" value="16.0">
+                    <modifier type="set" field="dollars" value="15">
                       <repeats/>
                       <conditions/>
                       <conditionGroups/>
@@ -676,12 +804,12 @@
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
-                <entryLink id="ddbc-a881-0c2b-bcdd" name="Repeating Rifle" hidden="false" targetId="3b44754e-8d0f-0f0b-4a41-319daef4bec6" type="selectionEntry">
+                <entryLink id="5939-fcc3-8620-1d27" name="Two-handed Weapon" hidden="false" targetId="a6e0640c-62cd-e8fa-81a3-c67986f7852a" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers>
-                    <modifier type="set" field="dollars" value="12.0">
+                    <modifier type="set" field="dollars" value="4">
                       <repeats/>
                       <conditions/>
                       <conditionGroups/>
@@ -690,23 +818,14 @@
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
-                <entryLink id="7333-38a4-1728-5f8b" name="Lasso" hidden="false" targetId="54a0d678-b98e-e111-a87b-f2ea7af84d20" type="selectionEntry">
+                <entryLink id="00eb-5ec7-6c6c-dc1a" name="Musket" hidden="false" targetId="6fb0c3cd-8ee7-943c-c7fa-e164ebc498f6" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers>
-                    <modifier type="set" field="dollars" value="6">
-                      <repeats/>
-                      <conditions>
-                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f9d8-92b2-978f-542e" type="instanceOf"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </modifier>
                     <modifier type="set" field="dollars" value="8">
                       <repeats/>
-                      <conditions>
-                        <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f9d8-92b2-978f-542e" type="notInstanceOf"/>
-                      </conditions>
+                      <conditions/>
                       <conditionGroups/>
                     </modifier>
                   </modifiers>
@@ -719,31 +838,7 @@
           <entryLinks/>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="f4bb16f8-e919-72e1-fb22-7a21b3395709" name="Horse" hidden="false" targetId="32b76978-26f4-f609-ffe7-584b988c3a88" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f9d8-92b2-978f-542e" type="instanceOf"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="dollars" value="12">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f9d8-92b2-978f-542e" type="notInstanceOf"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
+      <entryLinks/>
     </selectionEntryGroup>
     <selectionEntryGroup id="f4137187-b815-472d-c070-c23e433f714b" name="Heroes Equipment" hidden="false" collective="false">
       <profiles/>
@@ -789,12 +884,12 @@
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
-                <entryLink id="7b78-d416-ffec-9912" name="Heavy Pistol" hidden="false" targetId="a57a22ef-57bd-dae8-fc17-46a31916fec6" type="selectionEntry">
+                <entryLink id="6626-5ebd-80be-12d9" name="Sixgun" hidden="false" targetId="760d600b-f6cd-e25a-56aa-a5aea350ba20" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers>
-                    <modifier type="set" field="dollars" value="12.0">
+                    <modifier type="set" field="dollars" value="5.0">
                       <repeats/>
                       <conditions/>
                       <conditionGroups/>
@@ -803,12 +898,68 @@
                   <constraints/>
                   <categoryLinks/>
                 </entryLink>
-                <entryLink id="6626-5ebd-80be-12d9" name="Sixgun" hidden="false" targetId="760d600b-f6cd-e25a-56aa-a5aea350ba20" type="selectionEntry">
+                <entryLink id="6137-a8c1-d0b0-3090" name="Chinese Sword" hidden="false" targetId="1e8a-07b1-c6ae-b278" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers>
-                    <modifier type="set" field="dollars" value="5.0">
+                    <modifier type="set" field="dollars" value="3">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="970f-577e-ebb8-fcc5" name="Chinese Staff" hidden="false" targetId="3dee-1a72-b8d6-a560" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="dollars" value="4">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="0067-e79c-d1ba-78f7" name="Chinese Pole-arm" hidden="false" targetId="b5d3-9091-fc88-bd65" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="dollars" value="4">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="30d9-a27b-5659-6ab4" name="Nunchaku" hidden="false" targetId="6389-4a00-b9de-381b" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="dollars" value="4">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+                <entryLink id="98c9-574c-1fa3-8bc7" name="Thrown Weapon" hidden="false" targetId="392e-94ef-0608-a852" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="dollars" value="3">
                       <repeats/>
                       <conditions/>
                       <conditionGroups/>
@@ -831,40 +982,12 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks>
-                <entryLink id="e30c-27dd-b3f0-3d8d" name="Lasso" hidden="false" targetId="54a0d678-b98e-e111-a87b-f2ea7af84d20" type="selectionEntry">
+                <entryLink id="85dc-0cdb-eecc-da84" name="Rifle" hidden="false" targetId="325d505d-dc43-cea2-865f-7935b79fe996" type="selectionEntry">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers>
-                    <modifier type="set" field="dollars" value="10.0">
-                      <repeats/>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="deaa-e094-f881-6a07" name="Repeating Rifle" hidden="false" targetId="3b44754e-8d0f-0f0b-4a41-319daef4bec6" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers>
-                    <modifier type="set" field="dollars" value="16.0">
-                      <repeats/>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                  <constraints/>
-                  <categoryLinks/>
-                </entryLink>
-                <entryLink id="9290-b346-470e-62c1" name="Shotgun" hidden="false" targetId="a5bafd27-8579-3a5c-92d8-2f9e251978b2" type="selectionEntry">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers>
-                    <modifier type="set" field="dollars" value="12">
+                    <modifier type="set" field="dollars" value="14">
                       <repeats/>
                       <conditions/>
                       <conditionGroups/>
@@ -879,22 +1002,7 @@
           <entryLinks/>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="e9d90a20-2846-8a92-ea56-2e877b47f101" name="Horse" hidden="false" targetId="32b76978-26f4-f609-ffe7-584b988c3a88" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="dollars" value="16.0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
+      <entryLinks/>
     </selectionEntryGroup>
     <selectionEntryGroup id="6d84-0f27-e9f0-39ed" name="Brawlin&apos; Skills  -  Preferred" hidden="false" collective="false">
       <profiles/>
@@ -1646,6 +1754,14 @@ All models engaged in a fight with this fighter must&apos; pass a Pluck test or 
       <entryLinks/>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
-  <sharedRules/>
+  <sharedRules>
+    <rule id="a74e-8a75-8f11-241d" name="Martial Arts Weapons" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Martial arts weapons can only be used effectively by Chinese models. In the hands of any other model, all martial arts weapons count as Improvised Weapons, and do not use any of their own rules.</description>
+    </rule>
+  </sharedRules>
   <sharedProfiles/>
 </catalogue>

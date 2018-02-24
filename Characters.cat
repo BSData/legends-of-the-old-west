@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="02cd-4054-2371-38b6" name="Characters" revision="5" battleScribeVersion="2.01" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="28" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="02cd-4054-2371-38b6" name="Characters" revision="6" battleScribeVersion="2.01" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="28" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -105,7 +105,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="$" costTypeId="dollars" value="0.0"/>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="239f-33f1-e789-350f" name="Free Trapper" hidden="false" collective="false" type="model">
@@ -188,7 +189,22 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="$" costTypeId="dollars" value="0.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1ce1-efc6-b7d3-5e86" name="Experince" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="1.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -252,7 +268,8 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="$" costTypeId="dollars" value="16.0"/>
+        <cost name=" $" costTypeId="dollars" value="16.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c2fe-9f66-8cca-5271" name="Gunslinger" hidden="false" collective="false" type="model">
@@ -357,7 +374,22 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="$" costTypeId="dollars" value="0.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2da6-f5b8-bef0-47f5" name="Experince" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="1.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -393,7 +425,8 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="$" costTypeId="dollars" value="30.0"/>
+        <cost name=" $" costTypeId="dollars" value="30.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="24cc-6e1e-137b-7e74" name="Preracher" hidden="false" collective="false" type="model">
@@ -460,7 +493,8 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="$" costTypeId="dollars" value="0.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b249-6057-fbb2-8dd5" name="Skills" hidden="false" collective="false" type="upgrade">
@@ -502,7 +536,22 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="$" costTypeId="dollars" value="0.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="52c5-7425-c750-4902" name="Experince" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="1.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -543,7 +592,8 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="$" costTypeId="dollars" value="20.0"/>
+        <cost name=" $" costTypeId="dollars" value="20.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="16.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="01bf-29df-83d0-161e" name="Prize Fighter" hidden="false" collective="false" type="model">
@@ -644,14 +694,30 @@ NB. This dice roll may only be modified by Fame if the Prize Fighter did not spe
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="$" costTypeId="dollars" value="0.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="39d7-80ad-1a0b-b3b1" name="Experince" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="1.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="$" costTypeId="dollars" value="18.0"/>
+        <cost name=" $" costTypeId="dollars" value="18.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="17.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="51c2-0db1-c8f0-1354" name="Prospector" hidden="false" collective="false" type="model">
@@ -742,7 +808,22 @@ NB. This dice roll may only be modified by Fame if the Prize Fighter did not spe
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="$" costTypeId="dollars" value="0.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3ba5-a4b1-38ef-7d9b" name="Experince" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="1.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -817,7 +898,8 @@ NB. This dice roll may only be modified by Fame if the Prize Fighter did not spe
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="$" costTypeId="dollars" value="18.0"/>
+        <cost name=" $" costTypeId="dollars" value="18.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="054f-fb08-fb72-a9c7" name="Soiled Dove" hidden="false" collective="false" type="model">
@@ -900,7 +982,22 @@ NB. This dice roll may only be modified by Fame if the Prize Fighter did not spe
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="$" costTypeId="dollars" value="0.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cca0-fe0a-6bd1-180c" name="Experince" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="1.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -919,7 +1016,8 @@ NB. This dice roll may only be modified by Fame if the Prize Fighter did not spe
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="$" costTypeId="dollars" value="18.0"/>
+        <cost name=" $" costTypeId="dollars" value="18.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="11.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="26bd-c47a-f04c-4448" name="US Marshal" hidden="false" collective="false" type="model">
@@ -1024,7 +1122,22 @@ NB. This dice roll may only be modified by Fame if the Prize Fighter did not spe
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="$" costTypeId="dollars" value="0.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4dcd-54d7-c393-46f2" name="Experince" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="1.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1077,7 +1190,8 @@ NB. This dice roll may only be modified by Fame if the Prize Fighter did not spe
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="$" costTypeId="dollars" value="32.0"/>
+        <cost name=" $" costTypeId="dollars" value="32.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="25.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="818f-1b4f-3a54-683a" name="Wyatt Earp" hidden="false" collective="false" type="model">
@@ -1192,7 +1306,8 @@ NB. This dice roll may only be modified by Fame if the Prize Fighter did not spe
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="$" costTypeId="dollars" value="72.0"/>
+        <cost name=" $" costTypeId="dollars" value="72.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="35.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -1235,7 +1350,8 @@ NB. This dice roll may only be modified by Fame if the Prize Fighter did not spe
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="$" costTypeId="dollars" value="0.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="455f-77fb-1172-45ee" name="2. Seasoned Veteran" hidden="false" collective="false" type="upgrade">
@@ -1259,7 +1375,8 @@ NB. This dice roll may only be modified by Fame if the Prize Fighter did not spe
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="$" costTypeId="dollars" value="0.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="30b5-a810-21ce-77c0" name="3. Trader" hidden="false" collective="false" type="upgrade">
@@ -1283,7 +1400,8 @@ NB. This dice roll may only be modified by Fame if the Prize Fighter did not spe
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="$" costTypeId="dollars" value="0.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8308-73c5-32b1-9f22" name="4. Repartee" hidden="false" collective="false" type="upgrade">
@@ -1309,7 +1427,8 @@ All models engaged in a fight with this fighter must&apos; pass a Pluck test or 
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="$" costTypeId="dollars" value="0.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5bdc-4440-d1e4-e7b9" name="5. Card Sharp" hidden="false" collective="false" type="upgrade">
@@ -1341,7 +1460,8 @@ All models engaged in a fight with this fighter must&apos; pass a Pluck test or 
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="$" costTypeId="dollars" value="0.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9e84-d299-dc83-e49d" name="6. Fearsome Reputation" hidden="false" collective="false" type="upgrade">
@@ -1365,7 +1485,8 @@ All models engaged in a fight with this fighter must&apos; pass a Pluck test or 
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="$" costTypeId="dollars" value="0.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1410,7 +1531,8 @@ All models engaged in a fight with this fighter must&apos; pass a Pluck test or 
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="$" costTypeId="dollars" value="0.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a66f-6018-b6a9-b12e" name="2. Nimble" hidden="false" collective="false" type="upgrade">
@@ -1434,7 +1556,8 @@ All models engaged in a fight with this fighter must&apos; pass a Pluck test or 
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="$" costTypeId="dollars" value="0.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1af6-c1e2-73f0-acac" name="3. Stealthy" hidden="false" collective="false" type="upgrade">
@@ -1458,7 +1581,8 @@ All models engaged in a fight with this fighter must&apos; pass a Pluck test or 
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="$" costTypeId="dollars" value="0.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a6c2-3f56-ebbc-4e86" name="4. Lightning jack" hidden="false" collective="false" type="upgrade">
@@ -1482,7 +1606,8 @@ All models engaged in a fight with this fighter must&apos; pass a Pluck test or 
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="$" costTypeId="dollars" value="0.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8c3c-dcc6-e75a-6f5a" name="5. Dodge" hidden="false" collective="false" type="upgrade">
@@ -1506,7 +1631,8 @@ All models engaged in a fight with this fighter must&apos; pass a Pluck test or 
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="$" costTypeId="dollars" value="0.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="58cf-37fa-0573-1a96" name="6. Scout" hidden="false" collective="false" type="upgrade">
@@ -1530,7 +1656,8 @@ All models engaged in a fight with this fighter must&apos; pass a Pluck test or 
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="$" costTypeId="dollars" value="0.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1583,7 +1710,8 @@ All models engaged in a fight with this fighter must&apos; pass a Pluck test or 
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="$" costTypeId="dollars" value="0.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9dc0-739c-d6c7-0c57" name="2. Strongman" hidden="false" collective="false" type="upgrade">
@@ -1607,7 +1735,8 @@ All models engaged in a fight with this fighter must&apos; pass a Pluck test or 
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="$" costTypeId="dollars" value="0.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="53dc-c4bd-5210-0781" name="3. Dirty Fighter" hidden="false" collective="false" type="upgrade">
@@ -1631,7 +1760,8 @@ All models engaged in a fight with this fighter must&apos; pass a Pluck test or 
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="$" costTypeId="dollars" value="0.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c1ea-8bca-d69c-1c4f" name="4. Swordsman" hidden="false" collective="false" type="upgrade">
@@ -1655,7 +1785,8 @@ All models engaged in a fight with this fighter must&apos; pass a Pluck test or 
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="$" costTypeId="dollars" value="0.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5866-99e9-d4c8-fccf" name="5. Fury" hidden="false" collective="false" type="upgrade">
@@ -1679,7 +1810,8 @@ All models engaged in a fight with this fighter must&apos; pass a Pluck test or 
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="$" costTypeId="dollars" value="0.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e838-b3cb-6928-fccc" name="6. Sidewinder" hidden="false" collective="false" type="upgrade">
@@ -1703,7 +1835,8 @@ All models engaged in a fight with this fighter must&apos; pass a Pluck test or 
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="$" costTypeId="dollars" value="0.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1756,7 +1889,8 @@ All models engaged in a fight with this fighter must&apos; pass a Pluck test or 
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="$" costTypeId="dollars" value="0.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7ca3-0854-1282-9b42" name="2. Trick Shooter (please choose)" hidden="false" collective="false" type="upgrade">
@@ -1799,7 +1933,8 @@ All models engaged in a fight with this fighter must&apos; pass a Pluck test or 
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="$" costTypeId="dollars" value="0.0"/>
+                    <cost name=" $" costTypeId="dollars" value="0.0"/>
+                    <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="4a13-8218-f801-753d" name="Sixgun" hidden="false" collective="false" type="upgrade">
@@ -1815,7 +1950,8 @@ All models engaged in a fight with this fighter must&apos; pass a Pluck test or 
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="$" costTypeId="dollars" value="0.0"/>
+                    <cost name=" $" costTypeId="dollars" value="0.0"/>
+                    <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="4a20-f464-6258-6ee7" name="Rifles" hidden="false" collective="false" type="upgrade">
@@ -1831,7 +1967,8 @@ All models engaged in a fight with this fighter must&apos; pass a Pluck test or 
                   <selectionEntryGroups/>
                   <entryLinks/>
                   <costs>
-                    <cost name="$" costTypeId="dollars" value="0.0"/>
+                    <cost name=" $" costTypeId="dollars" value="0.0"/>
+                    <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -1841,7 +1978,8 @@ All models engaged in a fight with this fighter must&apos; pass a Pluck test or 
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="$" costTypeId="dollars" value="0.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a53f-a7d5-5181-9fe5" name="3. Pistolier" hidden="false" collective="false" type="upgrade">
@@ -1865,7 +2003,8 @@ All models engaged in a fight with this fighter must&apos; pass a Pluck test or 
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="$" costTypeId="dollars" value="0.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0c9d-0a73-ec29-6368" name="4. Trigger happy" hidden="false" collective="false" type="upgrade">
@@ -1889,7 +2028,8 @@ All models engaged in a fight with this fighter must&apos; pass a Pluck test or 
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="$" costTypeId="dollars" value="0.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f598-f02d-7040-6d00" name="5. RiflemanFast Draw" hidden="false" collective="false" type="upgrade">
@@ -1913,7 +2053,8 @@ All models engaged in a fight with this fighter must&apos; pass a Pluck test or 
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="$" costTypeId="dollars" value="0.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a421-3355-7a1b-3b81" name="6. Deadeye Shot" hidden="false" collective="false" type="upgrade">
@@ -1937,7 +2078,8 @@ All models engaged in a fight with this fighter must&apos; pass a Pluck test or 
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="$" costTypeId="dollars" value="0.0"/>
+            <cost name=" $" costTypeId="dollars" value="0.0"/>
+            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" name="Legends of the Old West" revision="33" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" name="Legends of the Old West" revision="36" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
   <costTypes>
-    <costType id="dollars" name="$" defaultCostLimit="0.0"/>
+    <costType id="dollars" name=" $" defaultCostLimit="0.0"/>
+    <costType id="5428-2fbf-6d27-3fbd" name=" Infamy" defaultCostLimit="-1.0"/>
   </costTypes>
   <profileTypes>
     <profileType id="26560ded-284d-ff6c-f97e-0caee6d11d0b" name="Heroe">
@@ -163,7 +164,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="$" costTypeId="dollars" value="0.0"/>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d9670659-60c9-d06d-5d31-c720691e5cba" name="Cavalry Sabre" book="The Alamo - Victory or Death" page="39" hidden="false" collective="false" type="upgrade">
@@ -188,7 +190,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="$" costTypeId="dollars" value="0.0"/>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="14a9f292-d7d9-17ef-3f4a-27821ebbac8d" name="Hand Weapon" book="Legends of the Old West" page="44" hidden="false" collective="false" type="upgrade">
@@ -213,7 +216,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="$" costTypeId="dollars" value="0.0"/>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a57a22ef-57bd-dae8-fc17-46a31916fec6" name="Heavy Pistol" book="Legends of the Old West" page="38" hidden="false" collective="false" type="upgrade">
@@ -246,7 +250,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="$" costTypeId="dollars" value="0.0"/>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="32b76978-26f4-f609-ffe7-584b988c3a88" name="Horse" book="Legends of the Old West" page="94" hidden="false" collective="false" type="upgrade">
@@ -269,7 +274,8 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="$" costTypeId="dollars" value="0.0"/>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="54a0d678-b98e-e111-a87b-f2ea7af84d20" name="Lasso" book="Legends of the Old West" page="41" hidden="false" collective="false" type="upgrade">
@@ -294,7 +300,8 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="$" costTypeId="dollars" value="0.0"/>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="84cd38c6-7b39-bf29-e17f-3f8248c1a7e0" name="Le Mat Revolver" book="Legends of the Old West" page="38" hidden="false" collective="false" type="upgrade">
@@ -335,7 +342,8 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="$" costTypeId="dollars" value="0.0"/>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3b44754e-8d0f-0f0b-4a41-319daef4bec6" name="Repeating Rifle" book="Legends of the Old West" page="39" hidden="false" collective="false" type="upgrade">
@@ -374,7 +382,8 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="$" costTypeId="dollars" value="0.0"/>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="325d505d-dc43-cea2-865f-7935b79fe996" name="Rifle" book="Legends of the Old West" page="38" hidden="false" collective="false" type="upgrade">
@@ -421,7 +430,8 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="$" costTypeId="dollars" value="0.0"/>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ae0036d2-d50e-3845-762b-403bebd5823f" name="Saturday-night Special" book="Legends of the Old West" page="38" hidden="false" collective="false" type="upgrade">
@@ -462,7 +472,8 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="$" costTypeId="dollars" value="0.0"/>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6d4f9ec9-37bf-a55e-3f28-22a8b305516a" name="Sawed-off Shotgun" book="Legends of the Old West" page="40" hidden="false" collective="false" type="upgrade">
@@ -517,7 +528,8 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="$" costTypeId="dollars" value="0.0"/>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a5bafd27-8579-3a5c-92d8-2f9e251978b2" name="Shotgun" book="Legends of the Old West" page="40" hidden="false" collective="false" type="upgrade">
@@ -579,7 +591,8 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="$" costTypeId="dollars" value="0.0"/>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="760d600b-f6cd-e25a-56aa-a5aea350ba20" name="Sixgun" book="Legends of the Old West" page="37" hidden="false" collective="false" type="upgrade">
@@ -613,7 +626,8 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="$" costTypeId="dollars" value="0.0"/>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0a6527a5-3e05-0f5b-bc42-23785fe8a632" name="Guidon" book="Frontier - Blood on the Plains" page="7" hidden="false" collective="false" type="upgrade">
@@ -629,7 +643,8 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="$" costTypeId="dollars" value="15.0"/>
+        <cost name=" $" costTypeId="dollars" value="15.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e2d0e54b-7176-41fb-f84a-b9254924aa07" name="Bugle" book="Frontier - Blood on the Plains" page="9" hidden="false" collective="false" type="upgrade">
@@ -645,7 +660,8 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="$" costTypeId="dollars" value="18.0"/>
+        <cost name=" $" costTypeId="dollars" value="18.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8d11664e-7fec-a8a2-f328-8c2bde46b0ba" name="Longbow" book="Legends of the Old West" page="41" hidden="false" collective="false" type="upgrade">
@@ -679,7 +695,8 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="$" costTypeId="dollars" value="0.0"/>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f0094406-b99c-7824-2b0a-d7fff1d21ce2" name="Tomahawk" book="Legends of the Old West" page="41" hidden="false" collective="false" type="upgrade">
@@ -720,7 +737,8 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="$" costTypeId="dollars" value="3.0"/>
+        <cost name=" $" costTypeId="dollars" value="3.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d4b78e9a-bd40-3119-927f-1d51f154900e" name="Appaloosa" book="Frontier - Blood on the Plains" page="59" hidden="false" collective="false" type="upgrade">
@@ -749,7 +767,8 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="$" costTypeId="dollars" value="0.0"/>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0acf58a6-89cb-1508-eb7e-e6612fbcd27a" name="Bow-Lance" book="Frontier - Blood on the Plains" page="20" hidden="false" collective="false" type="upgrade">
@@ -786,7 +805,8 @@ The bow-lance may not be thrown, as the addition of a bow-string and the curve o
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="$" costTypeId="dollars" value="0.0"/>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9d5f2b50-45fd-8da6-66de-db8600f1db92" name="Indian Lance" book="Frontier - Blood on the Plains" page="20" hidden="false" collective="false" type="upgrade">
@@ -815,7 +835,8 @@ The bow-lance may not be thrown, as the addition of a bow-string and the curve o
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="$" costTypeId="dollars" value="0.0"/>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ce171f53-aad7-ed0b-c250-25f848b5bf86" name="Medicine Shield" book="Frontier - Blood on the Plains" page="0" hidden="false" collective="false" type="upgrade">
@@ -839,7 +860,8 @@ The bow-lance may not be thrown, as the addition of a bow-string and the curve o
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="$" costTypeId="dollars" value="6.0"/>
+        <cost name=" $" costTypeId="dollars" value="6.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6fb0c3cd-8ee7-943c-c7fa-e164ebc498f6" name="Musket" book="Legends of the Old West" page="39" hidden="false" collective="false" type="upgrade">
@@ -884,7 +906,8 @@ The bow-lance may not be thrown, as the addition of a bow-string and the curve o
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="$" costTypeId="dollars" value="0.0"/>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7d4863bd-8105-b09d-eaba-36e1199b0670" name="Flintlock Rifle" book="The Alamo - Victory or Death" page="38" hidden="false" collective="false" type="upgrade">
@@ -937,7 +960,8 @@ The bow-lance may not be thrown, as the addition of a bow-string and the curve o
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="$" costTypeId="dollars" value="0.0"/>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ba2fab72-4aa1-d133-9a19-386c8b129f1d" name="Bayonet" book="Frontier - Blood on the Plains" page="20" hidden="false" collective="false" type="upgrade">
@@ -964,7 +988,8 @@ The bow-lance may not be thrown, as the addition of a bow-string and the curve o
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="$" costTypeId="dollars" value="2.0"/>
+        <cost name=" $" costTypeId="dollars" value="2.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a6e0640c-62cd-e8fa-81a3-c67986f7852a" name="Two-handed Weapon" book="Legends of the Old West" page="44" hidden="false" collective="false" type="upgrade">
@@ -997,7 +1022,8 @@ The bow-lance may not be thrown, as the addition of a bow-string and the curve o
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="$" costTypeId="dollars" value="0.0"/>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3eec7ae4-996b-9094-08ca-44acbf709699" name="Mule" book="Legends of the Old West" page="94" hidden="false" collective="false" type="upgrade">
@@ -1035,7 +1061,8 @@ The bow-lance may not be thrown, as the addition of a bow-string and the curve o
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="$" costTypeId="dollars" value="0.0"/>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="480a63f8-1336-ea68-309a-9efeb22283ce" name="Buffalo Gun" book="Legends of the Old West" page="39" hidden="false" collective="false" type="upgrade">
@@ -1085,7 +1112,56 @@ In addition, models hit by a Buffalo gun are always wounded on a 4 or more on th
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="$" costTypeId="dollars" value="20.0"/>
+        <cost name=" $" costTypeId="dollars" value="20.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f241-1af6-653c-71e1" name="Experince" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="1.0"/>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="392e-94ef-0608-a852" name="Thrown Weapon" book="" page="" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="1854-7391-ef89-656f" name="Thrown Weapon" book="" page="" hidden="false" profileTypeId="93363f24-9d3c-518a-2d0b-1af2534acae6">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="387abf9d-6fa7-440c-cc68-61b68740b381" value="St x 2&quot;"/>
+            <characteristic name="Strength" characteristicTypeId="1fc59acd-4346-6dd6-f204-1b7381412633" value="As user"/>
+            <characteristic name="Move Penalty" characteristicTypeId="b27fc0a7-1925-d847-7a04-afa3218503b7" value="None"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="87ad-26f1-e79b-f318" name="Improvised Weapon" hidden="false" targetId="babd871c-510d-f89b-88ac-1614ca603829" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
