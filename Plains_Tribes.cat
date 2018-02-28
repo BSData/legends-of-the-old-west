@@ -789,10 +789,16 @@ In addition, all enemy models within 3&quot; of the Dog Soldier at the start of 
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <repeats/>
-                      <conditions>
-                        <condition field="selections" scope="6f77-0415-b125-1b98" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1f5-e78f-27f6-7443" type="lessThan"/>
-                      </conditions>
-                      <conditionGroups/>
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2ed-78c7-d530-2b63" type="instanceOf"/>
+                            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e1f5-e78f-27f6-7443" type="lessThan"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
                     </modifier>
                     <modifier type="set" field="dollars" value="7">
                       <repeats/>
