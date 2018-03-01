@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f0aa-e5fc-c29d-a247" name="Chinese Tong" book="" page="" revision="4" battleScribeVersion="2.01" authorName="" authorContact="" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f0aa-e5fc-c29d-a247" name="Chinese Tong" book="" page="" revision="5" battleScribeVersion="2.01" authorName="" authorContact="" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="c26f-0f78-4d68-f496" name="Preferred Skills" book="Legends of the Old West" page="48" hidden="false">
@@ -160,26 +160,7 @@
           <modifiers/>
           <constraints/>
           <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="777e-324f-a427-7116" name="The Kid Done Good." hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c74f-24ad-7c98-05e7" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f59-365f-8917-67de" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" $" costTypeId="dollars" value="0.0"/>
-                <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
             <entryLink id="3d8c-47d4-70b5-59d1" name="Experince" hidden="false" targetId="f241-1af6-653c-71e1" type="selectionEntry">
@@ -198,11 +179,19 @@
                 <modifier type="set" field="hidden" value="true">
                   <repeats/>
                   <conditions>
-                    <condition field="selections" scope="f9d8-92b2-978f-542e" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="777e-324f-a427-7116" type="equalTo"/>
+                    <condition field="selections" scope="f9d8-92b2-978f-542e" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="be02-7c94-9afa-3603" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
               </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="be02-7c94-9afa-3603" name="The Kid Done Good." hidden="false" targetId="93a0-74bb-0462-c13c" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
               <constraints/>
               <categoryLinks/>
             </entryLink>
@@ -277,26 +266,7 @@
           <modifiers/>
           <constraints/>
           <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="a5c7-cd5c-080f-c1ea" name="The Kid Done Good." hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1a1-76fb-e3e4-ecd2" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af49-788e-4914-6c0d" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" $" costTypeId="dollars" value="0.0"/>
-                <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
             <entryLink id="40d6-8c39-a51d-dbe5" name="Experince" hidden="false" targetId="f241-1af6-653c-71e1" type="selectionEntry">
@@ -315,11 +285,19 @@
                 <modifier type="set" field="hidden" value="true">
                   <repeats/>
                   <conditions>
-                    <condition field="selections" scope="6d1c-f2ca-57c2-574c" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a5c7-cd5c-080f-c1ea" type="equalTo"/>
+                    <condition field="selections" scope="6d1c-f2ca-57c2-574c" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7bee-67fe-fb7c-77cd" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
               </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="7bee-67fe-fb7c-77cd" name="The Kid Done Good." hidden="false" targetId="93a0-74bb-0462-c13c" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
               <constraints/>
               <categoryLinks/>
             </entryLink>

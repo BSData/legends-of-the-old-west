@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" name="Legends of the Old West" revision="37" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" name="Legends of the Old West" revision="38" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -738,6 +738,7 @@ In addition, once a model has become entangled, the fighter with the lasso may a
       <entryLinks/>
       <costs>
         <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d4b78e9a-bd40-3119-927f-1d51f154900e" name="Appaloosa" book="Frontier - Blood on the Plains" page="59" hidden="false" collective="false" type="upgrade">
@@ -1189,6 +1190,24 @@ In addition, models hit by a Buffalo gun are always wounded on a 4 or more on th
       </infoLinks>
       <modifiers/>
       <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="93a0-74bb-0462-c13c" name="The Kid Done Good." hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3eb2-6117-d0a7-3bf5" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0caa-5dee-e2ca-4f47" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>

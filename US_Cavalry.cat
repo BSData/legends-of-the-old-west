@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a296fcb4-de04-4e5f-66c4-46ec015e2e0d" name="US Cavalry" revision="20" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a296fcb4-de04-4e5f-66c4-46ec015e2e0d" name="US Cavalry" revision="21" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="99d0-d3aa-798a-d2fb" name="Preferred Skills" book="Frontier - Blood on the Plains" page="22" hidden="false">
@@ -423,26 +423,7 @@ In addition, these items always count as Common. However, items not listed on th
           <modifiers/>
           <constraints/>
           <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="6e3d-7b1a-f824-ecad" name="The Kid Done Good." hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d58-c26c-bc7a-4b36" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1c6-1547-0e51-033d" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" $" costTypeId="dollars" value="0.0"/>
-                <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
             <entryLink id="0813-d155-538d-901f" name="Experince" hidden="false" targetId="f241-1af6-653c-71e1" type="selectionEntry">
@@ -461,11 +442,19 @@ In addition, these items always count as Common. However, items not listed on th
                 <modifier type="set" field="hidden" value="true">
                   <repeats/>
                   <conditions>
-                    <condition field="selections" scope="6616-ee76-5d23-30ac" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e3d-7b1a-f824-ecad" type="equalTo"/>
+                    <condition field="selections" scope="6616-ee76-5d23-30ac" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0ecf-9fa7-e7e0-bb7b" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
               </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="0ecf-9fa7-e7e0-bb7b" name="The Kid Done Good." hidden="false" targetId="93a0-74bb-0462-c13c" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
               <constraints/>
               <categoryLinks/>
             </entryLink>
@@ -558,26 +547,7 @@ In addition, these items always count as Common. However, items not listed on th
           <modifiers/>
           <constraints/>
           <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="0c8d-0e88-8168-9f14" name="The Kid Done Good." hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec80-f1c5-e9eb-ef17" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eed8-be21-aba1-e41c" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" $" costTypeId="dollars" value="0.0"/>
-                <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
             <entryLink id="eb96-a607-af7f-cd9d" name="Experince" hidden="false" targetId="f241-1af6-653c-71e1" type="selectionEntry">
@@ -596,11 +566,19 @@ In addition, these items always count as Common. However, items not listed on th
                 <modifier type="set" field="hidden" value="true">
                   <repeats/>
                   <conditions>
-                    <condition field="selections" scope="bfac-52d1-7b03-9d49" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0c8d-0e88-8168-9f14" type="equalTo"/>
+                    <condition field="selections" scope="bfac-52d1-7b03-9d49" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b7d8-affe-d88c-fb54" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
               </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="b7d8-affe-d88c-fb54" name="The Kid Done Good." hidden="false" targetId="93a0-74bb-0462-c13c" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
               <constraints/>
               <categoryLinks/>
             </entryLink>

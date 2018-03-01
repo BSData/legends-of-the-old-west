@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4ba412f3-eea2-26c9-3152-28d5a5d55b69" name="Outlaws" revision="14" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4ba412f3-eea2-26c9-3152-28d5a5d55b69" name="Outlaws" revision="15" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="99d0-d3aa-798a-d2fb" name="Preferred Skills" book="Legends of the Old West" page="52" hidden="false">
@@ -364,26 +364,7 @@
           <modifiers/>
           <constraints/>
           <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="3b1c-cf67-2dc4-83ee" name="The Kid Done Good." hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f4c-4520-5a3e-1772" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8a3-33a3-0003-0c6c" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" $" costTypeId="dollars" value="0.0"/>
-                <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
             <entryLink id="837c-a2d3-326b-ea99" name="Experince" hidden="false" targetId="f241-1af6-653c-71e1" type="selectionEntry">
@@ -402,11 +383,19 @@
                 <modifier type="set" field="hidden" value="true">
                   <repeats/>
                   <conditions>
-                    <condition field="selections" scope="35d3-742a-a117-462f" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3b1c-cf67-2dc4-83ee" type="equalTo"/>
+                    <condition field="selections" scope="35d3-742a-a117-462f" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d19e-1778-df1a-3a46" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
               </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="d19e-1778-df1a-3a46" name="The Kid Done Good." hidden="false" targetId="93a0-74bb-0462-c13c" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
               <constraints/>
               <categoryLinks/>
             </entryLink>
@@ -479,26 +468,7 @@
           <modifiers/>
           <constraints/>
           <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="f626-f604-8bb0-327c" name="The Kid Done Good." hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0505-b15f-5958-1efc" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2799-283c-a717-cccc" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name=" $" costTypeId="dollars" value="0.0"/>
-                <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
             <entryLink id="2fe9-0aed-53d7-b501" name="Experince" hidden="false" targetId="f241-1af6-653c-71e1" type="selectionEntry">
@@ -517,11 +487,19 @@
                 <modifier type="set" field="hidden" value="true">
                   <repeats/>
                   <conditions>
-                    <condition field="selections" scope="0b99-82d7-c760-02a9" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f626-f604-8bb0-327c" type="equalTo"/>
+                    <condition field="selections" scope="0b99-82d7-c760-02a9" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="63dd-3793-a3f9-ad4b" type="equalTo"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
               </modifiers>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="63dd-3793-a3f9-ad4b" name="The Kid Done Good." hidden="false" targetId="93a0-74bb-0462-c13c" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
               <constraints/>
               <categoryLinks/>
             </entryLink>
