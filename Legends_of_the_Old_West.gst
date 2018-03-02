@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" name="Legends of the Old West" revision="38" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" name="Legends of the Old West" revision="41" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1205,7 +1205,6 @@ In addition, models hit by a Buffalo gun are always wounded on a 4 or more on th
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3eb2-6117-d0a7-3bf5" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0caa-5dee-e2ca-4f47" type="max"/>
       </constraints>
       <categoryLinks/>
@@ -1495,6 +1494,27 @@ All models engaged in a fight with this fighter must&apos; pass a Pluck test or 
       <infoLinks/>
       <modifiers/>
       <description>The fighter is deadly accurate, and adds 1. to the dice roll to wound when shooting or throwing.Fast</description>
+    </rule>
+    <rule id="6a0e-77c2-0c16-d728" name="Woodsmen" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Free Trappers suffer no movment penalty for moving through dense woodland and undergrowth.</description>
+    </rule>
+    <rule id="c001-fac1-be8c-6dea" name="Deadly" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Doc scores critical damage with his sixguns when he rolls a 6 to wound, in the usual manner. However, such is his accuracy that the second dice roll needs score only a 4, 5 or 6 to inflict extra damage, rather than a 6.</description>
+    </rule>
+    <rule id="b75a-3f37-174d-ba90" name="Troublemaker" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This Character may never be hired by a Lawman Posse.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
