@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="63c11076-b18a-af9a-552b-769c7e24c27b" name="Plains Tribes" revision="18" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="63c11076-b18a-af9a-552b-769c7e24c27b" name="Plains Tribes" revision="20" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="99d0-d3aa-798a-d2fb" name="Preferred Skills" book="Frontier - Blood on the Plains" page="30" hidden="false">
@@ -8,13 +8,6 @@
       <infoLinks/>
       <modifiers/>
       <description>The skill tables preferred by Plains Tribes are Movin&apos;, Savvy and Brawlin&apos;.</description>
-    </rule>
-    <rule id="d3dc84d8-d309-d6b5-3774-56e6b44a3ee2" name="Counting Coup" book="Frontier - Blood on the Plains" page="30" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Plains Indians count coup either by scalping or using a coup-stick. See page 29 for more details.</description>
     </rule>
     <rule id="4ae8a692-3295-8cd7-e17d-943c692ad07b" name="Expert Riders" book="Frontier - Blood on the Plains" page="30" hidden="false">
       <profiles/>
@@ -44,11 +37,39 @@
       <infoLinks/>
       <modifiers/>
     </infoLink>
-    <infoLink id="366f-33b1-b2ab-269c" name="Cardsharp" hidden="false" targetId="ce59b8cd-cb06-a0b0-058a-04cb2f7e5a72" type="rule">
+    <infoLink id="762f-549f-28f8-cc48" name="Scalps" hidden="false" targetId="0859-1862-c05d-aba6" type="rule">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
+    </infoLink>
+    <infoLink id="3b0c-b8e3-3210-9e2d" name="Coup-Sticks" hidden="false" targetId="e135-5669-bf6c-a2b2" type="rule">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6d8c-2ad6-30b7-918e" type="lessThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+    </infoLink>
+    <infoLink id="a723-4885-7344-a177" name="Scalping" hidden="false" targetId="a040-ad21-53a3-e0fe" type="rule">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6d8c-2ad6-30b7-918e" type="lessThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
     </infoLink>
   </infoLinks>
   <costTypes/>
@@ -148,6 +169,12 @@
           <modifiers/>
         </infoLink>
         <infoLink id="41df-6c21-1f57-24dc" name="Starting Experience" hidden="false" targetId="5d154f6d-0fe4-8f38-2a99-49c5f25e8647" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="97c9-f377-8611-0e7a" name="Born in the Saddle" hidden="false" targetId="df90-bfab-86af-b9de" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -256,7 +283,14 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="d0cb-1c3d-51d8-886f" name="Born in the Saddle" hidden="false" targetId="df90-bfab-86af-b9de" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="9cf6-c644-26eb-ea66" type="max"/>
@@ -346,7 +380,14 @@
           <description>Most Plains Tribes Braves belonged to one of a myriad of &apos;akicitas&apos; - or warrior societies. Society Warriors are often noted for their skill in battle, and for an extra $2, a Brave may join such a society. Society Warriors may increase their Fightin&apos; characteristic to 4, and increase their Shootin&apos; value to 4+. This upgrade must be chosen during the Posse selection.</description>
         </rule>
       </rules>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="b463-d1ed-a412-26b6" name="Born in the Saddle" hidden="false" targetId="df90-bfab-86af-b9de" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -839,39 +880,13 @@ In addition, all enemy models within 3&quot; of the Dog Soldier at the start of 
       <modifiers/>
       <constraints/>
       <categoryLinks/>
-      <selectionEntries>
-        <selectionEntry id="3c225177-fb53-df63-a964-85022338bb0a" name="Totemic Staff" book="Frontier - Blood on the Plains" page="8" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d89-fef2-9dd8-9fdc" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name=" $" costTypeId="dollars" value="18.0"/>
-            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="2ffd6f2a-76d0-3dbe-98cd-6603af83255c" name="Weapons" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="maxSelections" value="0.0">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c225177-fb53-df63-a964-85022338bb0a" type="atLeast"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
@@ -1021,6 +1036,22 @@ In addition, all enemy models within 3&quot; of the Dog Soldier at the start of 
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="fb82-9c8d-0a5e-b73c" name="Totemic Staff" hidden="false" targetId="5cb5-40cb-32c7-ee3f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="dollars" value="18">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b856-e2e0-0907-37cd" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="a0d3-0d1f-1872-5d77" name="Skills" hidden="false" collective="false">
@@ -1130,18 +1161,24 @@ In addition, all enemy models within 3&quot; of the Dog Soldier at the start of 
                     <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="6d8c-2ad6-30b7-918e" name="4. Swordsman" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="6d8c-2ad6-30b7-918e" name="4. Counting Coup" hidden="false" collective="false" type="upgrade">
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="4b5d-df4b-7223-0e28" name="Swordsman" hidden="false" targetId="8ea5-8eb1-0e71-06d3" type="rule">
+                    <infoLink id="29bf-dd8d-668f-85a6" name="Counting Coup" hidden="false" targetId="32ae-d6cb-0698-4bcc" type="rule">
                       <profiles/>
                       <rules/>
                       <infoLinks/>
                       <modifiers/>
                     </infoLink>
                   </infoLinks>
-                  <modifiers/>
+                  <modifiers>
+                    <modifier type="append" field="name" value="- Scapling or Coup-sticks">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1ac6-9130-a3d4-0570" type="max"/>
                   </constraints>
@@ -1234,7 +1271,15 @@ In addition, all enemy models within 3&quot; of the Dog Soldier at the start of 
                       <modifiers/>
                     </infoLink>
                   </infoLinks>
-                  <modifiers/>
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <repeats/>
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="124f-f3fb-636a-c8f5" type="notInstanceOf"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="471d-f98d-bc80-cef4" type="max"/>
                   </constraints>
@@ -1484,11 +1529,11 @@ In addition, all enemy models within 3&quot; of the Dog Soldier at the start of 
                     <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="fc54-4ac1-712c-b552" name="5. Card Sharp" hidden="false" collective="false" type="upgrade">
+                <selectionEntry id="fc54-4ac1-712c-b552" name="5. Trick Rider" hidden="false" collective="false" type="upgrade">
                   <profiles/>
                   <rules/>
                   <infoLinks>
-                    <infoLink id="34da-f6a4-3b51-17ed" name="Card Sharp" hidden="false" targetId="8baf-7e7b-2a9d-95d6" type="rule">
+                    <infoLink id="f5c3-5924-7e7b-c138" name="Trick Rider" hidden="false" targetId="36df-d091-4b8a-b512" type="rule">
                       <profiles/>
                       <rules/>
                       <infoLinks/>

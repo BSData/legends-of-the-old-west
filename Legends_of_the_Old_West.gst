@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" name="Legends of the Old West" revision="41" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" name="Legends of the Old West" revision="43" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1216,6 +1216,44 @@ In addition, models hit by a Buffalo gun are always wounded on a 4 or more on th
         <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="5cb5-40cb-32c7-ee3f" name="Totemic Staff" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="6d91-79c2-85a3-4db1" name="Hand Weapon" hidden="false" profileTypeId="754f1218-a3c3-72ea-7b62-76e0014ec58a" profileTypeName="Fightin&apos; Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Winnin&apos; the fight" characteristicTypeId="092c290b-2e10-2264-c2ba-9d68cf7d8781" value="-"/>
+            <characteristic name="Rolling to Wound" characteristicTypeId="56ecb49b-ec74-63ee-775e-724bbbbeb620" value="-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="fae7-3d6e-daa2-2f01" name="Hand Weapon" book="Legends of the Old West" page="41" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>A Totemic Staff counts as a hand weapon in hand-to-hand combat.</description>
+        </rule>
+        <rule id="a5b1-28e2-f0f9-7bdf" name="Totemic Staff" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>All Native Americans within 3&quot; of a model with a totemic staff count their Pluck value as 7, unless it is normally higher than this for any reason. This increased value applies to all Pluck-based tests a model is required to take, as long as they remain in range of the staff </description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
@@ -1281,13 +1319,6 @@ In addition, models hit by a Buffalo gun are always wounded on a 4 or more on th
       <infoLinks/>
       <modifiers/>
       <description>Native American leaders will not risk their warriors&apos; lives unnecessarily - an admirable trait, often mistaken for cowardice by white men. Native American Posses must begin taking Head for the Hills tests when they lose a third of their models (33%) instead of half.</description>
-    </rule>
-    <rule id="ce59b8cd-cb06-a0b0-058a-04cb2f7e5a72" name="Cardsharp" book="Frontier - Blood on the Plains" page="29" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Native Americans may never gain the &apos;Cardsharp&apos; skill. If they roll a 5 on the Savvy Skills table, then they gain the &apos;Trick Rider&apos; skills instead, or the &apos;Hit and Run&apos; skill if they are a member of a Desert Tribes Posse. See page 29 for more details.</description>
     </rule>
     <rule id="9eb0-1e91-7d0d-92a7" name="Blast Area" hidden="false">
       <profiles/>
@@ -1515,6 +1546,55 @@ All models engaged in a fight with this fighter must&apos; pass a Pluck test or 
       <infoLinks/>
       <modifiers/>
       <description>This Character may never be hired by a Lawman Posse.</description>
+    </rule>
+    <rule id="32ae-d6cb-0698-4bcc" name="Counting Coup" book="Frontier - Blood on the Plains" page="30" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Native Americans may never gain the &apos;Swordsman&apos; skill. If they roll a 4 on the Brawlin&apos; Skills table, then they gain the &apos;Counting Coup&apos; skill. Coup-counters place more importance on acts of bravery and daring than on combat, increasing his status within his tribe and warrior society. There are three main methods of counting coup: Coup-sticks, Scalping and Raiding, and each Native American Posse list details up to two of these that its Heroes may use. For every Coup that is successfully counted, the Hero earns 1 extra Experience Point at the end of the game.</description>
+    </rule>
+    <rule id="557a-562c-0a1e-9780" name="Hit and Run" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>During the Movin&apos; phase, this Hero may move within the control zone of an enemy (or within 1&quot; of an already engaged model) without charging. Fight an immediate combat between the two opponents, disregarding any other models in the &apos;fight&apos;. If the Hero wins, he does not push back his opponent, but may roll a single dice to wound as normal before continuing his remaining move. If he loses, he must stop in base contact with the enemy. The enemy fighter may not roll to wound the Hero, but they are considered to be engaged in combat, and must fight as normal in the Fightin&apos; phase. If the Hero ends his move in base contact with a second opponent, then he is considered to have charged. He does not get his Hit and Run attack against that opponent. The Hit and Run ability may only be used against one opponent per turn. A Hero who uses this rule may not shoot in the Shootin&apos; phase.</description>
+    </rule>
+    <rule id="0859-1862-c05d-aba6" name="Scalps" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Although the popularity and frequency of scalping opponents varied from tribe to tribe (the Apache, for example, loathed excessive contact with the dead), almost all practiced it at some point during the Plains Wars. If a Native American Posse captures an enemy Herb due to a roll on the Serious Injury table (Legends of the Old West, pages 86-87), then they may choose to scalp the enemy. If they choose to do this, then a Hero from your own Posse (your choice) gains 1 extra Experience Point, while the enemy model is killed.</description>
+    </rule>
+    <rule id="36df-d091-4b8a-b512" name="Trick Rider" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When mounted, a Hero with this skill can slip behind the cover of his horse, presenting less of a target to the enemy. At the start of his Movin&apos; phase, the Hero may declare that he is hiding behind his horse. Enemies cannot target him this turn, but can shoot at his horse as though it were a lone target. The rider may not shoot while he is attempting this manoeuvre, as he is too busy hanging onto his horse&apos;s neck. In addition, the Hero&apos;s horse is so well trained that its Pluck value is increased by 1 point, making it less likely to wander off if its rider is unseated.</description>
+    </rule>
+    <rule id="e135-5669-bf6c-a2b2" name="Coup-Sticks" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>A coup-stick is a short, decorated staff; used by most Native American tribes. They do not need to be represented on the model, but all coup-counters are assumed to carry one. If this Hero wins a fight against an enemy Hero (not henchman or Hired Gun), he may choose to &apos;pull&apos; his blow and leave the enemy unharmed. If several strikes are dealt in the same phase, all of them must be ignored in order to count the coup, including strikes made by other friendly models in amultiple fight. Only 1 Experience Point may be earned per fight, regardless of how many strikes find their mark.</description>
+    </rule>
+    <rule id="c59d-88f2-bfa2-53ad" name="Raiding" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Stealing horses and mules from an enemy was often seen as a great feat for a Native American warrior. A Hero with this skill can capture an enemy loose mount by moving into contact with it. As long as they remain in touch, the mount can be led around the gaming area, moving at the speed of the slowest model. The coup is successful if the horse is led off any table edge (the Hero remains on the board). Up to two horses at a time may be led in this fashion. The Coup-counter gains 1 Experience Point for every Horse, Appaloosa or Mule stolen in this way.</description>
+    </rule>
+    <rule id="a040-ad21-53a3-e0fe" name="Scalping" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If the Coup-counter takes an enemy out of action in the Fightin&apos; phase, then he may choose to scalp him. Do not remove the enemy model until the scalping is resolved — lay it on its side instead. The Coup-counter must spend one whole turn (until the start of his next Fightin&apos; phase) in contact with the enemy fighter to scalp him. He must dismount in order to do this. If he is forced to move in any way (by being charged, knocked down, or by failing a Dive for Cover test, for example), then the scalping is interrupted and the chance is lost. Remove the victim as a casualty. If the scalped fighter is a Hero, then any Full Recovery results he rolls on the Serious Injury table count as a Deep Wound instead.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

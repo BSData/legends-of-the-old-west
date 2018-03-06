@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5a646e62-9c4f-614b-049d-486d538c65f8" name="Northern Tribes" revision="18" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5a646e62-9c4f-614b-049d-486d538c65f8" name="Northern Tribes" revision="19" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" gameSystemId="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="99d0-d3aa-798a-d2fb" name="Preferred Skills" book="Frontier - Blood on the Plains" page="33" hidden="false">
@@ -8,13 +8,6 @@
       <infoLinks/>
       <modifiers/>
       <description>The skill tables preferred by Northern Tribes are Savvy, Movin&apos; and Brawlin&apos;.</description>
-    </rule>
-    <rule id="d3dc84d8-d309-d6b5-3774-56e6b44a3ee2" name="Counting Coup" book="Frontier - Blood on the Plains" page="33" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Northern Tribes Indians count coup by using scalping or using coup-sticks.</description>
     </rule>
     <rule id="5a0e62d1-3bca-c054-a45e-6bb55e9deab2" name="Allies" book="Frontier - Blood on the Plains" page="30" hidden="false">
       <profiles/>
@@ -44,11 +37,39 @@
       <infoLinks/>
       <modifiers/>
     </infoLink>
-    <infoLink id="366f-33b1-b2ab-269c" name="Cardsharp" hidden="false" targetId="ce59b8cd-cb06-a0b0-058a-04cb2f7e5a72" type="rule">
+    <infoLink id="4588-a3e5-bcba-7b65" name="Scalps" hidden="false" targetId="0859-1862-c05d-aba6" type="rule">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
+    </infoLink>
+    <infoLink id="3ef1-505d-2682-1913" name="Scalping" hidden="false" targetId="a040-ad21-53a3-e0fe" type="rule">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2838-0d38-4d38-321a" type="lessThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+    </infoLink>
+    <infoLink id="c55d-c2ff-5872-7372" name="Coup-Sticks" hidden="false" targetId="e135-5669-bf6c-a2b2" type="rule">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2838-0d38-4d38-321a" type="lessThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
     </infoLink>
   </infoLinks>
   <costTypes/>
@@ -823,26 +844,12 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="1f13dc26-6f5c-7a2a-65ca-e30f7462a8e6" hidden="false" targetId="d4b78e9a-bd40-3119-927f-1d51f154900e" type="selectionEntry">
+        <entryLink id="1f13dc26-6f5c-7a2a-65ca-e30f7462a8e6" name="Appaloosa" hidden="false" targetId="d4b78e9a-bd40-3119-927f-1d51f154900e" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers>
             <modifier type="set" field="dollars" value="14.0">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="794a0194-6aad-a86c-511d-1f62ccd29289" name="Medicine Shield" hidden="false" targetId="ce171f53-aad7-ed0b-c250-25f848b5bf86" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="dollars" value="7">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -860,39 +867,13 @@
       <modifiers/>
       <constraints/>
       <categoryLinks/>
-      <selectionEntries>
-        <selectionEntry id="3c225177-fb53-df63-a964-85022338bb0a" name="Totemic Staff" book="Frontier - Blood on the Plains" page="8" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d89-fef2-9dd8-9fdc" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name=" $" costTypeId="dollars" value="18.0"/>
-            <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="2ffd6f2a-76d0-3dbe-98cd-6603af83255c" name="Weapons" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="maxSelections" value="0.0">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c225177-fb53-df63-a964-85022338bb0a" type="atLeast"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
           </constraints>
@@ -1028,7 +1009,7 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="a8927c73-b803-ccae-b83e-c3e817c1dba5" hidden="false" targetId="ce171f53-aad7-ed0b-c250-25f848b5bf86" type="selectionEntry">
+        <entryLink id="a8927c73-b803-ccae-b83e-c3e817c1dba5" name="Medicine Shield" hidden="false" targetId="ce171f53-aad7-ed0b-c250-25f848b5bf86" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1040,6 +1021,22 @@
             </modifier>
           </modifiers>
           <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1593-0b57-61e7-20e4" name="Totemic Staff" hidden="false" targetId="5cb5-40cb-32c7-ee3f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="dollars" value="18">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64be-dc48-f90d-e493" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -1151,30 +1148,6 @@
                     <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="6807-157e-880c-0d03" name="4. Swordsman" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks>
-                    <infoLink id="6889-c6d8-b32b-52fc" name="Swordsman" hidden="false" targetId="8ea5-8eb1-0e71-06d3" type="rule">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                    </infoLink>
-                  </infoLinks>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="703f-6dfb-1129-4842" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name=" $" costTypeId="dollars" value="0.0"/>
-                    <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
-                  </costs>
-                </selectionEntry>
                 <selectionEntry id="61c8-83e2-9c70-c610" name="5. Fury" hidden="false" collective="false" type="upgrade">
                   <profiles/>
                   <rules/>
@@ -1213,6 +1186,36 @@
                   <modifiers/>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4b7a-43b2-81eb-418c" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" $" costTypeId="dollars" value="0.0"/>
+                    <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="2838-0d38-4d38-321a" name="4. Counting Coup" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="cacf-157c-9f11-0f7c" name="Counting Coup" hidden="false" targetId="32ae-d6cb-0698-4bcc" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers>
+                    <modifier type="append" field="name" value="- Scapling or Coup-sticks">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6881-0b88-14f1-a9a0" type="max"/>
                   </constraints>
                   <categoryLinks/>
                   <selectionEntries/>
@@ -1505,30 +1508,6 @@
                     <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="48df-da4c-5eb2-075c" name="5. Card Sharp" hidden="false" collective="false" type="upgrade">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks>
-                    <infoLink id="c82a-69d9-2ced-a54c" name="Card Sharp" hidden="false" targetId="8baf-7e7b-2a9d-95d6" type="rule">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                    </infoLink>
-                  </infoLinks>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="02d6-6294-65e4-7693" type="max"/>
-                  </constraints>
-                  <categoryLinks/>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks/>
-                  <costs>
-                    <cost name=" $" costTypeId="dollars" value="0.0"/>
-                    <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
-                  </costs>
-                </selectionEntry>
                 <selectionEntry id="24b2-3159-ab7c-2663" name="6. Fearsome Reputation" hidden="false" collective="false" type="upgrade">
                   <profiles/>
                   <rules/>
@@ -1543,6 +1522,30 @@
                   <modifiers/>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ac5c-0cc7-3ce8-b751" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name=" $" costTypeId="dollars" value="0.0"/>
+                    <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="8108-649d-4c09-c4b1" name="5. Trick Rider" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="4bd5-5cba-f8a5-5f2e" name="Trick Rider" hidden="false" targetId="36df-d091-4b8a-b512" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d6a2-2ee4-eb17-91d2" type="max"/>
                   </constraints>
                   <categoryLinks/>
                   <selectionEntries/>
