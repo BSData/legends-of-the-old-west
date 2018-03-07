@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" name="Legends of the Old West" revision="43" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" name="Legends of the Old West" revision="44" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1243,6 +1243,38 @@ In addition, models hit by a Buffalo gun are always wounded on a 4 or more on th
           <infoLinks/>
           <modifiers/>
           <description>All Native Americans within 3&quot; of a model with a totemic staff count their Pluck value as 7, unless it is normally higher than this for any reason. This increased value applies to all Pluck-based tests a model is required to take, as long as they remain in range of the staff </description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d3fb-45c4-4aa0-370c" name="Medicine Pipe" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="062d-a6a3-015a-74dc" name="Medicine Pipe" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Pipe-smoking was an important part of many Native American ceremonies. The Calumet (often called a Medicine or Peace Pipe) was a sacred ritual tool, which was used to smoke a special blend of herbs, tobaccos and resins, dependent on the ceremony at hand. The Posse may choose to smoke the pipe before any scenario. If they do so, roll a D6 and consult the Medicine Pipe table, below. 
+
+( 1 )  No Effect --- The Great Spirit has not answered your prayers on this occasion.
+
+( 2 )  Foresight --- The spirits foresee a time when the courage of your warriors may falter. You may re-roll the first failed Head for the Hills test of the game. 
+
+( 3-5 )  Strong Heart --- The spirits lift the morale of the war party You may ignore the first failed Head for the Hills test of the game. 
+
+( 6 )  Visions of Victory --- The Great Spirit has assured the shamans of victory this day. You may ignore the first failed Head for the Hills test of the game. In addition, all Society Warriors (or Guerillas in the case of Desert Tribes Posses) add 1 point to their Pluck value. 
+</description>
         </rule>
       </rules>
       <infoLinks/>
