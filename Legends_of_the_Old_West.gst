@@ -1284,6 +1284,29 @@ In addition, models hit by a Buffalo gun are always wounded on a 4 or more on th
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
+      <costs>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e0e4-191b-c588-f7d3" name="Trademark Item" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="223e-b7e2-d692-3196" name="Trademark Item" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Many great leaders were instantly recognisable by their trademark items or affectations, whether it is a particular hairstyle, penchant for large cigars, a pet or distinctive clothing. A Posse leader who has a trademark item is an inspiration to those around him. In addition to the usual Leader ability, those who benefit may roll three dice and choose the two highest. However, if the Leader with the item is taken out of action, the loss is felt even more keenly by the Posse. At the start of the next turn, the Posse must take a Head for the Hills test, even if they are not below half strength. This only applies at the start of the turn after the leader is removed from play, after which the normal rules apply. </description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
       <costs/>
     </selectionEntry>
   </sharedSelectionEntries>
