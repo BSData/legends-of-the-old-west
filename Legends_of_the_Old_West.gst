@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" name="Legends of the Old West" revision="44" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="25b4ae8a-6ad7-a027-95e7-7da2500b76ea" name="Legends of the Old West" revision="47" battleScribeVersion="2.01" authorName="Atrok" authorContact="necrominer@gmail.com" authorUrl="http://www.escuadronpicaro.es" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -919,7 +919,7 @@ The bow-lance may not be thrown, as the addition of a bow-string and the curve o
           <modifiers/>
           <characteristics>
             <characteristic name="Range" characteristicTypeId="387abf9d-6fa7-440c-cc68-61b68740b381" value="24&quot;"/>
-            <characteristic name="Strength" characteristicTypeId="1fc59acd-4346-6dd6-f204-1b7381412633" value="e"/>
+            <characteristic name="Strength" characteristicTypeId="1fc59acd-4346-6dd6-f204-1b7381412633" value="3"/>
             <characteristic name="Move Penalty" characteristicTypeId="b27fc0a7-1925-d847-7a04-afa3218503b7" value="Half"/>
           </characteristics>
         </profile>
@@ -934,19 +934,13 @@ The bow-lance may not be thrown, as the addition of a bow-string and the curve o
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="e88d58df-5e27-e573-fd25-6fbccce285aa" hidden="false" targetId="babd871c-510d-f89b-88ac-1614ca603829" type="rule">
+        <infoLink id="e88d58df-5e27-e573-fd25-6fbccce285aa" name="Improvised Weapon" hidden="false" targetId="babd871c-510d-f89b-88ac-1614ca603829" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="ce9dc776-5a5e-5eec-dfd0-20b3d3b7b478" hidden="false" targetId="d1867680-3a86-d2fd-f61e-a8d067a04186" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="5ce37e0e-84a0-81d4-14fd-062bf3a24fe5" hidden="false" targetId="23e2345a-2485-5158-8b80-22f72baf3221" type="rule">
+        <infoLink id="ce9dc776-5a5e-5eec-dfd0-20b3d3b7b478" name="Slow Reload" hidden="false" targetId="d1867680-3a86-d2fd-f61e-a8d067a04186" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1307,7 +1301,186 @@ In addition, models hit by a Buffalo gun are always wounded on a 4 or more on th
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9800-b001-2440-38a1" name="Caplock Rifle" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="ddb7-be3d-bf52-7e0e" name="Caplock Rifle" hidden="false" profileTypeId="93363f24-9d3c-518a-2d0b-1af2534acae6" profileTypeName="Shootin&apos; Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="387abf9d-6fa7-440c-cc68-61b68740b381" value="20&quot;"/>
+            <characteristic name="Strength" characteristicTypeId="1fc59acd-4346-6dd6-f204-1b7381412633" value="4"/>
+            <characteristic name="Move Penalty" characteristicTypeId="b27fc0a7-1925-d847-7a04-afa3218503b7" value="Full"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="e21a-35b4-f60f-8cf4" name="Rifle" book="The Alamo - Victory or Death" page="38" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When used in a Legends of the Old West campaign, this weapon counts as a regular Rifle for the purposes of the Rifleman skill. However, its early design makes the weapon incompatible with rifle scopes.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="3b7f-d417-a693-0f5f" name="Slow Reload" hidden="false" targetId="d1867680-3a86-d2fd-f61e-a8d067a04186" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="dc1e-7f8c-2421-1b43" name="Improvised Weapon" hidden="false" targetId="babd871c-510d-f89b-88ac-1614ca603829" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6ffa-409d-d07b-e140" name="Clubbed Rifle" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="af2e-4c1e-8cce-9434" name="Clubbed Rifle" hidden="false" profileTypeId="93363f24-9d3c-518a-2d0b-1af2534acae6" profileTypeName="Shootin&apos; Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="387abf9d-6fa7-440c-cc68-61b68740b381" value="24&quot;"/>
+            <characteristic name="Strength" characteristicTypeId="1fc59acd-4346-6dd6-f204-1b7381412633" value="3"/>
+            <characteristic name="Move Penalty" characteristicTypeId="b27fc0a7-1925-d847-7a04-afa3218503b7" value="Half"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d9e5-042a-3773-9691" name="Rifle" book="The Alamo - Victory or Death" page="38" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When used in a Legends of the Old West campaign, this weapon counts as a regular Rifle for the purposes of the Rifleman skill. However, its early design makes the weapon incompatible with rifle scopes.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="e301-d94d-2593-3a40" name="Improvised Weapon" hidden="false" targetId="babd871c-510d-f89b-88ac-1614ca603829" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a5e3-3d37-ef3f-d53b" name="Slow Reload" hidden="false" targetId="d1867680-3a86-d2fd-f61e-a8d067a04186" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="039c-78cc-3cbf-6cab" name="Two-handed" hidden="false" targetId="23e2345a-2485-5158-8b80-22f72baf3221" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b31d-254e-07d0-0bb3" name="Flintlock Pistol" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="1e72-21f7-d3b9-4fdd" name="Flintlock Pistol" hidden="false" profileTypeId="93363f24-9d3c-518a-2d0b-1af2534acae6" profileTypeName="Shootin&apos; Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="387abf9d-6fa7-440c-cc68-61b68740b381" value="8&quot;"/>
+            <characteristic name="Strength" characteristicTypeId="1fc59acd-4346-6dd6-f204-1b7381412633" value="3"/>
+            <characteristic name="Move Penalty" characteristicTypeId="b27fc0a7-1925-d847-7a04-afa3218503b7" value="Half"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="899f-e11c-b637-a742" name="Slow Reload" hidden="false" targetId="d1867680-3a86-d2fd-f61e-a8d067a04186" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e81b-e52a-f3ca-ff3e" name="Improvised Weapon" hidden="false" targetId="babd871c-510d-f89b-88ac-1614ca603829" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ba84-a161-a54d-f135" name="Spainish Sabre" book="" page="" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="ecc9-99cb-135d-76d7" name="Spainish Sabre" book="" page="" hidden="false" profileTypeId="754f1218-a3c3-72ea-7b62-76e0014ec58a">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Winnin&apos; the fight" characteristicTypeId="092c290b-2e10-2264-c2ba-9d68cf7d8781" value="-"/>
+            <characteristic name="Rolling to Wound" characteristicTypeId="56ecb49b-ec74-63ee-775e-724bbbbeb620" value="-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="df9f-788c-c1ef-5215" name="Spainish Sabre" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Spanish sabres count as Cavalry Sabres. In addition, if the user of this weapon has the Swordsman skill, then he will automatically win any drawn combat while using it - if the dice scores to win and the Fightin&apos; values of both fighters are equal, there is no need to dice off to determine the winner. </description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" $" costTypeId="dollars" value="0.0"/>
+        <cost name=" Infamy" costTypeId="5428-2fbf-6d27-3fbd" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
